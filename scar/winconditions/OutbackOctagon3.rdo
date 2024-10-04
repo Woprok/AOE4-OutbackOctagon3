@@ -2,21 +2,29 @@
 	<!--WinCondition/-->
 	<DataObject Name="" Type="WinCondition" Id="5004943403607937554">
 		<DataProperty Name="m_maxTeams" Type="Int32" Value="-1"/>
+		<DataProperty Name="m_startingCondition" Type="Object">
+			<DataValue Name="FamilyManagerEnum&lt;FamilyManager::FamilyType::TYP_StartingCondition,StdTraits&gt;">10873342107133477384</DataValue>
+			<!--WinCondition/FamilyManagerEnum<FamilyManager::FamilyType::TYP_StartingCondition,StdTraits>/-->
+			<DataObject Name="" Type="FamilyManagerEnum&lt;FamilyManager::FamilyType::TYP_StartingCondition,StdTraits&gt;" Id="10873342107133477384" OwnerId="5004943403607937554">
+				<DataProperty Name="m_enumName" Type="String" Value="nomad"/>
+			</DataObject>
+		</DataProperty>
 		<DataProperty Name="m_gameModeType" Type="String" Value=""/>
 		<DataProperty Name="m_scarWinConditionFile" Type="String" Value="winconditions\OutbackOctagon3"/>
+		<DataProperty Name="m_feAllowSelectingStartingLocations" Type="Bool" Value="false"/>
 		<DataProperty Name="m_playerUpgrades" Type="Object"/>
-		<DataProperty Name="m_feIcon" Type="String" Value=""/>
+		<DataProperty Name="m_feIcon" Type="String" Value="images\illustrations\create_game\game_mode_nomad_selected"/>
 		<DataProperty Name="m_scarMissionFile" Type="String" Value=""/>
-		<DataProperty Name="m_feImageSelected" Type="String" Value=""/>
+		<DataProperty Name="m_feImageSelected" Type="String" Value="images\illustrations\create_game\game_mode_nomad_selected"/>
 		<DataProperty Name="m_feDescriptionTooltip" Type="Object">
 			<DataValue Name="util::ReflectLocString">5658258679682757851</DataValue>
 			<!--WinCondition/util::ReflectLocString/-->
 			<DataObject Name="" Type="util::ReflectLocString" Id="5658258679682757851" OwnerId="5004943403607937554">
-				<DataProperty Name="m_modPart2" Type="UInt32" Value="0"/>
-				<DataProperty Name="m_modPart3" Type="UInt32" Value="0"/>
-				<DataProperty Name="m_modPart0" Type="UInt32" Value="0"/>
-				<DataProperty Name="m_modPart1" Type="UInt32" Value="0"/>
-				<DataProperty Name="m_locStringKey" Type="Int32" Value="0"/>
+				<DataProperty Name="m_modPart2" Type="UInt32" Value="313494189"/>
+				<DataProperty Name="m_modPart3" Type="UInt32" Value="2341416318"/>
+				<DataProperty Name="m_modPart0" Type="UInt32" Value="3538981183"/>
+				<DataProperty Name="m_modPart1" Type="UInt32" Value="1252224330"/>
+				<DataProperty Name="m_locStringKey" Type="Int32" Value="4"/>
 			</DataObject>
 		</DataProperty>
 		<DataProperty Name="m_startingBuildingReplacements" Type="Object"/>
@@ -36,7 +44,67 @@
 			<DataValue Name="WinCondition::OptionsUIDescriptor">4756234187827226145</DataValue>
 			<!--WinCondition/WinCondition::OptionsUIDescriptor/-->
 			<DataObject Name="" Type="WinCondition::OptionsUIDescriptor" Id="4756234187827226145" OwnerId="5004943403607937554">
-				<DataProperty Name="m_optionSections" Type="Object"/>
+				<DataProperty Name="m_optionSections" Type="Object">
+					<DataValue Name="WinCondition::OptionSectionUIDescriptor">11088784217715765915</DataValue>
+					<!--WinCondition/WinCondition::OptionsUIDescriptor/WinCondition::OptionSectionUIDescriptor/-->
+					<DataObject Name="" Type="WinCondition::OptionSectionUIDescriptor" Id="11088784217715765915" OwnerId="4756234187827226145">
+						<DataProperty Name="m_featured" Type="Bool" Value="true"/>
+						<DataProperty Name="m_key" Type="String" Value="general_description"/>
+						<DataProperty Name="m_options" Type="Object">
+							<DataValue Name="WinCondition::BooleanOptionUIDescriptor">15903943983542970286</DataValue>
+							<!--WinCondition/WinCondition::OptionsUIDescriptor/WinCondition::OptionSectionUIDescriptor/WinCondition::BooleanOptionUIDescriptor/-->
+							<DataObject Name="" Type="WinCondition::BooleanOptionUIDescriptor" Id="15903943983542970286" OwnerId="11088784217715765915">
+								<DataProperty Name="#BaseTypes" Type="String" Value="WinCondition::OptionUIDescriptor#0|"/>
+								<DataProperty Name="m_key" Type="String" Value="general_description_1"/>
+								<DataProperty Name="m_defaultValue" Type="Bool" Value="true"/>
+								<DataProperty Name="m_feSummaryName" Type="Object">
+									<DataValue Name="util::ReflectLocString">16677538746557804202</DataValue>
+									<!--WinCondition/WinCondition::OptionsUIDescriptor/WinCondition::OptionSectionUIDescriptor/WinCondition::BooleanOptionUIDescriptor/util::ReflectLocString/-->
+									<DataObject Name="" Type="util::ReflectLocString" Id="16677538746557804202" OwnerId="15903943983542970286">
+										<DataProperty Name="m_modPart2" Type="UInt32" Value="313494189"/>
+										<DataProperty Name="m_modPart3" Type="UInt32" Value="2341416318"/>
+										<DataProperty Name="m_modPart0" Type="UInt32" Value="3538981183"/>
+										<DataProperty Name="m_modPart1" Type="UInt32" Value="1252224330"/>
+										<DataProperty Name="m_locStringKey" Type="Int32" Value="7"/>
+									</DataObject>
+								</DataProperty>
+								<DataProperty Name="m_feDescriptionTooltip" Type="Object">
+									<DataValue Name="util::ReflectLocString">14042400093020633031</DataValue>
+									<!--WinCondition/WinCondition::OptionsUIDescriptor/WinCondition::OptionSectionUIDescriptor/WinCondition::BooleanOptionUIDescriptor/util::ReflectLocString/-->
+									<DataObject Name="" Type="util::ReflectLocString" Id="14042400093020633031" OwnerId="15903943983542970286">
+										<DataProperty Name="m_modPart2" Type="UInt32" Value="313494189"/>
+										<DataProperty Name="m_modPart3" Type="UInt32" Value="2341416318"/>
+										<DataProperty Name="m_modPart0" Type="UInt32" Value="3538981183"/>
+										<DataProperty Name="m_modPart1" Type="UInt32" Value="1252224330"/>
+										<DataProperty Name="m_locStringKey" Type="Int32" Value="8"/>
+									</DataObject>
+								</DataProperty>
+								<DataProperty Name="m_feName" Type="Object">
+									<DataValue Name="util::ReflectLocString">2437069048376180388</DataValue>
+									<!--WinCondition/WinCondition::OptionsUIDescriptor/WinCondition::OptionSectionUIDescriptor/WinCondition::BooleanOptionUIDescriptor/util::ReflectLocString/-->
+									<DataObject Name="" Type="util::ReflectLocString" Id="2437069048376180388" OwnerId="15903943983542970286">
+										<DataProperty Name="m_modPart2" Type="UInt32" Value="313494189"/>
+										<DataProperty Name="m_modPart3" Type="UInt32" Value="2341416318"/>
+										<DataProperty Name="m_modPart0" Type="UInt32" Value="3538981183"/>
+										<DataProperty Name="m_modPart1" Type="UInt32" Value="1252224330"/>
+										<DataProperty Name="m_locStringKey" Type="Int32" Value="6"/>
+									</DataObject>
+								</DataProperty>
+							</DataObject>
+						</DataProperty>
+						<DataProperty Name="m_feName" Type="Object">
+							<DataValue Name="util::ReflectLocString">4233599298295938038</DataValue>
+							<!--WinCondition/WinCondition::OptionsUIDescriptor/WinCondition::OptionSectionUIDescriptor/util::ReflectLocString/-->
+							<DataObject Name="" Type="util::ReflectLocString" Id="4233599298295938038" OwnerId="11088784217715765915">
+								<DataProperty Name="m_modPart2" Type="UInt32" Value="313494189"/>
+								<DataProperty Name="m_modPart3" Type="UInt32" Value="2341416318"/>
+								<DataProperty Name="m_modPart0" Type="UInt32" Value="3538981183"/>
+								<DataProperty Name="m_modPart1" Type="UInt32" Value="1252224330"/>
+								<DataProperty Name="m_locStringKey" Type="Int32" Value="5"/>
+							</DataObject>
+						</DataProperty>
+					</DataObject>
+				</DataProperty>
 			</DataObject>
 		</DataProperty>
 		<DataProperty Name="m_precacheList" Type="Object">
@@ -50,7 +118,10 @@
 		<DataProperty Name="m_objectiveUnitTypes" Type="Object"/>
 		<DataProperty Name="m_devOnly" Type="Bool" Value="false"/>
 		<DataProperty Name="m_egroupNamePrefixDestroyList" Type="String"/>
-		<DataProperty Name="m_permittedInventoryItemCategories" Type="String"/>
-		<DataProperty Name="m_feImageUnselected" Type="String" Value=""/>
+		<DataProperty Name="m_permittedInventoryItemCategories" Type="String">
+			<DataValue>IIT_PlayerCosmetic</DataValue>
+		</DataProperty>
+		<DataProperty Name="m_feImageUnselected" Type="String" Value="images\illustrations\create_game\game_mode_nomad_unselected"/>
 	</DataObject>
 </DataWarehouse>
+
