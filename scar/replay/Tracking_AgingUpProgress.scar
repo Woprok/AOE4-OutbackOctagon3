@@ -16,7 +16,7 @@ function AgingUpProgress:GetForPlayer_IsAgingUp_Progress_EstimatedTimeOfCompleti
 	
 	local getIsAgingUp = self._GetForNonAbbasidPlayer_IsAgingUp
 	local getProgressAndEstimatedTimeOfCompletion = self._GetForNonAbbasidPlayer_Progress_EstimatedTimeOfCompletion_UiInfo
-	if Player_GetRace(player) == RACE.ABBASID then
+	if Player_GetRace(player) == RACE.ABBASID or Player_GetRace(player) == RACE.ABBASID_HA_01 then
 		getIsAgingUp = self._GetForAbbasidPlayer_IsAgingUp
 		getProgressAndEstimatedTimeOfCompletion = self._GetForAbbasidPlayer_Progress_EstimatedTimeOfCompletion_UiInfo
 	end
@@ -38,7 +38,7 @@ function AgingUpProgress:_GetTrackingIntervalInTicks()
 end
 
 function AgingUpProgress:_Initialize(player)
-	if Player_GetRace(player) == RACE.ABBASID then
+	if Player_GetRace(player) == RACE.ABBASID or Player_GetRace(player) == RACE.ABBASID_HA_01 then
 			self:_InitializeForAbbasid(player)
 		return
 	end
@@ -63,6 +63,7 @@ function AgingUpProgress:_InitializeForAbbasid(player)
             for i = (queueSize - 1), 0, -1 do
                 local queueItem = Entity_GetProductionQueueItem(houseOfWisdom, i)
 				
+				-- should be same for abb and ayy
 				if BP_IsUpgradeOfType(queueItem, "abbasid_wing_upgrade") then
 					isWingQueued = true
 					blueprint = queueItem

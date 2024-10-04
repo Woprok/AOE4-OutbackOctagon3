@@ -24,7 +24,7 @@ function GameObjectRepository:_Initialize(player)
 	end
 	ObserverUiRuleSystem:AddDataGatheringPreparationRule(player.PlayerID, preparation)
 	
-	if Player_GetRace(player) == RACE.ABBASID then
+	if Player_GetRace(player) == RACE.ABBASID or Player_GetRace(player) == RACE.ABBASID_HA_01 then
 		local preparation = function ()
 			gameObjectsOfPlayer.HouseOfWisdom = nil
 		end
@@ -32,7 +32,8 @@ function GameObjectRepository:_Initialize(player)
 		
 		local entity_GetBlueprint = Entity_GetBlueprint
 		local rule = function (entity)
-			if entity_GetBlueprint(entity).PropertyBagGroupID == 199772 then --house_of_wisdom
+			-- abb and ayy have different entity, so this is required
+			if entity_GetBlueprint(entity).PropertyBagGroupID == 199772 or entity_GetBlueprint(entity).PropertyBagGroupID == 2985508 then --house_of_wisdom
 				gameObjectsOfPlayer.HouseOfWisdom = entity
 			end
 		end
@@ -41,7 +42,8 @@ function GameObjectRepository:_Initialize(player)
 	end
 	
 	local entity_IsOfType = Entity_IsOfType
-	if Player_GetRace(player) == RACE.CHINESE then
+	-- I don't remember how they work for CHI2, but let's be sure it does not crash or show bad info
+	if Player_GetRace(player) == RACE.CHINESE or Player_GetRace(player) == RACE.CHINESE_HA_01 then
 		local preparation = function ()
 			gameObjectsOfPlayer.LandmarkForNextAge = nil
 			gameObjectsOfPlayer.SecondLandmarkForNextAge = nil

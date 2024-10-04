@@ -31,21 +31,19 @@ function UiVictoryCountdowns:Initialize()
 			end
 		end
 		
-	    if AGS_RELIGIOUS_TIMER and timer_Exists(AGS_RELIGIOUS_TIMER) then
+	    if _religious and timer_Exists(_religious.timer_victory) then
 			local victoryCountdown = { 
-				TimeRemaining = timer_GetRemaining(AGS_RELIGIOUS_TIMER),
+				TimeRemaining = timer_GetRemaining(_religious.timer_victory),
 				Icon = "pack://application:,,,/WPFGUI;component/icons/races/common/victory_conditions/victory_condition_religious.png",
 				ClosestTo0 = false
 			}
 			
-			if AGS_RELIGIOUS_LAST_CAPTURER ~= nil then
-				local lastCapturerPlayer = AGS_RELIGIOUS_LAST_CAPTURER.id
-				if lastCapturerPlayer ~= nil then
-					local lastCapturerId = lastCapturerPlayer.PlayerID
-					if lastCapturerId ~= nil then
-						tableInsert(playersById[lastCapturerId].VictoryCountdownsContext, 
-								victoryCountdown) 
-					end
+			local lastCapturer = _religious.last_capturer
+			if lastCapturer ~= nil then
+				local lastCapturerId = lastCapturer.PlayerID
+				if lastCapturerId ~= nil then
+					tableInsert(playersById[_religious.last_capturer.PlayerID].TeamSummary.VictoryCountdownsContext, 
+						victoryCountdown) 
 				end
 			end
 	    end
