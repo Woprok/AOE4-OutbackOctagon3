@@ -1,0 +1,66 @@
+-----------------------------------------------------------------------
+-- Imported Scripts
+-----------------------------------------------------------------------
+
+-- Simple import of standard, we are building this in simplest way possible to minimize problems and save time.
+import("gamemodes/standard_mode.scar")
+import("replay/ObserverUI.scar")
+
+-----------------------------------------------------------------------
+-- Data
+-----------------------------------------------------------------------
+
+-- Global data table that can be referenced in script functions (e.g. _mod.module = "Mod")
+_mod = {
+	module = "Mod",
+}
+
+-- Register the win condition (Some functions can be prepended with "Mod_" to be called automatically as part of the scripting framework)
+Core_RegisterModule(_mod.module)
+
+-----------------------------------------------------------------------
+-- Scripting framework 
+-----------------------------------------------------------------------
+
+-- Called during load as part of the game setup sequence
+function Mod_OnGameSetup()
+	
+	
+	
+end
+
+-- Called before initialization, preceding other module OnInit functions
+function Mod_PreInit()
+	
+	-- Enable Tribute UI
+	Core_CallDelegateFunctions("TributeEnabled", true)
+	
+end
+
+-- Called on match initialization before handing control to the player
+function Mod_OnInit()
+	
+	
+	
+end
+
+-- Called after initialization is done when game is fading up from black
+function Mod_Start()
+	
+	
+	
+end
+
+-- Called when Core_SetPlayerDefeated() is invoked. Signals that a player has been eliminated from play due to defeat.
+function Mod_OnPlayerDefeated(player, reason)
+	
+	
+	
+end
+
+-- When a victory condition is met, a module must call Core_OnGameOver() in order to invoke this delegate and notify all modules that the match is about to end. Generally used for clean up (removal of rules, objectives, and UI elements specific to the module).
+function Mod_OnGameOver()
+	
+	
+	
+end
