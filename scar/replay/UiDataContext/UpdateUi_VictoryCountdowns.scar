@@ -42,7 +42,7 @@ function UiVictoryCountdowns:Initialize()
 			if lastCapturer ~= nil then
 				local lastCapturerId = lastCapturer.PlayerID
 				if lastCapturerId ~= nil then
-					tableInsert(playersById[_religious.last_capturer.PlayerID].TeamSummary.VictoryCountdownsContext, 
+					tableInsert(playersById[_religious.last_capturer.PlayerID].VictoryCountdownsContext, 
 						victoryCountdown) 
 				end
 			end
