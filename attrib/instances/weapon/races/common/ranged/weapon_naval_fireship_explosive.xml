@@ -4,11 +4,18 @@
 			<float name="max" value="133" overrideParent="True" />
 			<float name="min" value="133" overrideParent="True" />
 		</group>
-		<list name="target_type_table" removedIds="341832805">
+		<list name="target_type_table" overrideParent="True">
 			<group name="target_unit_type_multipliers" List.ItemID="-1575922439" List.ParentItemID="-1575922439">
 				<float name="base_damage_modifier" value="420" overrideParent="True" />
+				<enum name="unit_type" value="building" />
+				<group name="weapon_multipliers">
+					<float name="accuracy_multiplier" value="1" />
+					<float name="damage_multiplier" value="1" />
+					<float name="penetration_multiplier" value="1" />
+					<float name="suppression_multiplier" value="1" />
+				</group>
 			</group>
-			<group name="target_unit_type_multipliers" List.ItemID="-254460830" List.ListAction="Append">
+			<group name="target_unit_type_multipliers" List.ItemID="-714254462">
 				<enum name="unit_type" value="massive" />
 				<group name="weapon_multipliers">
 					<float name="accuracy_multiplier" value="1" />
@@ -18,7 +25,7 @@
 				</group>
 				<float name="base_damage_modifier" value="420" overrideParent="True" />
 			</group>
-			<group name="target_unit_type_multipliers" List.ItemID="1581826791" List.ListAction="Append">
+			<group name="target_unit_type_multipliers" List.ItemID="1603499229">
 				<enum name="unit_type" value="naval_transport" overrideParent="True" />
 				<group name="weapon_multipliers">
 					<float name="accuracy_multiplier" value="1" />
@@ -26,12 +33,12 @@
 					<float name="penetration_multiplier" value="1" />
 					<float name="suppression_multiplier" value="1" />
 				</group>
-				<float name="base_damage_modifier" value="1000" overrideParent="True" />
+				<float name="base_damage_modifier" value="1400" overrideParent="True" />
 			</group>
 		</list>
 	</group>
 	<uniqueid name="pbgid" value="196900" />
-	<instance_reference name="parent_pbg" value="weapon\races\common\ranged\weapon_naval_fireship" />
+	<instance_reference name="parent_pbg" value="weapon\races\common\ranged\weapon_naval_fireship" mod="d2f0913f6d4a4aa3ad8aaf127e2d8f8b" />
 	<variant name="campaign">
 		<group name="weapon_bag">
 			<group name="accuracy">
@@ -403,7 +410,7 @@
 						<float name="suppression_multiplier" value="1" />
 					</group>
 				</group>
-				<group name="target_unit_type_multipliers" List.ItemID="129803663">
+				<group name="target_unit_type_multipliers" List.ItemID="-107427872">
 					<enum name="unit_type" value="massive" />
 					<group name="weapon_multipliers">
 						<float name="accuracy_multiplier" value="1" />
@@ -413,7 +420,7 @@
 					</group>
 					<float name="base_damage_modifier" value="420" />
 				</group>
-				<group name="target_unit_type_multipliers" List.ItemID="-1123353526">
+				<group name="target_unit_type_multipliers" List.ItemID="-213864482">
 					<enum name="unit_type" value="naval_transport" />
 					<group name="weapon_multipliers">
 						<float name="accuracy_multiplier" value="1" />
@@ -421,7 +428,7 @@
 						<float name="penetration_multiplier" value="1" />
 						<float name="suppression_multiplier" value="1" />
 					</group>
-					<float name="base_damage_modifier" value="1000" />
+					<float name="base_damage_modifier" value="1400" />
 				</group>
 			</list>
 			<enum_table name="cover_table">
@@ -531,7 +538,7 @@
 						<float name="suppression_multiplier" value="1" />
 					</group>
 				</group>
-				<group name="target_unit_type_multipliers" List.ItemID="-1405134825">
+				<group name="target_unit_type_multipliers" List.ItemID="-612678573">
 					<enum name="unit_type" value="massive" />
 					<group name="weapon_multipliers">
 						<float name="accuracy_multiplier" value="1" />
@@ -541,7 +548,7 @@
 					</group>
 					<float name="base_damage_modifier" value="420" overrideParent="True" />
 				</group>
-				<group name="target_unit_type_multipliers" List.ItemID="483523601">
+				<group name="target_unit_type_multipliers" List.ItemID="505187777">
 					<enum name="unit_type" value="naval_transport" overrideParent="True" />
 					<group name="weapon_multipliers">
 						<float name="accuracy_multiplier" value="1" />
@@ -549,11 +556,11 @@
 						<float name="penetration_multiplier" value="1" />
 						<float name="suppression_multiplier" value="1" />
 					</group>
-					<float name="base_damage_modifier" value="1000" overrideParent="True" />
+					<float name="base_damage_modifier" value="1400" overrideParent="True" />
 				</group>
 			</list>
 		</group>
 		<uniqueid name="pbgid" value="196900" />
-		<instance_reference name="parent_pbg" value="weapon\races\common\ranged\weapon_naval_fireship" />
+		<instance_reference name="parent_pbg" value="weapon\races\common\ranged\weapon_naval_fireship" mod="d2f0913f6d4a4aa3ad8aaf127e2d8f8b" />
 	</variant>
 </instance>

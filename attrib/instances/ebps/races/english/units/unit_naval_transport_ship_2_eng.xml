@@ -6,11 +6,6 @@
 		<template_reference name="exts" value="ebpextensions\population_ext" List.ItemID="-2052189865" List.ParentItemID="-2052189865">
 			<float name="personnel_pop" value="1" overrideParent="True" />
 		</template_reference>
-		<template_reference name="exts" value="ebpextensions\moving_ext" List.ItemID="-329722138" List.ParentItemID="-329722138">
-			<enum_table name="speed_scaling_table">
-				<float name="default_speed" value="6.5" overrideParent="True" />
-			</enum_table>
-		</template_reference>
 		<template_reference name="exts" value="ebpextensions\entity_targeting_ext" List.ItemID="360215483" List.ParentItemID="360215483">
 			<bool name="allow_entity_scan_close_enemies" value="True" overrideParent="True" />
 		</template_reference>
@@ -51,11 +46,6 @@
 			</template_reference>
 			<template_reference name="exts" value="ebpextensions\population_ext" List.ItemID="1216056940" List.ParentItemID="1216056940">
 				<float name="personnel_pop" value="1" overrideParent="True" />
-			</template_reference>
-			<template_reference name="exts" value="ebpextensions\moving_ext" List.ItemID="-1437281156" List.ParentItemID="-1437281156">
-				<enum_table name="speed_scaling_table">
-					<float name="default_speed" value="6.5" overrideParent="True" />
-				</enum_table>
 			</template_reference>
 			<template_reference name="exts" value="ebpextensions\entity_targeting_ext" List.ItemID="-1357730053" List.ParentItemID="-1357730053">
 				<bool name="allow_entity_scan_close_enemies" value="True" overrideParent="True" />

@@ -414,8 +414,8 @@
 			<enum name="snap_to_surface_type" value="Water" />
 			<enum_table name="speed_scaling_table">
 				<float name="min_speed" value="0" />
-				<float name="default_speed" value="6" />
-				<float name="max_speed" value="8" />
+				<float name="default_speed" value="3.6" overrideParent="True" />
+				<float name="max_speed" value="4.8" overrideParent="True" />
 			</enum_table>
 			<float name="turn_in_place_distance" value="0" />
 		</template_reference>
@@ -1004,8 +1004,8 @@
 				<enum name="snap_to_surface_type" value="Water" />
 				<enum_table name="speed_scaling_table">
 					<float name="min_speed" value="0" />
-					<float name="default_speed" value="6" />
-					<float name="max_speed" value="8" />
+					<float name="default_speed" value="3.6" />
+					<float name="max_speed" value="4.8" />
 				</enum_table>
 				<float name="turn_in_place_distance" value="0" />
 			</template_reference>
@@ -1593,8 +1593,8 @@
 				<enum name="snap_to_surface_type" value="Water" />
 				<enum_table name="speed_scaling_table">
 					<float name="min_speed" value="0" />
-					<float name="default_speed" value="6" />
-					<float name="max_speed" value="8" />
+					<float name="default_speed" value="3.6" overrideParent="True" />
+					<float name="max_speed" value="4.8" overrideParent="True" />
 				</enum_table>
 				<float name="turn_in_place_distance" value="0" />
 			</template_reference>

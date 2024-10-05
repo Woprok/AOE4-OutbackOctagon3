@@ -1,10 +1,5 @@
 <instance version="4" description="" template="ebps">
 	<list name="extensions">
-		<template_reference name="exts" value="ebpextensions\moving_ext" List.ItemID="-329722138" List.ParentItemID="-329722138">
-			<enum_table name="speed_scaling_table">
-				<float name="default_speed" value="6.6" overrideParent="True" />
-			</enum_table>
-		</template_reference>
 		<template_reference name="exts" value="ebpextensions\statemodel_ext" List.ItemID="-2114676016" List.ParentItemID="-2114676016">
 			<instance_reference name="schema" value="statemodel_schema\units\civilizations\ottoman\transport_ship_ott" overrideParent="True" />
 		</template_reference>

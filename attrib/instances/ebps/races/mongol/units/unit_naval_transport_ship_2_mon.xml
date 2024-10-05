@@ -7,11 +7,6 @@
 		<template_reference name="exts" value="ebpextensions\health_ext" List.ItemID="-587006101" List.ParentItemID="-587006101">
 			<float name="hitpoints" value="600" overrideParent="True" />
 		</template_reference>
-		<template_reference name="exts" value="ebpextensions\moving_ext" List.ItemID="-329722138" List.ParentItemID="-329722138">
-			<enum_table name="speed_scaling_table">
-				<float name="default_speed" value="6.9" overrideParent="True" />
-			</enum_table>
-		</template_reference>
 		<template_reference name="exts" value="ebpextensions\tier_ext" List.ItemID="27199516" List.ParentItemID="27199516">
 			<list name="tier_group_list">
 				<list name="tier_group" List.ItemID="-1641811255" List.ParentItemID="-1641811255">
@@ -50,11 +45,6 @@
 			</template_reference>
 			<template_reference name="exts" value="ebpextensions\health_ext" List.ItemID="1745167116" List.ParentItemID="1745167116">
 				<float name="hitpoints" value="600" overrideParent="True" />
-			</template_reference>
-			<template_reference name="exts" value="ebpextensions\moving_ext" List.ItemID="-1437281156" List.ParentItemID="-1437281156">
-				<enum_table name="speed_scaling_table">
-					<float name="default_speed" value="6.9" overrideParent="True" />
-				</enum_table>
 			</template_reference>
 			<template_reference name="exts" value="ebpextensions\tier_ext" List.ItemID="-49975088" List.ParentItemID="-49975088">
 				<list name="tier_group_list">
