@@ -20,7 +20,7 @@ function UiVictoryCountdowns:Initialize()
 			playersByIndex[p].VictoryCountdownsContext = {}
 			playersByIndex[p].IsWinning = false
 			
-			local wonder = teams[t].players[p]._wonder
+			local wonder = players[p]._wonder
 			if wonder and timer_Exists(wonder.objective_timer) then
 				local victoryCountdown = { 
 					TimeRemaining = timer_GetRemaining(wonder.objective_timer),
