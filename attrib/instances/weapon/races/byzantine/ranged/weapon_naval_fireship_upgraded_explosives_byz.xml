@@ -1,0 +1,20 @@
+<instance version="4" description="" template="weapon">
+	<group name="weapon_bag">
+		<group name="area_effect">
+			<template_reference name="area_info" value="options\area_info_options\circle_area_option">
+				<float name="outer_radius" value="8" overrideParent="True" />
+			</template_reference>
+			<group name="damage">
+				<float name="far" value="1" overrideParent="True" />
+				<float name="mid" value="1" overrideParent="True" />
+			</group>
+			<group name="distance">
+				<float name="far" value="8" overrideParent="True" />
+				<float name="near" value="5.5" overrideParent="True" />
+				<float name="mid" value="6" overrideParent="True" />
+			</group>
+		</group>
+	</group>
+	<uniqueid name="pbgid" value="2145614" />
+	<instance_reference name="parent_pbg" value="weapon\races\common\ranged\weapon_naval_fireship_incendiaries_explosive" mod="d2f0913f6d4a4aa3ad8aaf127e2d8f8b" />
+</instance>

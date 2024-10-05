@@ -1,0 +1,36 @@
+<instance version="6" description="Needed by campaign data split - do not delete. Use the parent pbg (building_defense_tower_sul) for non-campaign modes." template="ebps">
+	<uniqueid name="pbgid" value="203976" />
+	<instance_reference name="parent_pbg" value="ebps\races\sultanate\buildings\building_defense_wall_sul\building_defense_tower_sul" mod="d2f0913f6d4a4aa3ad8aaf127e2d8f8b" />
+	<list name="extensions">
+		<template_reference name="exts" value="ebpextensions\requirement_ext" List.ItemID="1689686333" List.ParentItemID="1689686333">
+			<list name="requirement_table">
+				<template_reference name="required" value="requirements\required_statemodelbool" overrideParent="True" List.ItemID="1941708457" List.ListAction="Append">
+					<locstring name="ui_name" value="13" mod="d2f0913f6d4a4aa3ad8aaf127e2d8f8b" overrideParent="True" />
+					<enum name="reason" value="usage_and_display" overrideParent="True" />
+					<enum name="key" value="compound_of_the_defender_active_sul" overrideParent="True" />
+					<enum name="data_source_type" value="player_datasource" overrideParent="True" />
+					<bool name="default_value" value="False" />
+					<bool name="compare_to_value" value="True" overrideParent="True" />
+				</template_reference>
+			</list>
+		</template_reference>
+	</list>
+	<variant name="campaign">
+		<list name="extensions">
+			<template_reference name="exts" value="ebpextensions\requirement_ext" List.ItemID="-777410215" List.ParentItemID="-777410215">
+				<list name="requirement_table">
+					<template_reference name="required" value="requirements\required_statemodelbool" overrideParent="True" List.ItemID="-2030826118" List.ListAction="Append">
+						<locstring name="ui_name" value="14" mod="d2f0913f6d4a4aa3ad8aaf127e2d8f8b" overrideParent="True" />
+						<enum name="reason" value="usage_and_display" overrideParent="True" />
+						<enum name="key" value="compound_of_the_defender_active_sul" overrideParent="True" />
+						<enum name="data_source_type" value="player_datasource" overrideParent="True" />
+						<bool name="default_value" value="False" />
+						<bool name="compare_to_value" value="True" overrideParent="True" />
+					</template_reference>
+				</list>
+			</template_reference>
+		</list>
+		<uniqueid name="pbgid" value="203976" />
+		<instance_reference name="parent_pbg" value="ebps\races\sultanate\buildings\building_defense_wall_sul\building_defense_tower_sul" mod="d2f0913f6d4a4aa3ad8aaf127e2d8f8b" />
+	</variant>
+</instance>

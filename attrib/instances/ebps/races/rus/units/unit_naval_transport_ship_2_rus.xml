@@ -1,0 +1,74 @@
+<instance version="6" description="" template="ebps">
+	<list name="extensions">
+		<template_reference name="exts" value="ebpextensions\entity_blueprint_ext" List.ItemID="922175641" List.ParentItemID="922175641">
+			<float name="entity_scale" value="100" overrideParent="True" />
+		</template_reference>
+		<template_reference name="exts" value="ebpextensions\type_ext" List.ItemID="1963545954" List.ParentItemID="1963545954">
+			<list name="unit_type_list" overrideParent="True">
+				<enum name="unit_type" value="medium_ship" List.ItemID="1514291223" />
+				<enum name="unit_type" value="transport" List.ItemID="-1966330712" />
+				<enum name="unit_type" value="naval_transport" List.ItemID="-1346332087" />
+				<enum name="unit_type" value="naval_unit" List.ItemID="1277949249" />
+				<enum name="unit_type" value="non_aggressive" List.ItemID="-1267664165" />
+				<enum name="unit_type" value="siegeable" List.ItemID="1007133835" />
+				<enum name="unit_type" value="annihilation_condition" List.ItemID="22800839" />
+				<enum name="unit_type" value="lodya_ship" List.ItemID="1404033827" />
+			</list>
+		</template_reference>
+		<template_reference name="exts" value="ebpextensions\upgrade_ext" List.ItemID="-589726942" List.ParentItemID="-589726942">
+			<list name="standard_upgrades" overrideParent="True">
+				<instance_reference name="upgrade" value="upgrade\races\rus\research\naval\upgrade_naval_role_lodya_trasnport_to_fishingship_rus" overrideParent="True" List.ItemID="-1420117205" />
+				<instance_reference name="upgrade" value="upgrade\races\rus\research\naval\upgrade_naval_role_lodya_transport_to_combatship_rus" List.ItemID="-1712291765" />
+				<instance_reference name="upgrade" value="upgrade\races\rus\research\naval\upgrade_naval_role_lodya_transport_to_fireship_rus" List.ItemID="1094696890" />
+				<instance_reference name="upgrade" value="upgrade\races\rus\research\naval\upgrade_naval_role_lodya_transport_to_tradeship_rus" List.ItemID="1570496606" />
+				<instance_reference name="upgrade" value="upgrade\races\rus\research\naval\upgrade_naval_role_lodya_tradeship_to_galley_rus" overrideParent="True" List.ItemID="-873386790" />
+			</list>
+		</template_reference>
+		<template_reference name="exts" value="ebpextensions\tier_ext" List.ItemID="27199516" List.ParentItemID="27199516">
+			<list name="tier_group_list">
+				<list name="tier_group" List.ItemID="-1641811255" List.ParentItemID="-1641811255">
+					<group name="tier" List.ItemID="-1256626778" List.ParentItemID="-1256626778">
+						<instance_reference name="attachments" value="attachments\attachment_lists\civilizations\rus\units\tier2_naval_transport_ship_rus" overrideParent="True" />
+					</group>
+				</list>
+			</list>
+		</template_reference>
+	</list>
+	<uniqueid name="pbgid" value="193098" />
+	<instance_reference name="parent_pbg" value="ebps\races\core\units\unit_naval_transport_ship_2" mod="d2f0913f6d4a4aa3ad8aaf127e2d8f8b" />
+	<variant name="campaign">
+		<list name="extensions">
+			<template_reference name="exts" value="ebpextensions\cost_ext" List.ItemID="-1612718488" List.ParentItemID="-1612718488">
+				<group name="time_cost">
+					<enum_table name="cost">
+						<float name="wood" value="75" overrideParent="True" />
+					</enum_table>
+				</group>
+			</template_reference>
+			<template_reference name="exts" value="ebpextensions\health_ext" List.ItemID="-211355268" List.ParentItemID="-211355268">
+				<float name="hitpoints" value="600" overrideParent="True" />
+			</template_reference>
+			<template_reference name="exts" value="ebpextensions\upgrade_ext" List.ItemID="-1719180575" List.ParentItemID="-1719180575">
+				<list name="standard_upgrades" overrideParent="True">
+					<instance_reference name="upgrade" value="upgrade\races\rus\research\naval\upgrade_naval_role_lodya_combatship_rus" List.ItemID="1233521467" />
+					<instance_reference name="upgrade" value="upgrade\races\rus\research\naval\upgrade_naval_role_lodya_fireship_rus" List.ItemID="1252228176" />
+					<instance_reference name="upgrade" value="upgrade\races\rus\research\naval\upgrade_naval_role_lodya_fishingship_rus" List.ItemID="1678719626" />
+					<instance_reference name="upgrade" value="upgrade\races\rus\research\naval\upgrade_naval_role_lodya_tradeship_rus" List.ItemID="1812517271" />
+					<instance_reference name="upgrade" value="upgrade\races\rus\research\naval\upgrade_naval_role_lodya_transport_rus" List.ItemID="-32818524" />
+					<instance_reference name="upgrade" value="upgrade\races\rus\research\naval\upgrade_naval_role_lodya_scoutship_rus" List.ItemID="375317138" />
+				</list>
+			</template_reference>
+			<template_reference name="exts" value="ebpextensions\tier_ext" List.ItemID="910558610" List.ParentItemID="910558610">
+				<list name="tier_group_list">
+					<list name="tier_group" List.ItemID="228775486" List.ParentItemID="228775486">
+						<group name="tier" List.ItemID="-1718619013" List.ParentItemID="-1718619013">
+							<instance_reference name="attachments" value="attachments\attachment_lists\civilizations\rus\units\tier2_naval_transport_ship_rus" overrideParent="True" />
+						</group>
+					</list>
+				</list>
+			</template_reference>
+		</list>
+		<uniqueid name="pbgid" value="193098" />
+		<instance_reference name="parent_pbg" value="ebps\races\core\units\unit_naval_transport_ship_2" mod="d2f0913f6d4a4aa3ad8aaf127e2d8f8b" />
+	</variant>
+</instance>

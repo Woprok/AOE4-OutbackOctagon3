@@ -1,0 +1,36 @@
+<instance version="6" description="" template="ebps">
+	<list name="extensions">
+		<template_reference name="exts" value="ebpextensions\entity_blueprint_ext" List.ItemID="922175641" List.ParentItemID="922175641">
+			<instance_reference name="animator_attachments" value="attachments\attachment_lists\races\core\units\unit_naval_medium_lateen" overrideParent="True" />
+		</template_reference>
+		<template_reference name="exts" value="ebpextensions\tier_ext" List.ItemID="27199516" List.ParentItemID="27199516">
+			<list name="tier_group_list">
+				<list name="tier_group" List.ItemID="-1641811255" List.ParentItemID="-1641811255">
+					<group name="tier" List.ItemID="-1256626778" List.ParentItemID="-1256626778">
+						<instance_reference name="attachments" value="attachments\attachment_lists\civilizations\sultanate\units\tier2_naval_transport_ship_sul" overrideParent="True" />
+					</group>
+				</list>
+			</list>
+		</template_reference>
+	</list>
+	<uniqueid name="pbgid" value="193108" />
+	<instance_reference name="parent_pbg" value="ebps\races\core\units\unit_naval_transport_ship_2" mod="d2f0913f6d4a4aa3ad8aaf127e2d8f8b" />
+	<variant name="campaign">
+		<list name="extensions">
+			<template_reference name="exts" value="ebpextensions\entity_blueprint_ext" List.ItemID="-1103667686" List.ParentItemID="-1103667686">
+				<instance_reference name="animator_attachments" value="attachments\attachment_lists\races\core\units\unit_naval_medium_lateen" overrideParent="True" />
+			</template_reference>
+			<template_reference name="exts" value="ebpextensions\tier_ext" List.ItemID="910558610" List.ParentItemID="910558610">
+				<list name="tier_group_list">
+					<list name="tier_group" List.ItemID="228775486" List.ParentItemID="228775486">
+						<group name="tier" List.ItemID="-1718619013" List.ParentItemID="-1718619013">
+							<instance_reference name="attachments" value="attachments\attachment_lists\civilizations\sultanate\units\tier2_naval_transport_ship_sul" overrideParent="True" />
+						</group>
+					</list>
+				</list>
+			</template_reference>
+		</list>
+		<uniqueid name="pbgid" value="193108" />
+		<instance_reference name="parent_pbg" value="ebps\races\core\units\unit_naval_transport_ship_2" mod="d2f0913f6d4a4aa3ad8aaf127e2d8f8b" />
+	</variant>
+</instance>
