@@ -1,41 +1,41 @@
 <instance version="4" description="" template="ebps">
 	<list name="extensions">
-		<template_reference name="exts" value="ebpextensions\entity_blueprint_ext" List.ItemID="-1976921861" List.ParentItemID="-1976921861">
+		<template_reference name="exts" value="ebpextensions\entity_blueprint_ext" List.ItemID="2037170217" List.ParentItemID="2037170217">
 			<instance_reference name="animator_attachments" value="attachments\attachment_lists\civilizations\malian\buildings\building_defense_wall_mal\building_defense_wall_stone_gate_mal" overrideParent="True" />
 			<bool name="browsable_in_editor" value="True" overrideParent="True" />
 		</template_reference>
-		<template_reference name="exts" value="ebpextensions\health_ext" List.ItemID="1039205584" List.ParentItemID="1039205584">
+		<template_reference name="exts" value="ebpextensions\health_ext" List.ItemID="1633681081" List.ParentItemID="1633681081">
 			<bool name="can_repair" value="True" overrideParent="True" />
 		</template_reference>
-		<template_reference name="exts" value="ebpextensions\type_ext" List.ItemID="1360370492" List.ParentItemID="1360370492">
+		<template_reference name="exts" value="ebpextensions\type_ext" List.ItemID="-1225885535" List.ParentItemID="-1225885535">
 			<list name="race_type_list" overrideParent="True">
-				<instance_reference name="race_type" value="racebps\malian" overrideParent="True" List.ItemID="322664201" />
+				<instance_reference name="race_type" value="racebps\malian" overrideParent="True" List.ItemID="-317597648" />
 			</list>
 		</template_reference>
-		<template_reference name="exts" value="ebpextensions\burn_ext" List.ItemID="581783760" List.ParentItemID="581783760">
+		<template_reference name="exts" value="ebpextensions\burn_ext" List.ItemID="1652165784" List.ParentItemID="1652165784">
 			<float name="on_fire_threshold" value="59" overrideParent="True" />
 		</template_reference>
-		<template_reference name="exts" value="ebpextensions\territory_sector_layout_ext" List.ItemID="-1061156066" List.ParentItemID="-1061156066">
+		<template_reference name="exts" value="ebpextensions\territory_sector_layout_ext" List.ItemID="1323254935" List.ParentItemID="1323254935">
 			<template_reference name="placement_style" value="options\ebpextensions\hexmapext\placement_styles\placement_primary_fence_replacer">
 				<instance_reference name="blueprint_to_replace" value="ebps\races\malian\buildings\building_defense_wall_mal\building_defense_wall_mal" mod="d2f0913f6d4a4aa3ad8aaf127e2d8f8b" overrideParent="True" />
 				<template_reference name="gap_fillers" value="options\ebpextensions\hexmapext\gap_fillers">
 					<list name="visuals" overrideParent="True">
-						<template_reference name="visual" value="options\ebpextensions\hexmapext\gap_filler_visual" List.ItemID="-578893009" List.ParentItemID="2005016817">
+						<template_reference name="visual" value="options\ebpextensions\hexmapext\gap_filler_visual" List.ItemID="-1931866194" List.ParentItemID="2005016817">
 							<file name="visual" value="civilizations\malian\structures\stonewall\mal_stonewall_gapfill_1m\mal_stonewall_gapfill_1m" overrideParent="True" />
 							<float name="rotation_offset" value="90" />
 							<float name="visual_length" value="1" />
 						</template_reference>
-						<template_reference name="visual" value="options\ebpextensions\hexmapext\gap_filler_visual" List.ItemID="-1878404916" List.ParentItemID="1050268408">
+						<template_reference name="visual" value="options\ebpextensions\hexmapext\gap_filler_visual" List.ItemID="-1622431728" List.ParentItemID="1050268408">
 							<file name="visual" value="civilizations\malian\structures\stonewall\mal_stonewall_gapfill_2m\mal_stonewall_gapfill_2m" overrideParent="True" />
 							<float name="rotation_offset" value="90" />
 							<float name="visual_length" value="2" />
 						</template_reference>
-						<template_reference name="visual" value="options\ebpextensions\hexmapext\gap_filler_visual" List.ItemID="-1943353112" List.ParentItemID="-1639245560">
+						<template_reference name="visual" value="options\ebpextensions\hexmapext\gap_filler_visual" List.ItemID="-1489473030" List.ParentItemID="-1639245560">
 							<file name="visual" value="civilizations\malian\structures\stonewall\mal_stonewall_gapfill_3m\mal_stonewall_gapfill_3m" overrideParent="True" />
 							<float name="rotation_offset" value="90" />
 							<float name="visual_length" value="3" />
 						</template_reference>
-						<template_reference name="visual" value="options\ebpextensions\hexmapext\gap_filler_visual" List.ItemID="-2118118394" List.ParentItemID="1799650319">
+						<template_reference name="visual" value="options\ebpextensions\hexmapext\gap_filler_visual" List.ItemID="239849514" List.ParentItemID="1799650319">
 							<file name="visual" value="civilizations\malian\structures\stonewall\mal_stonewall_gapfill_4m\mal_stonewall_gapfill_4m" overrideParent="True" />
 							<float name="rotation_offset" value="90" />
 							<float name="visual_length" value="4" />
@@ -44,14 +44,14 @@
 				</template_reference>
 			</template_reference>
 		</template_reference>
-		<template_reference name="exts" value="ebpextensions\road_ext" List.ItemID="-608794371" List.ListAction="Append">
+		<template_reference name="exts" value="ebpextensions\road_ext" List.ItemID="529355916" List.ListAction="Append">
 			<list name="roads">
-				<template_reference name="road" value="roads\road_properties" List.ItemID="1508709164">
+				<template_reference name="road" value="roads\road_properties" List.ItemID="1694396425">
 					<instance_reference name="required_upgrade" value="upgrade\dev\ages\dark_age" />
 					<list name="curb_splines">
 					</list>
 					<list name="road_splines">
-						<template_reference name="road_spline" value="options\placement\spline\placement_spline_strip_option" List.ItemID="2047456507">
+						<template_reference name="road_spline" value="options\placement\spline\placement_spline_strip_option" List.ItemID="1396692935">
 							<int name="draw_sort_order" value="100000" />
 							<float name="end_fade" value="0.4" />
 							<float name="width" value="3.5" />
@@ -60,12 +60,12 @@
 						</template_reference>
 					</list>
 				</template_reference>
-				<template_reference name="road" value="roads\road_properties" List.ItemID="-1188344126">
+				<template_reference name="road" value="roads\road_properties" List.ItemID="604797231">
 					<instance_reference name="required_upgrade" value="upgrade\dev\ages\feudal_age" />
 					<list name="curb_splines">
 					</list>
 					<list name="road_splines">
-						<template_reference name="road_spline" value="options\placement\spline\placement_spline_strip_option" List.ItemID="1978726144">
+						<template_reference name="road_spline" value="options\placement\spline\placement_spline_strip_option" List.ItemID="1873554397">
 							<int name="draw_sort_order" value="100000" />
 							<float name="end_fade" value="0.4" />
 							<float name="width" value="3" />
@@ -74,12 +74,12 @@
 						</template_reference>
 					</list>
 				</template_reference>
-				<template_reference name="road" value="roads\road_properties" List.ItemID="-1689276908">
+				<template_reference name="road" value="roads\road_properties" List.ItemID="-373769459">
 					<instance_reference name="required_upgrade" value="upgrade\dev\ages\castle_age" />
 					<list name="curb_splines">
 					</list>
 					<list name="road_splines">
-						<template_reference name="road_spline" value="options\placement\spline\placement_spline_strip_option" List.ItemID="-916603942">
+						<template_reference name="road_spline" value="options\placement\spline\placement_spline_strip_option" List.ItemID="546852247">
 							<int name="draw_sort_order" value="100000" />
 							<float name="end_fade" value="0.2" />
 							<float name="width" value="3" />
@@ -88,12 +88,12 @@
 						</template_reference>
 					</list>
 				</template_reference>
-				<template_reference name="road" value="roads\road_properties" List.ItemID="-1576441651">
+				<template_reference name="road" value="roads\road_properties" List.ItemID="-2110409870">
 					<instance_reference name="required_upgrade" value="upgrade\dev\ages\imperial_age" />
 					<list name="curb_splines">
 					</list>
 					<list name="road_splines">
-						<template_reference name="road_spline" value="options\placement\spline\placement_spline_strip_option" List.ItemID="808059702">
+						<template_reference name="road_spline" value="options\placement\spline\placement_spline_strip_option" List.ItemID="-571835623">
 							<int name="draw_sort_order" value="100000" />
 							<float name="end_fade" value="0.2" />
 							<float name="width" value="3" />

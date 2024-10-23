@@ -14,7 +14,7 @@
 		</template_reference>
 		<template_reference name="squadexts" value="sbpextensions\squad_loadout_ext" overrideParent="True" List.ItemID="1426203860" List.ParentItemID="1426203860">
 			<list name="unit_list">
-				<group name="loadout_data" List.ItemID="-283558026">
+				<group name="loadout_data" List.ItemID="-1995827280">
 					<float name="num" value="1" />
 					<instance_reference name="type" value="ebps\races\malian\units\unit_villager_1_mal" overrideParent="True" />
 					<list name="unit_attachments">
@@ -26,15 +26,15 @@
 		</template_reference>
 		<template_reference name="squadexts" value="sbpextensions\squad_requirement_ext" List.ItemID="300608956" List.ParentItemID="300608956">
 			<list name="requirement_table" overrideParent="True">
-				<template_reference name="required" value="requirements\required_any_in_list" List.ItemID="1659887279">
+				<template_reference name="required" value="requirements\required_any_in_list" List.ItemID="469032720">
 					<enum name="reason" value="usage_and_display" overrideParent="True" />
 					<locstring name="ui_name" value="0" />
 					<list name="requirements" overrideParent="True">
-						<template_reference name="requirement" value="requirements\required_not" List.ItemID="-1245785176">
+						<template_reference name="requirement" value="requirements\required_not" List.ItemID="-369843680">
 							<enum name="reason" value="usage" />
 							<locstring name="ui_name" value="0" />
 							<list name="requirement_table" overrideParent="True">
-								<template_reference name="required" value="requirements\required_is_entity_pbg" List.ItemID="-586336361">
+								<template_reference name="required" value="requirements\required_is_entity_pbg" List.ItemID="936264516">
 									<enum name="reason" value="usage" />
 									<locstring name="ui_name" value="0" />
 									<instance_reference name="is_entity_pbg" value="ebps\races\sultanate\buildings\building_defense_keep_sul\building_defense_keep_control_sul" overrideParent="True" />
@@ -45,7 +45,7 @@
 								</template_reference>
 							</list>
 						</template_reference>
-						<template_reference name="requirement" value="requirements\required_statemodelbool" List.ItemID="351235233">
+						<template_reference name="requirement" value="requirements\required_statemodelbool" List.ItemID="421615536">
 							<locstring name="ui_name" value="0" />
 							<enum name="reason" value="usage" />
 							<enum name="key" value="califate_fort_tier_1_sul" overrideParent="True" />
@@ -59,16 +59,16 @@
 		</template_reference>
 		<template_reference name="squadexts" value="sbpextensions\squad_type_ext" List.ItemID="891874315" List.ParentItemID="891874315">
 			<list name="squad_race_type_list" overrideParent="True">
-				<instance_reference name="squad_race_type" value="racebps\malian" overrideParent="True" List.ItemID="727509059" />
+				<instance_reference name="squad_race_type" value="racebps\malian" overrideParent="True" List.ItemID="825584403" />
 			</list>
 		</template_reference>
 		<template_reference name="squadexts" value="sbpextensions\squad_engineer_ext" overrideParent="True" List.ItemID="851310113" List.ParentItemID="851310113">
 			<float name="construction_rate_multiplier" value="1" />
 			<list name="construction_groups" overrideParent="True">
-				<group name="construction_group" comment="Dark Age" overrideParent="True" List.ItemID="-173474927">
+				<group name="construction_group" comment="Dark Age" overrideParent="True" List.ItemID="-91579476">
 					<instance_reference name="construction_menu" value="menu\mal_age1" overrideParent="True" />
 					<list name="construction_items" overrideParent="True">
-						<group name="construction_item" comment="House" List.ItemID="981200230">
+						<group name="construction_item" comment="House" List.ItemID="1356245621">
 							<instance_reference name="ebp" value="ebps\races\malian\buildings\building_house_mal" overrideParent="True" />
 							<group name="ui_position">
 								<int name="ui_position_row" value="1" />
@@ -119,7 +119,7 @@
 							</template_reference>
 							<bool name="do_requirement_check_for_construction_on_existing_item" value="False" />
 						</group>
-						<group name="construction_item" comment="Farm" List.ItemID="-1563837563">
+						<group name="construction_item" comment="Farm" List.ItemID="-1608505028">
 							<instance_reference name="ebp" value="ebps\races\malian\buildings\building_resource_farm_mal" overrideParent="True" />
 							<group name="ui_position">
 								<int name="ui_position_row" value="2" overrideParent="True" />
@@ -170,7 +170,7 @@
 							</template_reference>
 							<bool name="do_requirement_check_for_construction_on_existing_item" value="False" />
 						</group>
-						<group name="construction_item" comment="Outpost" List.ItemID="415089217">
+						<group name="construction_item" comment="Outpost" List.ItemID="-2058669774">
 							<instance_reference name="ebp" value="ebps\races\malian\buildings\building_defense_outpost_mal" overrideParent="True" />
 							<group name="ui_position">
 								<int name="ui_position_row" value="3" />
@@ -221,7 +221,7 @@
 							</template_reference>
 							<bool name="do_requirement_check_for_construction_on_existing_item" value="False" />
 						</group>
-						<group name="construction_item" comment="Mill" List.ItemID="-603601684">
+						<group name="construction_item" comment="Mill" List.ItemID="513366060">
 							<instance_reference name="ebp" value="ebps\races\malian\buildings\building_econ_food_mal" overrideParent="True" />
 							<group name="ui_position">
 								<int name="ui_position_row" value="1" overrideParent="True" />
@@ -272,7 +272,7 @@
 							</template_reference>
 							<bool name="do_requirement_check_for_construction_on_existing_item" value="False" />
 						</group>
-						<group name="construction_item" comment="Barracks" List.ItemID="-971786780">
+						<group name="construction_item" comment="Barracks" List.ItemID="1884903674">
 							<instance_reference name="ebp" value="ebps\races\malian\buildings\building_unit_infantry_mal" overrideParent="True" />
 							<group name="ui_position">
 								<int name="ui_position_row" value="2" />
@@ -323,7 +323,7 @@
 							</template_reference>
 							<bool name="do_requirement_check_for_construction_on_existing_item" value="False" />
 						</group>
-						<group name="construction_item" comment="Palisade" List.ItemID="-1133419183">
+						<group name="construction_item" comment="Palisade" List.ItemID="-1881028327">
 							<instance_reference name="ebp" value="ebps\races\malian\buildings\building_defense_wall_mal\building_defense_palisade_mal" overrideParent="True" />
 							<group name="ui_position">
 								<int name="ui_position_row" value="3" />
@@ -374,7 +374,7 @@
 							</template_reference>
 							<bool name="do_requirement_check_for_construction_on_existing_item" value="False" />
 						</group>
-						<group name="construction_item" comment="Lumber Camp" List.ItemID="-1421916983">
+						<group name="construction_item" comment="Lumber Camp" List.ItemID="-1654706107">
 							<instance_reference name="ebp" value="ebps\races\malian\buildings\building_econ_wood_mal" overrideParent="True" />
 							<group name="ui_position">
 								<int name="ui_position_row" value="1" overrideParent="True" />
@@ -425,7 +425,7 @@
 							</template_reference>
 							<bool name="do_requirement_check_for_construction_on_existing_item" value="False" />
 						</group>
-						<group name="construction_item" comment="Dock" List.ItemID="689855297">
+						<group name="construction_item" comment="Dock" List.ItemID="-1906164176">
 							<instance_reference name="ebp" value="ebps\races\malian\buildings\building_unit_naval_mal" overrideParent="True" />
 							<group name="ui_position">
 								<int name="ui_position_row" value="2" overrideParent="True" />
@@ -476,7 +476,7 @@
 							</template_reference>
 							<bool name="do_requirement_check_for_construction_on_existing_item" value="False" />
 						</group>
-						<group name="construction_item" comment="Palisade Gate" List.ItemID="-597571023">
+						<group name="construction_item" comment="Palisade Gate" List.ItemID="2030631668">
 							<instance_reference name="ebp" value="ebps\races\malian\buildings\building_defense_wall_mal\building_defense_palisade_gate_mal" overrideParent="True" />
 							<group name="ui_position">
 								<int name="ui_position_row" value="3" />
@@ -527,7 +527,7 @@
 							</template_reference>
 							<bool name="do_requirement_check_for_construction_on_existing_item" value="False" />
 						</group>
-						<group name="construction_item" comment="Stone Mining Camp" List.ItemID="1848844324">
+						<group name="construction_item" comment="Stone Mining Camp" List.ItemID="-528261458">
 							<instance_reference name="ebp" value="ebps\races\malian\buildings\building_econ_mining_camp_mal" overrideParent="True" />
 							<group name="ui_position">
 								<int name="ui_position_row" value="1" overrideParent="True" />
@@ -578,7 +578,7 @@
 							</template_reference>
 							<bool name="do_requirement_check_for_construction_on_existing_item" value="False" />
 						</group>
-						<group name="construction_item" comment="Palisade Bastion" List.ItemID="873703033">
+						<group name="construction_item" comment="Palisade Bastion" List.ItemID="-1405418188">
 							<instance_reference name="ebp" value="ebps\races\malian\buildings\building_defense_wall_mal\building_defense_palisade_bastion_mal" overrideParent="True" />
 							<group name="ui_position">
 								<int name="ui_position_row" value="-1" />
@@ -596,7 +596,7 @@
 							</template_reference>
 							<bool name="do_requirement_check_for_construction_on_existing_item" value="False" />
 						</group>
-						<group name="construction_item" comment="Pit Mine" List.ItemID="1164482471">
+						<group name="construction_item" comment="Pit Mine" List.ItemID="845119556">
 							<instance_reference name="ebp" value="ebps\races\malian\buildings\building_open_pit_mine_small_mal" overrideParent="True" />
 							<group name="ui_position">
 								<int name="ui_position_row" value="2" overrideParent="True" />
@@ -605,7 +605,7 @@
 							<list name="associated_ebps">
 							</list>
 							<list name="alternate_ebps" overrideParent="True">
-								<instance_reference name="ebp" value="ebps\races\malian\buildings\building_open_pit_mine_mal" List.ItemID="1750813544" />
+								<instance_reference name="ebp" value="ebps\races\malian\buildings\building_open_pit_mine_mal" List.ItemID="1788008450" />
 							</list>
 							<instance_reference name="hotkey_binding" value="hotkeys\hotkey_binding\villager_build_menu\age_1\build_pit_mine_mal" overrideParent="True" />
 							<list name="additional_requirements">
@@ -651,10 +651,10 @@
 					</list>
 					<enum name="construction_type" value="tp_construction_base" />
 				</group>
-				<group name="construction_group" List.ItemID="-1640787959">
+				<group name="construction_group" List.ItemID="-1726277776">
 					<instance_reference name="construction_menu" value="menu\mal_age1_wonders" overrideParent="True" />
 					<list name="construction_items" overrideParent="True">
-						<group name="construction_item" List.ItemID="381145762">
+						<group name="construction_item" List.ItemID="-1946447251">
 							<instance_reference name="ebp" value="ebps\races\malian\buildings\building_landmark_age1_landmarka_mal" overrideParent="True" />
 							<group name="ui_position">
 								<int name="ui_position_row" value="1" overrideParent="True" />
@@ -696,7 +696,7 @@
 							</template_reference>
 							<bool name="do_requirement_check_for_construction_on_existing_item" value="False" />
 						</group>
-						<group name="construction_item" List.ItemID="-1792826109">
+						<group name="construction_item" List.ItemID="-1794326272">
 							<instance_reference name="ebp" value="ebps\races\malian\buildings\building_landmark_age1_landmarkb_mal" overrideParent="True" />
 							<group name="ui_position">
 								<int name="ui_position_row" value="1" overrideParent="True" />
@@ -741,10 +741,10 @@
 					</list>
 					<enum name="construction_type" value="tp_construction_base" />
 				</group>
-				<group name="construction_group" comment="Feudal Age" List.ItemID="1508043303">
+				<group name="construction_group" comment="Feudal Age" List.ItemID="-441407802">
 					<instance_reference name="construction_menu" value="menu\mal_age2" overrideParent="True" />
 					<list name="construction_items" overrideParent="True">
-						<group name="construction_item" comment="Blacksmith" List.ItemID="-319344">
+						<group name="construction_item" comment="Blacksmith" List.ItemID="-354046235">
 							<instance_reference name="ebp" value="ebps\races\malian\buildings\building_tech_unit_infantry_mal" overrideParent="True" />
 							<group name="ui_position">
 								<int name="ui_position_row" value="1" />
@@ -795,7 +795,7 @@
 							</template_reference>
 							<bool name="do_requirement_check_for_construction_on_existing_item" value="False" />
 						</group>
-						<group name="construction_item" comment="Archery Range" List.ItemID="-2063032415">
+						<group name="construction_item" comment="Archery Range" List.ItemID="970615940">
 							<instance_reference name="ebp" value="ebps\races\malian\buildings\building_unit_ranged_mal" overrideParent="True" />
 							<group name="ui_position">
 								<int name="ui_position_row" value="2" />
@@ -846,7 +846,7 @@
 							</template_reference>
 							<bool name="do_requirement_check_for_construction_on_existing_item" value="False" />
 						</group>
-						<group name="construction_item" comment="Market" List.ItemID="446378560">
+						<group name="construction_item" comment="Market" List.ItemID="-446156301">
 							<instance_reference name="ebp" value="ebps\races\malian\buildings\building_econ_market_mal" overrideParent="True" />
 							<group name="ui_position">
 								<int name="ui_position_row" value="1" />
@@ -897,7 +897,7 @@
 							</template_reference>
 							<bool name="do_requirement_check_for_construction_on_existing_item" value="False" />
 						</group>
-						<group name="construction_item" comment="Stable" List.ItemID="-1088405137">
+						<group name="construction_item" comment="Stable" List.ItemID="-1826144965">
 							<instance_reference name="ebp" value="ebps\races\malian\buildings\building_unit_cavalry_mal" overrideParent="True" />
 							<group name="ui_position">
 								<int name="ui_position_row" value="2" />
@@ -948,7 +948,7 @@
 							</template_reference>
 							<bool name="do_requirement_check_for_construction_on_existing_item" value="False" />
 						</group>
-						<group name="construction_item" comment="Wall" List.ItemID="-379231633">
+						<group name="construction_item" comment="Wall" List.ItemID="1126599111">
 							<instance_reference name="ebp" value="ebps\races\malian\buildings\building_defense_wall_mal\building_defense_wall_mal" overrideParent="True" />
 							<group name="ui_position">
 								<int name="ui_position_row" value="3" />
@@ -999,7 +999,7 @@
 							</template_reference>
 							<bool name="do_requirement_check_for_construction_on_existing_item" value="False" />
 						</group>
-						<group name="construction_item" comment="Town Center" List.ItemID="-624508975">
+						<group name="construction_item" comment="Town Center" List.ItemID="-761737830">
 							<instance_reference name="ebp" value="ebps\races\malian\buildings\building_town_center_mal" overrideParent="True" />
 							<group name="ui_position">
 								<int name="ui_position_row" value="1" />
@@ -1050,7 +1050,7 @@
 							</template_reference>
 							<bool name="do_requirement_check_for_construction_on_existing_item" value="False" />
 						</group>
-						<group name="construction_item" comment="Town Center Capital (Nomad Start)" List.ItemID="1631854620">
+						<group name="construction_item" comment="Town Center Capital (Nomad Start)" List.ItemID="-1838827825">
 							<instance_reference name="ebp" value="ebps\races\malian\buildings\building_town_center_capital_mal" overrideParent="True" />
 							<group name="ui_position">
 								<int name="ui_position_row" value="1" />
@@ -1101,7 +1101,7 @@
 							</template_reference>
 							<bool name="do_requirement_check_for_construction_on_existing_item" value="False" />
 						</group>
-						<group name="construction_item" comment="Wall Gate" List.ItemID="-601162179">
+						<group name="construction_item" comment="Wall Gate" List.ItemID="-860799251">
 							<instance_reference name="ebp" value="ebps\races\malian\buildings\building_defense_wall_mal\building_defense_wall_gate_mal" overrideParent="True" />
 							<group name="ui_position">
 								<int name="ui_position_row" value="3" />
@@ -1152,7 +1152,7 @@
 							</template_reference>
 							<bool name="do_requirement_check_for_construction_on_existing_item" value="False" />
 						</group>
-						<group name="construction_item" comment="Wall Bastion" List.ItemID="953632059">
+						<group name="construction_item" comment="Wall Bastion" List.ItemID="548844636">
 							<instance_reference name="ebp" value="ebps\races\malian\buildings\building_defense_wall_mal\building_defense_wall_bastion_mal" overrideParent="True" />
 							<group name="ui_position">
 								<int name="ui_position_row" value="-1" />
@@ -1170,7 +1170,7 @@
 							</template_reference>
 							<bool name="do_requirement_check_for_construction_on_existing_item" value="False" />
 						</group>
-						<group name="construction_item" comment="Ranch" List.ItemID="-1414663629">
+						<group name="construction_item" comment="Ranch" List.ItemID="-836492464">
 							<instance_reference name="ebp" value="ebps\races\malian\buildings\building_econ_ranch_mal" overrideParent="True" />
 							<group name="ui_position">
 								<int name="ui_position_row" value="2" overrideParent="True" />
@@ -1224,10 +1224,10 @@
 					</list>
 					<enum name="construction_type" value="tp_construction_base" />
 				</group>
-				<group name="construction_group" List.ItemID="-107063810">
+				<group name="construction_group" List.ItemID="-418071384">
 					<instance_reference name="construction_menu" value="menu\mal_age2_wonders" overrideParent="True" />
 					<list name="construction_items" overrideParent="True">
-						<group name="construction_item" List.ItemID="794778417">
+						<group name="construction_item" List.ItemID="1756692893">
 							<instance_reference name="ebp" value="ebps\races\malian\buildings\building_landmark_age2_landmarkc_control_mal" overrideParent="True" />
 							<group name="ui_position">
 								<int name="ui_position_row" value="1" overrideParent="True" />
@@ -1269,7 +1269,7 @@
 							</template_reference>
 							<bool name="do_requirement_check_for_construction_on_existing_item" value="False" />
 						</group>
-						<group name="construction_item" List.ItemID="913655142">
+						<group name="construction_item" List.ItemID="1727346686">
 							<instance_reference name="ebp" value="ebps\races\malian\buildings\building_landmark_age2_landmarkd_control_mal" overrideParent="True" />
 							<group name="ui_position">
 								<int name="ui_position_row" value="1" overrideParent="True" />
@@ -1314,10 +1314,10 @@
 					</list>
 					<enum name="construction_type" value="tp_construction_base" />
 				</group>
-				<group name="construction_group" comment="Castle Age" List.ItemID="-149999564">
+				<group name="construction_group" comment="Castle Age" List.ItemID="342651728">
 					<instance_reference name="construction_menu" value="menu\mal_age3" overrideParent="True" />
 					<list name="construction_items" overrideParent="True">
-						<group name="construction_item" comment="Siege Workshop&#xD;&#xA;" List.ItemID="-1581525088">
+						<group name="construction_item" comment="Siege Workshop&#xD;&#xA;" List.ItemID="-1882087221">
 							<instance_reference name="ebp" value="ebps\races\malian\buildings\building_unit_siege_mal" overrideParent="True" />
 							<group name="ui_position">
 								<int name="ui_position_row" value="2" />
@@ -1368,7 +1368,7 @@
 							</template_reference>
 							<bool name="do_requirement_check_for_construction_on_existing_item" value="False" />
 						</group>
-						<group name="construction_item" comment="Keep" List.ItemID="-1739354587">
+						<group name="construction_item" comment="Keep" List.ItemID="798020025">
 							<instance_reference name="ebp" value="ebps\races\malian\buildings\building_defense_keep_mal" overrideParent="True" />
 							<group name="ui_position">
 								<int name="ui_position_row" value="3" overrideParent="True" />
@@ -1419,7 +1419,7 @@
 							</template_reference>
 							<bool name="do_requirement_check_for_construction_on_existing_item" value="False" />
 						</group>
-						<group name="construction_item" comment="Mosque" List.ItemID="695820568">
+						<group name="construction_item" comment="Mosque" List.ItemID="1783962382">
 							<instance_reference name="ebp" value="ebps\races\malian\buildings\building_unit_religious_mal" overrideParent="True" />
 							<group name="ui_position">
 								<int name="ui_position_row" value="2" overrideParent="True" />
@@ -1473,10 +1473,10 @@
 					</list>
 					<enum name="construction_type" value="tp_construction_base" />
 				</group>
-				<group name="construction_group" List.ItemID="-1516120421">
+				<group name="construction_group" List.ItemID="1322454093">
 					<instance_reference name="construction_menu" value="menu\mal_age3_wonders" overrideParent="True" />
 					<list name="construction_items" overrideParent="True">
-						<group name="construction_item" List.ItemID="885857140">
+						<group name="construction_item" List.ItemID="-1891965321">
 							<instance_reference name="ebp" value="ebps\races\malian\buildings\building_landmark_age3_landmarke_mal" overrideParent="True" />
 							<group name="ui_position">
 								<int name="ui_position_row" value="1" overrideParent="True" />
@@ -1518,7 +1518,7 @@
 							</template_reference>
 							<bool name="do_requirement_check_for_construction_on_existing_item" value="False" />
 						</group>
-						<group name="construction_item" List.ItemID="-745989421">
+						<group name="construction_item" List.ItemID="-1430756958">
 							<instance_reference name="ebp" value="ebps\races\malian\buildings\building_landmark_age3_landmarkf_mal" overrideParent="True" />
 							<group name="ui_position">
 								<int name="ui_position_row" value="1" overrideParent="True" />
@@ -1563,10 +1563,10 @@
 					</list>
 					<enum name="construction_type" value="tp_construction_base" />
 				</group>
-				<group name="construction_group" comment="Imperial Age" List.ItemID="-1561356530">
+				<group name="construction_group" comment="Imperial Age" List.ItemID="-2144745519">
 					<instance_reference name="construction_menu" value="menu\mal_age4" overrideParent="True" />
 					<list name="construction_items" overrideParent="True">
-						<group name="construction_item" comment="University" List.ItemID="-115654481">
+						<group name="construction_item" comment="University" List.ItemID="1089316664">
 							<instance_reference name="ebp" value="ebps\races\malian\buildings\building_tech_university_mal" overrideParent="True" />
 							<group name="ui_position">
 								<int name="ui_position_row" value="1" overrideParent="True" />
@@ -1617,7 +1617,7 @@
 							</template_reference>
 							<bool name="do_requirement_check_for_construction_on_existing_item" value="False" />
 						</group>
-						<group name="construction_item" comment="End Game Wonder" List.ItemID="-623546540">
+						<group name="construction_item" comment="End Game Wonder" List.ItemID="-79951185">
 							<instance_reference name="ebp" value="ebps\races\malian\buildings\building_wonder_age4_great_mosque_control_mal" overrideParent="True" />
 							<group name="ui_position">
 								<int name="ui_position_row" value="3" overrideParent="True" />

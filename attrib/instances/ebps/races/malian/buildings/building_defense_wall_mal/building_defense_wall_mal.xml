@@ -1,32 +1,32 @@
 <instance version="4" description="" template="ebps">
 	<list name="extensions">
-		<template_reference name="exts" value="ebpextensions\entity_blueprint_ext" List.ItemID="-1623200963" List.ParentItemID="-1623200963">
+		<template_reference name="exts" value="ebpextensions\entity_blueprint_ext" List.ItemID="29024612" List.ParentItemID="29024612">
 			<bool name="browsable_in_editor" value="True" overrideParent="True" />
 			<enum name="subclass_type" value="Wall" overrideParent="True" />
 		</template_reference>
-		<template_reference name="exts" value="ebpextensions\health_ext" List.ItemID="586946940" List.ParentItemID="586946940">
+		<template_reference name="exts" value="ebpextensions\health_ext" List.ItemID="947558827" List.ParentItemID="947558827">
 			<bool name="can_repair" value="True" overrideParent="True" />
 		</template_reference>
-		<template_reference name="exts" value="ebpextensions\type_ext" List.ItemID="1292505085" List.ParentItemID="1292505085">
+		<template_reference name="exts" value="ebpextensions\type_ext" List.ItemID="395358434" List.ParentItemID="395358434">
 			<list name="race_type_list" overrideParent="True">
-				<instance_reference name="race_type" value="racebps\malian" overrideParent="True" List.ItemID="-618973851" />
+				<instance_reference name="race_type" value="racebps\malian" overrideParent="True" List.ItemID="-2066366689" />
 			</list>
 		</template_reference>
-		<template_reference name="exts" value="ebpextensions\territory_sector_layout_ext" List.ItemID="1695299188" List.ParentItemID="1695299188">
+		<template_reference name="exts" value="ebpextensions\territory_sector_layout_ext" List.ItemID="166765763" List.ParentItemID="166765763">
 			<template_reference name="placement_style" value="options\ebpextensions\hexmapext\placement_styles\placement_primary">
 				<instance_reference name="fence_cap_entity" value="ebps\races\malian\buildings\building_defense_wall_mal\building_defense_wall_bastion_mal" overrideParent="True" />
 				<template_reference name="gap_fillers" value="options\ebpextensions\hexmapext\gap_fillers">
 					<list name="visuals">
-						<template_reference name="visual" value="options\ebpextensions\hexmapext\gap_filler_visual" List.ItemID="-2108266569" List.ParentItemID="-2108266569">
+						<template_reference name="visual" value="options\ebpextensions\hexmapext\gap_filler_visual" List.ItemID="-647867356" List.ParentItemID="-647867356">
 							<file name="visual" value="civilizations\malian\structures\stonewall\mal_stonewall_gapfill_1m\mal_stonewall_gapfill_1m" overrideParent="True" />
 						</template_reference>
-						<template_reference name="visual" value="options\ebpextensions\hexmapext\gap_filler_visual" List.ItemID="1124575801" List.ParentItemID="1124575801">
+						<template_reference name="visual" value="options\ebpextensions\hexmapext\gap_filler_visual" List.ItemID="-2049728556" List.ParentItemID="-2049728556">
 							<file name="visual" value="civilizations\malian\structures\stonewall\mal_stonewall_gapfill_2m\mal_stonewall_gapfill_2m" overrideParent="True" />
 						</template_reference>
-						<template_reference name="visual" value="options\ebpextensions\hexmapext\gap_filler_visual" List.ItemID="-2122100958" List.ParentItemID="-2122100958">
+						<template_reference name="visual" value="options\ebpextensions\hexmapext\gap_filler_visual" List.ItemID="-173353460" List.ParentItemID="-173353460">
 							<file name="visual" value="civilizations\malian\structures\stonewall\mal_stonewall_gapfill_3m\mal_stonewall_gapfill_3m" overrideParent="True" />
 						</template_reference>
-						<template_reference name="visual" value="options\ebpextensions\hexmapext\gap_filler_visual" List.ItemID="906135317" List.ParentItemID="906135317">
+						<template_reference name="visual" value="options\ebpextensions\hexmapext\gap_filler_visual" List.ItemID="41332761" List.ParentItemID="41332761">
 							<file name="visual" value="civilizations\malian\structures\stonewall\mal_stonewall_gapfill_4m\mal_stonewall_gapfill_4m" overrideParent="True" />
 						</template_reference>
 					</list>
@@ -37,7 +37,7 @@
 			</template_reference>
 			<instance_reference name="segment_attachment_list" value="attachments\attachment_lists\civilizations\malian\buildings\building_defense_wall_mal\building_defense_wall_stone_segments_mal" overrideParent="True" />
 		</template_reference>
-		<template_reference name="exts" value="ebpextensions\tier_ext" List.ItemID="-758168986" List.ListAction="Append">
+		<template_reference name="exts" value="ebpextensions\tier_ext" List.ItemID="1991047214" List.ListAction="Append">
 			<list name="tier_group_list">
 			</list>
 		</template_reference>

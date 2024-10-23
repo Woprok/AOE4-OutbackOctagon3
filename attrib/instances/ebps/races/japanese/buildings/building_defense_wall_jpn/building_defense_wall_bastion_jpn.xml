@@ -1,61 +1,61 @@
 <instance version="4" description="" template="ebps">
 	<list name="extensions">
-		<template_reference name="exts" value="ebpextensions\entity_blueprint_ext" List.ItemID="-613808872" List.ParentItemID="-613808872">
+		<template_reference name="exts" value="ebpextensions\entity_blueprint_ext" List.ItemID="315448404" List.ParentItemID="315448404">
 			<file name="alternate_sua" value="art\civilizations\chinese\structures\stonewall\chi_stonewall_bastion_end\chi_stonewall_bastion_end" overrideParent="True" />
 			<bool name="browsable_in_editor" value="True" overrideParent="True" />
 			<enum name="subclass_type" value="Wall" overrideParent="True" />
 		</template_reference>
-		<template_reference name="exts" value="ebpextensions\health_ext" List.ItemID="423561372" List.ParentItemID="423561372">
+		<template_reference name="exts" value="ebpextensions\health_ext" List.ItemID="-756107812" List.ParentItemID="-756107812">
 			<bool name="can_repair" value="True" overrideParent="True" />
 			<enum_table name="armor_scaler_by_damage_type">
 				<float name="Melee" value="0" overrideParent="True" />
 				<float name="Fire" value="0" overrideParent="True" />
 			</enum_table>
 		</template_reference>
-		<template_reference name="exts" value="ebpextensions\type_ext" List.ItemID="-686185355" List.ParentItemID="-686185355">
+		<template_reference name="exts" value="ebpextensions\type_ext" List.ItemID="-1611858700" List.ParentItemID="-1611858700">
 			<list name="race_type_list" overrideParent="True">
-				<instance_reference name="race_type" value="racebps\japanese" overrideParent="True" List.ItemID="974148380" />
+				<instance_reference name="race_type" value="racebps\japanese" overrideParent="True" List.ItemID="-378645209" />
 			</list>
 		</template_reference>
-		<template_reference name="exts" value="ebpextensions\ui_ext" List.ItemID="-6673003" List.ParentItemID="-6673003">
+		<template_reference name="exts" value="ebpextensions\ui_ext" List.ItemID="-1763157639" List.ParentItemID="-1763157639">
 			<float name="decorator_height" value="10" overrideParent="True" />
 			<enum name="decorator_visibility" value="visible" overrideParent="True" />
 		</template_reference>
-		<template_reference name="exts" value="ebpextensions\statemodel_ext" List.ItemID="1570266568" List.ParentItemID="1570266568">
+		<template_reference name="exts" value="ebpextensions\statemodel_ext" List.ItemID="1403843268" List.ParentItemID="1403843268">
 			<instance_reference name="schema" value="statemodel_schema\buildings\civilizations\chinese\wall_stone_chi" overrideParent="True" />
 		</template_reference>
-		<template_reference name="exts" value="ebpextensions\walkable_slottedspline_entity_ext" List.ItemID="45579114" List.ParentItemID="45579114">
+		<template_reference name="exts" value="ebpextensions\walkable_slottedspline_entity_ext" List.ItemID="-1052962999" List.ParentItemID="-1052962999">
 			<list name="boundary_blocked_pass_types" overrideParent="True">
-				<instance_reference name="pass_type" value="pass_types\infantry" List.ItemID="-138785625" />
-				<instance_reference name="pass_type" value="pass_types\vehicle" List.ItemID="601891317" />
-				<instance_reference name="pass_type" value="pass_types\water_default" List.ItemID="544293999" />
+				<instance_reference name="pass_type" value="pass_types\infantry" List.ItemID="-1987582931" />
+				<instance_reference name="pass_type" value="pass_types\vehicle" List.ItemID="-261058668" />
+				<instance_reference name="pass_type" value="pass_types\water_default" List.ItemID="-1164974575" />
 			</list>
 			<list name="surface_blocked_pass_types" overrideParent="True">
-				<instance_reference name="pass_type" value="pass_types\vehicle" List.ItemID="805220936" />
+				<instance_reference name="pass_type" value="pass_types\vehicle" List.ItemID="1378504465" />
 			</list>
 		</template_reference>
-		<template_reference name="exts" value="ebpextensions\territory_sector_layout_ext" List.ItemID="-1586157177" List.ParentItemID="-1586157177">
+		<template_reference name="exts" value="ebpextensions\territory_sector_layout_ext" List.ItemID="-928295820" List.ParentItemID="-928295820">
 			<instance_reference name="cap_attachment_list" value="attachments\attachment_lists\civilizations\common\buildings\building_defense_wall_stone_bastion_east" overrideParent="True" />
 			<file name="adjacent_to_impass_indicator_animator" value="art\civilizations\english\structures\stonewall\eng_stonewall_cliff_intersection\eng_stonewall_cliff_intersection" overrideParent="True" />
 			<template_reference name="placement_style" value="options\ebpextensions\hexmapext\placement_styles\placement_primary">
 				<template_reference name="gap_fillers" value="options\ebpextensions\hexmapext\gap_fillers">
 					<list name="visuals" overrideParent="True">
-						<template_reference name="visual" value="options\ebpextensions\hexmapext\gap_filler_visual" List.ItemID="485775059" List.ParentItemID="2005016817">
+						<template_reference name="visual" value="options\ebpextensions\hexmapext\gap_filler_visual" List.ItemID="1725367288" List.ParentItemID="2005016817">
 							<file name="visual" value="civilizations\chinese\structures\stonewall\chi_stonewall_gapfill_1m\chi_stonewall_gapfill_1m" overrideParent="True" />
 							<float name="rotation_offset" value="90" />
 							<float name="visual_length" value="1" />
 						</template_reference>
-						<template_reference name="visual" value="options\ebpextensions\hexmapext\gap_filler_visual" List.ItemID="953189618" List.ParentItemID="1050268408">
+						<template_reference name="visual" value="options\ebpextensions\hexmapext\gap_filler_visual" List.ItemID="-1861373582" List.ParentItemID="1050268408">
 							<file name="visual" value="civilizations\chinese\structures\stonewall\chi_stonewall_gapfill_2m\chi_stonewall_gapfill_2m" overrideParent="True" />
 							<float name="rotation_offset" value="90" />
 							<float name="visual_length" value="2" />
 						</template_reference>
-						<template_reference name="visual" value="options\ebpextensions\hexmapext\gap_filler_visual" List.ItemID="-1216822166" List.ParentItemID="-1639245560">
+						<template_reference name="visual" value="options\ebpextensions\hexmapext\gap_filler_visual" List.ItemID="-1556481193" List.ParentItemID="-1639245560">
 							<file name="visual" value="civilizations\chinese\structures\stonewall\chi_stonewall_gapfill_3m\chi_stonewall_gapfill_3m" overrideParent="True" />
 							<float name="rotation_offset" value="90" />
 							<float name="visual_length" value="3" />
 						</template_reference>
-						<template_reference name="visual" value="options\ebpextensions\hexmapext\gap_filler_visual" List.ItemID="329452397" List.ParentItemID="1799650319">
+						<template_reference name="visual" value="options\ebpextensions\hexmapext\gap_filler_visual" List.ItemID="-36078527" List.ParentItemID="1799650319">
 							<file name="visual" value="civilizations\chinese\structures\stonewall\chi_stonewall_gapfill_4m\chi_stonewall_gapfill_4m" overrideParent="True" />
 							<float name="rotation_offset" value="90" />
 							<float name="visual_length" value="4" />
@@ -64,7 +64,7 @@
 				</template_reference>
 			</template_reference>
 		</template_reference>
-		<template_reference name="exts" value="ebpextensions\tier_ext" List.ItemID="-1282703763" List.ListAction="Append">
+		<template_reference name="exts" value="ebpextensions\tier_ext" List.ItemID="1934820052" List.ListAction="Append">
 			<list name="tier_group_list">
 			</list>
 		</template_reference>

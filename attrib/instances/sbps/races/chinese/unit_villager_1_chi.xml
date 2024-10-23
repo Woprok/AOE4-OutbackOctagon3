@@ -21,23 +21,23 @@
 		</template_reference>
 		<template_reference name="squadexts" value="sbpextensions\squad_type_ext" List.ItemID="891874315" List.ParentItemID="891874315">
 			<list name="squad_type_list" overrideParent="True">
-				<enum name="squad_type" value="villager" List.ItemID="1281989122" />
-				<enum name="squad_type" value="scar_age1" List.ItemID="-696529138" />
-				<enum name="squad_type" value="scar_villager" List.ItemID="1733309465" />
-				<enum name="squad_type" value="" List.ItemID="-1804826557" />
-				<enum name="squad_type" value="can_be_converted" List.ItemID="1787645136" />
-				<enum name="squad_type" value="worker" List.ItemID="2046391492" />
+				<enum name="squad_type" value="villager" List.ItemID="-537984438" />
+				<enum name="squad_type" value="scar_age1" List.ItemID="181547645" />
+				<enum name="squad_type" value="scar_villager" List.ItemID="968045997" />
+				<enum name="squad_type" value="" List.ItemID="1034733262" />
+				<enum name="squad_type" value="can_be_converted" List.ItemID="1975076846" />
+				<enum name="squad_type" value="worker" List.ItemID="1099058041" />
 			</list>
 			<list name="squad_race_type_list" overrideParent="True">
-				<instance_reference name="squad_race_type" value="racebps\chinese" List.ItemID="1385643852" />
+				<instance_reference name="squad_race_type" value="racebps\chinese" List.ItemID="-1518460865" />
 			</list>
 		</template_reference>
 		<template_reference name="squadexts" value="sbpextensions\squad_engineer_ext" List.ItemID="851310113" List.ParentItemID="851310113">
 			<list name="construction_groups" overrideParent="True">
-				<group name="construction_group" comment="Dark Age" overrideParent="True" List.ItemID="643012582">
+				<group name="construction_group" comment="Dark Age" overrideParent="True" List.ItemID="-326738234">
 					<instance_reference name="construction_menu" value="menu\chi_age1" />
 					<list name="construction_items" overrideParent="True">
-						<group name="construction_item" comment="House" List.ItemID="-1028132762">
+						<group name="construction_item" comment="House" List.ItemID="1419595771">
 							<instance_reference name="ebp" value="ebps\races\chinese\buildings\building_house_chi\building_house_control_chi" />
 							<group name="ui_position">
 								<int name="ui_position_row" value="1" />
@@ -88,7 +88,7 @@
 							</template_reference>
 							<bool name="do_requirement_check_for_construction_on_existing_item" value="False" />
 						</group>
-						<group name="construction_item" comment="Farm" List.ItemID="-2011211630">
+						<group name="construction_item" comment="Farm" List.ItemID="682144308">
 							<instance_reference name="ebp" value="ebps\races\chinese\buildings\building_resource_farm_chi\building_resource_farm_chi" />
 							<group name="ui_position">
 								<int name="ui_position_row" value="2" overrideParent="True" />
@@ -139,7 +139,7 @@
 							</template_reference>
 							<bool name="do_requirement_check_for_construction_on_existing_item" value="False" />
 						</group>
-						<group name="construction_item" comment="Outpost" List.ItemID="433267635">
+						<group name="construction_item" comment="Outpost" List.ItemID="-346188619">
 							<instance_reference name="ebp" value="ebps\races\chinese\buildings\building_defense_outpost_chi\building_defense_outpost_chi" />
 							<group name="ui_position">
 								<int name="ui_position_row" value="3" />
@@ -190,7 +190,7 @@
 							</template_reference>
 							<bool name="do_requirement_check_for_construction_on_existing_item" value="False" />
 						</group>
-						<group name="construction_item" comment="Mill" List.ItemID="1853809365">
+						<group name="construction_item" comment="Mill" List.ItemID="-619595691">
 							<instance_reference name="ebp" value="ebps\races\chinese\buildings\building_econ_food_chi\building_econ_food_control_chi" />
 							<group name="ui_position">
 								<int name="ui_position_row" value="1" />
@@ -241,15 +241,15 @@
 							</template_reference>
 							<bool name="do_requirement_check_for_construction_on_existing_item" value="False" />
 						</group>
-						<group name="construction_item" comment="Barracks" List.ItemID="-1308551045">
+						<group name="construction_item" comment="Barracks" List.ItemID="-1335450861">
 							<instance_reference name="ebp" value="ebps\races\chinese\buildings\building_unit_infantry_chi\building_unit_infantry_control_chi" />
 							<group name="ui_position">
 								<int name="ui_position_row" value="2" />
 								<int name="ui_position_column" value="2" overrideParent="True" />
 							</group>
 							<list name="associated_ebps" overrideParent="True">
-								<instance_reference name="ebp" value="ebps\races\mongol\buildings\building_unit_infantry_moving_mon" overrideParent="True" List.ItemID="-1699736378" />
-								<instance_reference name="ebp" value="ebps\races\mongol\buildings\building_unit_infantry_mon" List.ItemID="56646120" />
+								<instance_reference name="ebp" value="ebps\races\mongol\buildings\building_unit_infantry_moving_mon" overrideParent="True" List.ItemID="-509022352" />
+								<instance_reference name="ebp" value="ebps\races\mongol\buildings\building_unit_infantry_mon" List.ItemID="1868142357" />
 							</list>
 							<instance_reference name="hotkey_binding" value="hotkeys\hotkey_binding\villager_build_menu\age_1\build_barracks" overrideParent="True" />
 							<list name="alternate_ebps">
@@ -294,7 +294,7 @@
 							</template_reference>
 							<bool name="do_requirement_check_for_construction_on_existing_item" value="False" />
 						</group>
-						<group name="construction_item" comment="Palisade" List.ItemID="-315067528">
+						<group name="construction_item" comment="Palisade" List.ItemID="-1393853855">
 							<instance_reference name="ebp" value="ebps\races\chinese\buildings\building_defense_wall_chi\building_defense_palisade_chi" />
 							<group name="ui_position">
 								<int name="ui_position_row" value="3" />
@@ -345,7 +345,7 @@
 							</template_reference>
 							<bool name="do_requirement_check_for_construction_on_existing_item" value="False" />
 						</group>
-						<group name="construction_item" comment="Lumber Camp" List.ItemID="1228217144">
+						<group name="construction_item" comment="Lumber Camp" List.ItemID="-592667507">
 							<instance_reference name="ebp" value="ebps\races\chinese\buildings\building_econ_wood_chi\building_econ_wood_control_chi" />
 							<group name="ui_position">
 								<int name="ui_position_row" value="1" overrideParent="True" />
@@ -396,7 +396,7 @@
 							</template_reference>
 							<bool name="do_requirement_check_for_construction_on_existing_item" value="False" />
 						</group>
-						<group name="construction_item" comment="Dock" List.ItemID="-742737503">
+						<group name="construction_item" comment="Dock" List.ItemID="-726855423">
 							<instance_reference name="ebp" value="ebps\races\chinese\buildings\building_unit_naval_chi\building_unit_naval_chi" overrideParent="True" />
 							<group name="ui_position">
 								<int name="ui_position_row" value="2" overrideParent="True" />
@@ -447,7 +447,7 @@
 							</template_reference>
 							<bool name="do_requirement_check_for_construction_on_existing_item" value="False" />
 						</group>
-						<group name="construction_item" comment="Palisade Gate" List.ItemID="-1588745063">
+						<group name="construction_item" comment="Palisade Gate" List.ItemID="-1983410033">
 							<instance_reference name="ebp" value="ebps\races\chinese\buildings\building_defense_wall_chi\building_defense_palisade_gate_chi" />
 							<group name="ui_position">
 								<int name="ui_position_row" value="3" />
@@ -498,7 +498,7 @@
 							</template_reference>
 							<bool name="do_requirement_check_for_construction_on_existing_item" value="False" />
 						</group>
-						<group name="construction_item" comment="Stone Mining Camp" List.ItemID="-1324689729">
+						<group name="construction_item" comment="Stone Mining Camp" List.ItemID="-1203219160">
 							<instance_reference name="ebp" value="ebps\races\chinese\buildings\building_econ_mining_camp_chi\building_econ_mining_camp_control_chi" />
 							<group name="ui_position">
 								<int name="ui_position_row" value="1" overrideParent="True" />
@@ -549,7 +549,7 @@
 							</template_reference>
 							<bool name="do_requirement_check_for_construction_on_existing_item" value="False" />
 						</group>
-						<group name="construction_item" comment="Age 1 Wonder 1" overrideParent="True" List.ItemID="-639951183">
+						<group name="construction_item" comment="Age 1 Wonder 1" overrideParent="True" List.ItemID="-728530822">
 							<instance_reference name="ebp" value="ebps\races\chinese\buildings\building_landmark_age1_gatehouse_chi\building_landmark_age1_gatehouse_control_chi" overrideParent="True" />
 							<group name="ui_position">
 								<int name="ui_position_row" value="1" overrideParent="True" />
@@ -600,7 +600,7 @@
 							</template_reference>
 							<bool name="do_requirement_check_for_construction_on_existing_item" value="False" />
 						</group>
-						<group name="construction_item" comment="Age 1 Wonder 2" overrideParent="True" List.ItemID="1799188937">
+						<group name="construction_item" comment="Age 1 Wonder 2" overrideParent="True" List.ItemID="-1998941334">
 							<instance_reference name="ebp" value="ebps\races\chinese\buildings\building_landmark_age1_academy_chi\building_landmark_age1_academy_control_chi" />
 							<group name="ui_position">
 								<int name="ui_position_row" value="1" overrideParent="True" />
@@ -651,7 +651,7 @@
 							</template_reference>
 							<bool name="do_requirement_check_for_construction_on_existing_item" value="False" />
 						</group>
-						<group name="construction_item" comment="Age 2 Wonder 1" overrideParent="True" List.ItemID="1544450644">
+						<group name="construction_item" comment="Age 2 Wonder 1" overrideParent="True" List.ItemID="284775816">
 							<instance_reference name="ebp" value="ebps\races\chinese\buildings\building_landmark_age2_palace_chi\building_landmark_age2_palace_control_chi" />
 							<group name="ui_position">
 								<int name="ui_position_row" value="2" />
@@ -702,7 +702,7 @@
 							</template_reference>
 							<bool name="do_requirement_check_for_construction_on_existing_item" value="False" />
 						</group>
-						<group name="construction_item" comment="Age 2 Wonder 2" overrideParent="True" List.ItemID="174354755">
+						<group name="construction_item" comment="Age 2 Wonder 2" overrideParent="True" List.ItemID="273456220">
 							<instance_reference name="ebp" value="ebps\races\chinese\buildings\building_landmark_age2_clocktower_chi\building_landmark_age2_clocktower_control_chi" />
 							<group name="ui_position">
 								<int name="ui_position_row" value="2" overrideParent="True" />
@@ -753,7 +753,7 @@
 							</template_reference>
 							<bool name="do_requirement_check_for_construction_on_existing_item" value="False" />
 						</group>
-						<group name="construction_item" comment="Age 3 Wonder 1" overrideParent="True" List.ItemID="609722691">
+						<group name="construction_item" comment="Age 3 Wonder 1" overrideParent="True" List.ItemID="-685657153">
 							<instance_reference name="ebp" value="ebps\races\chinese\buildings\building_landmark_age3_great_wall_chi\building_landmark_age3_great_wall_control_chi" />
 							<group name="ui_position">
 								<int name="ui_position_row" value="3" overrideParent="True" />
@@ -804,7 +804,7 @@
 							</template_reference>
 							<bool name="do_requirement_check_for_construction_on_existing_item" value="False" />
 						</group>
-						<group name="construction_item" comment="Age 3 Wonder 2" overrideParent="True" List.ItemID="-213954970">
+						<group name="construction_item" comment="Age 3 Wonder 2" overrideParent="True" List.ItemID="1114430112">
 							<instance_reference name="ebp" value="ebps\races\chinese\buildings\building_landmark_age3_sprit_way_chi\building_landmark_age3_spirit_way_control_chi" overrideParent="True" />
 							<group name="ui_position">
 								<int name="ui_position_row" value="3" />
@@ -855,7 +855,7 @@
 							</template_reference>
 							<bool name="do_requirement_check_for_construction_on_existing_item" value="False" />
 						</group>
-						<group name="construction_item" comment="Palisade Bastion" List.ItemID="1900127601">
+						<group name="construction_item" comment="Palisade Bastion" List.ItemID="1816624426">
 							<instance_reference name="ebp" value="ebps\races\chinese\buildings\building_defense_wall_chi\building_defense_palisade_bastion_chi" overrideParent="True" />
 							<group name="ui_position">
 								<int name="ui_position_row" value="-1" />
@@ -873,7 +873,7 @@
 							</template_reference>
 							<bool name="do_requirement_check_for_construction_on_existing_item" value="False" />
 						</group>
-						<group name="construction_item" comment="Dynasty - Village" List.ItemID="246041521">
+						<group name="construction_item" comment="Dynasty - Village" List.ItemID="-1056984268">
 							<instance_reference name="ebp" value="ebps\races\chinese\buildings\building_dynasty_village_chi\building_dynasty_village_control_chi" />
 							<group name="ui_position">
 								<int name="ui_position_row" value="2" overrideParent="True" />
@@ -927,10 +927,10 @@
 					</list>
 					<enum name="construction_type" value="tp_construction_base" />
 				</group>
-				<group name="construction_group" List.ItemID="510204105">
+				<group name="construction_group" List.ItemID="-1252766495">
 					<instance_reference name="construction_menu" value="menu\chi_age1_wonders" />
 					<list name="construction_items" overrideParent="True">
-						<group name="construction_item" comment="Wonder 1&#xD;&#xA;" List.ItemID="-755484630">
+						<group name="construction_item" comment="Wonder 1&#xD;&#xA;" List.ItemID="-1437582581">
 							<instance_reference name="ebp" value="ebps\races\chinese\buildings\building_landmark_age1_gatehouse_chi\building_landmark_age1_gatehouse_control_chi" overrideParent="True" />
 							<group name="ui_position">
 								<int name="ui_position_row" value="2" />
@@ -972,7 +972,7 @@
 							</template_reference>
 							<bool name="do_requirement_check_for_construction_on_existing_item" value="False" />
 						</group>
-						<group name="construction_item" comment="Wonder 2&#xD;&#xA;" List.ItemID="1602990905">
+						<group name="construction_item" comment="Wonder 2&#xD;&#xA;" List.ItemID="-1987013108">
 							<instance_reference name="ebp" value="ebps\races\chinese\buildings\building_landmark_age1_academy_chi\building_landmark_age1_academy_control_chi" />
 							<group name="ui_position">
 								<int name="ui_position_row" value="3" />
@@ -1017,18 +1017,18 @@
 					</list>
 					<enum name="construction_type" value="tp_construction_base" />
 				</group>
-				<group name="construction_group" comment="Feudal Age" List.ItemID="2016356397">
+				<group name="construction_group" comment="Feudal Age" List.ItemID="-924947392">
 					<instance_reference name="construction_menu" value="menu\chi_age2" />
 					<list name="construction_items" overrideParent="True">
-						<group name="construction_item" comment="Blacksmith" List.ItemID="-258831659">
+						<group name="construction_item" comment="Blacksmith" List.ItemID="-1340679246">
 							<instance_reference name="ebp" value="ebps\races\chinese\buildings\building_tech_unit_infantry_chi\building_tech_unit_infantry_control_chi" />
 							<group name="ui_position">
 								<int name="ui_position_row" value="1" />
 								<int name="ui_position_column" value="1" overrideParent="True" />
 							</group>
 							<list name="associated_ebps" overrideParent="True">
-								<instance_reference name="ebp" value="ebps\races\mongol\buildings\building_tech_unit_infantry_moving_mon" List.ItemID="566889418" />
-								<instance_reference name="ebp" value="ebps\races\mongol\buildings\building_tech_unit_infantry_mon" List.ItemID="-1450799617" />
+								<instance_reference name="ebp" value="ebps\races\mongol\buildings\building_tech_unit_infantry_moving_mon" List.ItemID="-2013240997" />
+								<instance_reference name="ebp" value="ebps\races\mongol\buildings\building_tech_unit_infantry_mon" List.ItemID="520376078" />
 							</list>
 							<instance_reference name="hotkey_binding" value="hotkeys\hotkey_binding\villager_build_menu\age_2\build_blacksmith" overrideParent="True" />
 							<list name="alternate_ebps">
@@ -1073,15 +1073,15 @@
 							</template_reference>
 							<bool name="do_requirement_check_for_construction_on_existing_item" value="False" />
 						</group>
-						<group name="construction_item" comment="Archery Range" List.ItemID="-1776335813">
+						<group name="construction_item" comment="Archery Range" List.ItemID="-1667197616">
 							<instance_reference name="ebp" value="ebps\races\chinese\buildings\building_unit_ranged_chi\building_unit_ranged_control_chi" />
 							<group name="ui_position">
 								<int name="ui_position_row" value="2" />
 								<int name="ui_position_column" value="1" />
 							</group>
 							<list name="associated_ebps" overrideParent="True">
-								<instance_reference name="ebp" value="ebps\races\mongol\buildings\building_unit_ranged_mon" List.ItemID="-912834932" />
-								<instance_reference name="ebp" value="ebps\races\mongol\buildings\building_unit_ranged_moving_mon" List.ItemID="1256381420" />
+								<instance_reference name="ebp" value="ebps\races\mongol\buildings\building_unit_ranged_mon" List.ItemID="1885091197" />
+								<instance_reference name="ebp" value="ebps\races\mongol\buildings\building_unit_ranged_moving_mon" List.ItemID="1390471391" />
 							</list>
 							<instance_reference name="hotkey_binding" value="hotkeys\hotkey_binding\villager_build_menu\age_2\build_archery_range" overrideParent="True" />
 							<list name="alternate_ebps">
@@ -1126,7 +1126,7 @@
 							</template_reference>
 							<bool name="do_requirement_check_for_construction_on_existing_item" value="False" />
 						</group>
-						<group name="construction_item" comment="Market" List.ItemID="-1024866266">
+						<group name="construction_item" comment="Market" List.ItemID="2015376280">
 							<instance_reference name="ebp" value="ebps\races\chinese\buildings\building_econ_market_chi\building_econ_market_control_chi" />
 							<group name="ui_position">
 								<int name="ui_position_row" value="1" />
@@ -1177,15 +1177,15 @@
 							</template_reference>
 							<bool name="do_requirement_check_for_construction_on_existing_item" value="False" />
 						</group>
-						<group name="construction_item" comment="Stable" List.ItemID="-1179621612">
+						<group name="construction_item" comment="Stable" List.ItemID="-672984254">
 							<instance_reference name="ebp" value="ebps\races\chinese\buildings\building_unit_cavalry_chi\building_unit_cavalry_control_chi" />
 							<group name="ui_position">
 								<int name="ui_position_row" value="2" />
 								<int name="ui_position_column" value="2" />
 							</group>
 							<list name="associated_ebps" overrideParent="True">
-								<instance_reference name="ebp" value="ebps\races\mongol\buildings\building_unit_cavalry_moving_mon" List.ItemID="486875815" />
-								<instance_reference name="ebp" value="ebps\races\mongol\buildings\building_unit_cavalry_mon" List.ItemID="1954408702" />
+								<instance_reference name="ebp" value="ebps\races\mongol\buildings\building_unit_cavalry_moving_mon" List.ItemID="1278434208" />
+								<instance_reference name="ebp" value="ebps\races\mongol\buildings\building_unit_cavalry_mon" List.ItemID="1398479622" />
 							</list>
 							<instance_reference name="hotkey_binding" value="hotkeys\hotkey_binding\villager_build_menu\age_2\build_stable" overrideParent="True" />
 							<list name="alternate_ebps">
@@ -1230,7 +1230,7 @@
 							</template_reference>
 							<bool name="do_requirement_check_for_construction_on_existing_item" value="False" />
 						</group>
-						<group name="construction_item" comment="Wall" List.ItemID="1597448155">
+						<group name="construction_item" comment="Wall" List.ItemID="481013722">
 							<instance_reference name="ebp" value="ebps\races\chinese\buildings\building_defense_wall_chi\building_defense_wall_chi" />
 							<group name="ui_position">
 								<int name="ui_position_row" value="3" />
@@ -1281,7 +1281,7 @@
 							</template_reference>
 							<bool name="do_requirement_check_for_construction_on_existing_item" value="False" />
 						</group>
-						<group name="construction_item" comment="Town Center" List.ItemID="1872205283">
+						<group name="construction_item" comment="Town Center" List.ItemID="-564708674">
 							<instance_reference name="ebp" value="ebps\races\chinese\buildings\building_town_center_chi\building_town_center_chi" />
 							<group name="ui_position">
 								<int name="ui_position_row" value="1" />
@@ -1332,7 +1332,7 @@
 							</template_reference>
 							<bool name="do_requirement_check_for_construction_on_existing_item" value="False" />
 						</group>
-						<group name="construction_item" comment="Town Center Capital (Nomad Start)" List.ItemID="-2061269128">
+						<group name="construction_item" comment="Town Center Capital (Nomad Start)" List.ItemID="2003026630">
 							<instance_reference name="ebp" value="ebps\races\chinese\buildings\building_town_center_chi\building_town_center_capital_chi" overrideParent="True" />
 							<group name="ui_position">
 								<int name="ui_position_row" value="1" />
@@ -1383,7 +1383,7 @@
 							</template_reference>
 							<bool name="do_requirement_check_for_construction_on_existing_item" value="False" />
 						</group>
-						<group name="construction_item" comment="Wall Gate" List.ItemID="947468925">
+						<group name="construction_item" comment="Wall Gate" List.ItemID="905393886">
 							<instance_reference name="ebp" value="ebps\races\chinese\buildings\building_defense_wall_chi\building_defense_wall_gate_chi" />
 							<group name="ui_position">
 								<int name="ui_position_row" value="3" />
@@ -1434,7 +1434,7 @@
 							</template_reference>
 							<bool name="do_requirement_check_for_construction_on_existing_item" value="False" />
 						</group>
-						<group name="construction_item" comment="Wall Bastion" List.ItemID="1960361573">
+						<group name="construction_item" comment="Wall Bastion" List.ItemID="624107649">
 							<instance_reference name="ebp" value="ebps\races\chinese\buildings\building_defense_wall_chi\building_defense_wall_bastion_chi" overrideParent="True" />
 							<group name="ui_position">
 								<int name="ui_position_row" value="-1" />
@@ -1452,7 +1452,7 @@
 							</template_reference>
 							<bool name="do_requirement_check_for_construction_on_existing_item" value="False" />
 						</group>
-						<group name="construction_item" comment="Dynasty - Granary" List.ItemID="42396090">
+						<group name="construction_item" comment="Dynasty - Granary" List.ItemID="1722748345">
 							<instance_reference name="ebp" value="ebps\races\chinese\buildings\building_dynasty_granary_chi\building_dynasty_granary_control_chi" />
 							<group name="ui_position">
 								<int name="ui_position_row" value="2" overrideParent="True" />
@@ -1506,10 +1506,10 @@
 					</list>
 					<enum name="construction_type" value="tp_construction_base" />
 				</group>
-				<group name="construction_group" List.ItemID="1028813395">
+				<group name="construction_group" List.ItemID="-871358641">
 					<instance_reference name="construction_menu" value="menu\chi_age2_wonders" />
 					<list name="construction_items" overrideParent="True">
-						<group name="construction_item" comment="Wonder 1" List.ItemID="750155577">
+						<group name="construction_item" comment="Wonder 1" List.ItemID="-1548458695">
 							<instance_reference name="ebp" value="ebps\races\chinese\buildings\building_landmark_age2_palace_chi\building_landmark_age2_palace_control_chi" />
 							<group name="ui_position">
 								<int name="ui_position_row" value="2" />
@@ -1551,7 +1551,7 @@
 							</template_reference>
 							<bool name="do_requirement_check_for_construction_on_existing_item" value="False" />
 						</group>
-						<group name="construction_item" comment="Wonder 2" List.ItemID="-1897086961">
+						<group name="construction_item" comment="Wonder 2" List.ItemID="-1309805393">
 							<instance_reference name="ebp" value="ebps\races\chinese\buildings\building_landmark_age2_clocktower_chi\building_landmark_age2_clocktower_control_chi" />
 							<group name="ui_position">
 								<int name="ui_position_row" value="3" />
@@ -1596,18 +1596,18 @@
 					</list>
 					<enum name="construction_type" value="tp_construction_base" />
 				</group>
-				<group name="construction_group" comment="Castle Age" List.ItemID="-695577977">
+				<group name="construction_group" comment="Castle Age" List.ItemID="-783539112">
 					<instance_reference name="construction_menu" value="menu\chi_age3" />
 					<list name="construction_items" overrideParent="True">
-						<group name="construction_item" comment="Siege Workshop&#xD;&#xA;" List.ItemID="-214168844">
+						<group name="construction_item" comment="Siege Workshop&#xD;&#xA;" List.ItemID="1330273345">
 							<instance_reference name="ebp" value="ebps\races\chinese\buildings\building_unit_siege_chi\building_unit_siege_control_chi" />
 							<group name="ui_position">
 								<int name="ui_position_row" value="2" />
 								<int name="ui_position_column" value="1" overrideParent="True" />
 							</group>
 							<list name="associated_ebps" overrideParent="True">
-								<instance_reference name="ebp" value="ebps\races\mongol\buildings\building_unit_siege_moving_mon" List.ItemID="2031755452" />
-								<instance_reference name="ebp" value="ebps\races\mongol\buildings\building_unit_siege_mon" List.ItemID="642521149" />
+								<instance_reference name="ebp" value="ebps\races\mongol\buildings\building_unit_siege_moving_mon" List.ItemID="-99671245" />
+								<instance_reference name="ebp" value="ebps\races\mongol\buildings\building_unit_siege_mon" List.ItemID="-579552705" />
 							</list>
 							<instance_reference name="hotkey_binding" value="hotkeys\hotkey_binding\villager_build_menu\age_3\build_siege_workshop" overrideParent="True" />
 							<list name="alternate_ebps">
@@ -1652,7 +1652,7 @@
 							</template_reference>
 							<bool name="do_requirement_check_for_construction_on_existing_item" value="False" />
 						</group>
-						<group name="construction_item" comment="Keep" List.ItemID="1883084983">
+						<group name="construction_item" comment="Keep" List.ItemID="896276063">
 							<instance_reference name="ebp" value="ebps\races\chinese\buildings\building_defense_keep_chi\building_defense_keep_chi" />
 							<group name="ui_position">
 								<int name="ui_position_row" value="3" overrideParent="True" />
@@ -1703,7 +1703,7 @@
 							</template_reference>
 							<bool name="do_requirement_check_for_construction_on_existing_item" value="False" />
 						</group>
-						<group name="construction_item" comment="Monastery" List.ItemID="-1601605865">
+						<group name="construction_item" comment="Monastery" List.ItemID="2126571741">
 							<instance_reference name="ebp" value="ebps\races\chinese\buildings\building_unit_religious_chi\building_unit_religious_control_chi" />
 							<group name="ui_position">
 								<int name="ui_position_row" value="1" overrideParent="True" />
@@ -1754,7 +1754,7 @@
 							</template_reference>
 							<bool name="do_requirement_check_for_construction_on_existing_item" value="False" />
 						</group>
-						<group name="construction_item" comment="Dynasty - Pagoda" List.ItemID="-1824878201">
+						<group name="construction_item" comment="Dynasty - Pagoda" List.ItemID="1718588111">
 							<instance_reference name="ebp" value="ebps\races\chinese\buildings\building_dynasty_pagoda_chi\building_dynasty_pagoda_control_chi" />
 							<group name="ui_position">
 								<int name="ui_position_row" value="2" overrideParent="True" />
@@ -1808,10 +1808,10 @@
 					</list>
 					<enum name="construction_type" value="tp_construction_base" />
 				</group>
-				<group name="construction_group" List.ItemID="1104872983">
+				<group name="construction_group" List.ItemID="-310163311">
 					<instance_reference name="construction_menu" value="menu\chi_age3_wonders" />
 					<list name="construction_items" overrideParent="True">
-						<group name="construction_item" comment="Wonder 1" List.ItemID="-638558695">
+						<group name="construction_item" comment="Wonder 1" List.ItemID="-1233801409">
 							<instance_reference name="ebp" value="ebps\races\chinese\buildings\building_landmark_age3_great_wall_chi\building_landmark_age3_great_wall_control_chi" />
 							<group name="ui_position">
 								<int name="ui_position_row" value="2" />
@@ -1853,7 +1853,7 @@
 							</template_reference>
 							<bool name="do_requirement_check_for_construction_on_existing_item" value="False" />
 						</group>
-						<group name="construction_item" comment="Wonder 2" List.ItemID="-692184644">
+						<group name="construction_item" comment="Wonder 2" List.ItemID="361839262">
 							<instance_reference name="ebp" value="ebps\races\chinese\buildings\building_landmark_age3_sprit_way_chi\building_landmark_age3_spirit_way_control_chi" overrideParent="True" />
 							<group name="ui_position">
 								<int name="ui_position_row" value="3" />
@@ -1898,10 +1898,10 @@
 					</list>
 					<enum name="construction_type" value="tp_construction_base" />
 				</group>
-				<group name="construction_group" comment="Imperial Age" List.ItemID="-933933281">
+				<group name="construction_group" comment="Imperial Age" List.ItemID="-1466754025">
 					<instance_reference name="construction_menu" value="menu\chi_age4" />
 					<list name="construction_items" overrideParent="True">
-						<group name="construction_item" comment="University" List.ItemID="-1836322123">
+						<group name="construction_item" comment="University" List.ItemID="527564527">
 							<instance_reference name="ebp" value="ebps\races\chinese\buildings\building_tech_university_chi\building_tech_university_control_chi" />
 							<group name="ui_position">
 								<int name="ui_position_row" value="1" overrideParent="True" />
@@ -1952,7 +1952,7 @@
 							</template_reference>
 							<bool name="do_requirement_check_for_construction_on_existing_item" value="False" />
 						</group>
-						<group name="construction_item" comment="Wonder" overrideParent="True" List.ItemID="357827756">
+						<group name="construction_item" comment="Wonder" overrideParent="True" List.ItemID="-314290063">
 							<instance_reference name="ebp" value="ebps\races\chinese\buildings\building_wonder_age4_wonder2_chi\building_wonder_age4_forbidden_control_chi" />
 							<group name="ui_position">
 								<int name="ui_position_row" value="3" overrideParent="True" />
@@ -2034,23 +2034,23 @@
 			</template_reference>
 			<template_reference name="squadexts" value="sbpextensions\squad_type_ext" List.ItemID="918515448" List.ParentItemID="918515448">
 				<list name="squad_type_list" overrideParent="True">
-					<enum name="squad_type" value="villager" List.ItemID="1689322523" />
-					<enum name="squad_type" value="scar_age1" List.ItemID="255861187" />
-					<enum name="squad_type" value="scar_villager" List.ItemID="1078862863" />
-					<enum name="squad_type" value="" List.ItemID="-1620218802" />
-					<enum name="squad_type" value="can_be_converted" List.ItemID="-1141690082" />
-					<enum name="squad_type" value="worker" List.ItemID="1656602978" />
+					<enum name="squad_type" value="villager" List.ItemID="-998414437" />
+					<enum name="squad_type" value="scar_age1" List.ItemID="556616268" />
+					<enum name="squad_type" value="scar_villager" List.ItemID="1459375555" />
+					<enum name="squad_type" value="" List.ItemID="-82754597" />
+					<enum name="squad_type" value="can_be_converted" List.ItemID="-1698001747" />
+					<enum name="squad_type" value="worker" List.ItemID="537475228" />
 				</list>
 				<list name="squad_race_type_list" overrideParent="True">
-					<instance_reference name="squad_race_type" value="racebps\chinese" List.ItemID="-1078202914" />
+					<instance_reference name="squad_race_type" value="racebps\chinese" List.ItemID="-688412809" />
 				</list>
 			</template_reference>
 			<template_reference name="squadexts" value="sbpextensions\squad_engineer_ext" List.ItemID="-1745762528" List.ParentItemID="-1745762528">
 				<list name="construction_groups" overrideParent="True">
-					<group name="construction_group" comment="Dark Age" overrideParent="True" List.ItemID="954623435">
+					<group name="construction_group" comment="Dark Age" overrideParent="True" List.ItemID="-1355753657">
 						<instance_reference name="construction_menu" value="menu\chi_age1" />
 						<list name="construction_items" overrideParent="True">
-							<group name="construction_item" comment="House" List.ItemID="1949489217">
+							<group name="construction_item" comment="House" List.ItemID="435002790">
 								<instance_reference name="ebp" value="ebps\races\chinese\buildings\building_house_chi\building_house_control_chi" />
 								<group name="ui_position">
 									<int name="ui_position_row" value="1" />
@@ -2101,7 +2101,7 @@
 								</template_reference>
 								<bool name="do_requirement_check_for_construction_on_existing_item" value="False" />
 							</group>
-							<group name="construction_item" comment="Farm" List.ItemID="-1889412867">
+							<group name="construction_item" comment="Farm" List.ItemID="-1556469122">
 								<instance_reference name="ebp" value="ebps\races\chinese\buildings\building_resource_farm_chi\building_resource_farm_chi" />
 								<group name="ui_position">
 									<int name="ui_position_row" value="2" overrideParent="True" />
@@ -2152,7 +2152,7 @@
 								</template_reference>
 								<bool name="do_requirement_check_for_construction_on_existing_item" value="False" />
 							</group>
-							<group name="construction_item" comment="Outpost" List.ItemID="-1973527009">
+							<group name="construction_item" comment="Outpost" List.ItemID="-1273295180">
 								<instance_reference name="ebp" value="ebps\races\chinese\buildings\building_defense_outpost_chi\building_defense_outpost_chi" />
 								<group name="ui_position">
 									<int name="ui_position_row" value="3" />
@@ -2203,7 +2203,7 @@
 								</template_reference>
 								<bool name="do_requirement_check_for_construction_on_existing_item" value="False" />
 							</group>
-							<group name="construction_item" comment="Mill" List.ItemID="643024181">
+							<group name="construction_item" comment="Mill" List.ItemID="-714266418">
 								<instance_reference name="ebp" value="ebps\races\chinese\buildings\building_econ_food_chi\building_econ_food_control_chi" />
 								<group name="ui_position">
 									<int name="ui_position_row" value="1" />
@@ -2254,15 +2254,15 @@
 								</template_reference>
 								<bool name="do_requirement_check_for_construction_on_existing_item" value="False" />
 							</group>
-							<group name="construction_item" comment="Barracks" List.ItemID="-1607551943">
+							<group name="construction_item" comment="Barracks" List.ItemID="1888944648">
 								<instance_reference name="ebp" value="ebps\races\chinese\buildings\building_unit_infantry_chi\building_unit_infantry_control_chi" />
 								<group name="ui_position">
 									<int name="ui_position_row" value="2" />
 									<int name="ui_position_column" value="2" overrideParent="True" />
 								</group>
 								<list name="associated_ebps" overrideParent="True">
-									<instance_reference name="ebp" value="ebps\races\mongol\buildings\building_unit_infantry_moving_mon" overrideParent="True" List.ItemID="-19214980" />
-									<instance_reference name="ebp" value="ebps\races\mongol\buildings\building_unit_infantry_mon" List.ItemID="-630240406" />
+									<instance_reference name="ebp" value="ebps\races\mongol\buildings\building_unit_infantry_moving_mon" overrideParent="True" List.ItemID="-1869860953" />
+									<instance_reference name="ebp" value="ebps\races\mongol\buildings\building_unit_infantry_mon" List.ItemID="1687282417" />
 								</list>
 								<list name="alternate_ebps">
 								</list>
@@ -2307,7 +2307,7 @@
 								</template_reference>
 								<bool name="do_requirement_check_for_construction_on_existing_item" value="False" />
 							</group>
-							<group name="construction_item" comment="Palisade" List.ItemID="-615086555">
+							<group name="construction_item" comment="Palisade" List.ItemID="-359557909">
 								<instance_reference name="ebp" value="ebps\races\chinese\buildings\building_defense_wall_chi\building_defense_palisade_chi" />
 								<group name="ui_position">
 									<int name="ui_position_row" value="3" />
@@ -2358,7 +2358,7 @@
 								</template_reference>
 								<bool name="do_requirement_check_for_construction_on_existing_item" value="False" />
 							</group>
-							<group name="construction_item" comment="Lumber Camp" List.ItemID="-1956824795">
+							<group name="construction_item" comment="Lumber Camp" List.ItemID="1410434996">
 								<instance_reference name="ebp" value="ebps\races\chinese\buildings\building_econ_wood_chi\building_econ_wood_control_chi" />
 								<group name="ui_position">
 									<int name="ui_position_row" value="1" overrideParent="True" />
@@ -2409,7 +2409,7 @@
 								</template_reference>
 								<bool name="do_requirement_check_for_construction_on_existing_item" value="False" />
 							</group>
-							<group name="construction_item" comment="Dock" List.ItemID="1391745273">
+							<group name="construction_item" comment="Dock" List.ItemID="-1851426180">
 								<instance_reference name="ebp" value="ebps\races\chinese\buildings\building_unit_naval_chi\building_unit_naval_chi" overrideParent="True" />
 								<group name="ui_position">
 									<int name="ui_position_row" value="2" overrideParent="True" />
@@ -2460,7 +2460,7 @@
 								</template_reference>
 								<bool name="do_requirement_check_for_construction_on_existing_item" value="False" />
 							</group>
-							<group name="construction_item" comment="Palisade Gate" List.ItemID="285119662">
+							<group name="construction_item" comment="Palisade Gate" List.ItemID="-1195687349">
 								<instance_reference name="ebp" value="ebps\races\chinese\buildings\building_defense_wall_chi\building_defense_palisade_gate_chi" />
 								<group name="ui_position">
 									<int name="ui_position_row" value="3" />
@@ -2511,7 +2511,7 @@
 								</template_reference>
 								<bool name="do_requirement_check_for_construction_on_existing_item" value="False" />
 							</group>
-							<group name="construction_item" comment="Stone Mining Camp" List.ItemID="-327110385">
+							<group name="construction_item" comment="Stone Mining Camp" List.ItemID="1419976025">
 								<instance_reference name="ebp" value="ebps\races\chinese\buildings\building_econ_mining_camp_chi\building_econ_mining_camp_control_chi" />
 								<group name="ui_position">
 									<int name="ui_position_row" value="1" overrideParent="True" />
@@ -2562,7 +2562,7 @@
 								</template_reference>
 								<bool name="do_requirement_check_for_construction_on_existing_item" value="False" />
 							</group>
-							<group name="construction_item" comment="Age 1 Wonder 1" overrideParent="True" List.ItemID="1306969069">
+							<group name="construction_item" comment="Age 1 Wonder 1" overrideParent="True" List.ItemID="-2116685043">
 								<instance_reference name="ebp" value="ebps\races\chinese\buildings\building_landmark_age1_gatehouse_chi\building_landmark_age1_gatehouse_control_chi" overrideParent="True" />
 								<group name="ui_position">
 									<int name="ui_position_row" value="1" overrideParent="True" />
@@ -2613,7 +2613,7 @@
 								</template_reference>
 								<bool name="do_requirement_check_for_construction_on_existing_item" value="False" />
 							</group>
-							<group name="construction_item" comment="Age 1 Wonder 2" overrideParent="True" List.ItemID="2015849778">
+							<group name="construction_item" comment="Age 1 Wonder 2" overrideParent="True" List.ItemID="-1526015200">
 								<instance_reference name="ebp" value="ebps\races\chinese\buildings\building_landmark_age1_academy_chi\building_landmark_age1_academy_control_chi" />
 								<group name="ui_position">
 									<int name="ui_position_row" value="1" overrideParent="True" />
@@ -2664,7 +2664,7 @@
 								</template_reference>
 								<bool name="do_requirement_check_for_construction_on_existing_item" value="False" />
 							</group>
-							<group name="construction_item" comment="Age 2 Wonder 1" overrideParent="True" List.ItemID="-411436575">
+							<group name="construction_item" comment="Age 2 Wonder 1" overrideParent="True" List.ItemID="1144653104">
 								<instance_reference name="ebp" value="ebps\races\chinese\buildings\building_landmark_age2_palace_chi\building_landmark_age2_palace_control_chi" />
 								<group name="ui_position">
 									<int name="ui_position_row" value="2" />
@@ -2715,7 +2715,7 @@
 								</template_reference>
 								<bool name="do_requirement_check_for_construction_on_existing_item" value="False" />
 							</group>
-							<group name="construction_item" comment="Age 2 Wonder 2" overrideParent="True" List.ItemID="-1979553070">
+							<group name="construction_item" comment="Age 2 Wonder 2" overrideParent="True" List.ItemID="667397567">
 								<instance_reference name="ebp" value="ebps\races\chinese\buildings\building_landmark_age2_clocktower_chi\building_landmark_age2_clocktower_control_chi" />
 								<group name="ui_position">
 									<int name="ui_position_row" value="2" overrideParent="True" />
@@ -2766,7 +2766,7 @@
 								</template_reference>
 								<bool name="do_requirement_check_for_construction_on_existing_item" value="False" />
 							</group>
-							<group name="construction_item" comment="Age 3 Wonder 1" overrideParent="True" List.ItemID="-1213430278">
+							<group name="construction_item" comment="Age 3 Wonder 1" overrideParent="True" List.ItemID="-422522115">
 								<instance_reference name="ebp" value="ebps\races\chinese\buildings\building_landmark_age3_great_wall_chi\building_landmark_age3_great_wall_control_chi" />
 								<group name="ui_position">
 									<int name="ui_position_row" value="3" overrideParent="True" />
@@ -2817,7 +2817,7 @@
 								</template_reference>
 								<bool name="do_requirement_check_for_construction_on_existing_item" value="False" />
 							</group>
-							<group name="construction_item" comment="Age 3 Wonder 2" overrideParent="True" List.ItemID="332566801">
+							<group name="construction_item" comment="Age 3 Wonder 2" overrideParent="True" List.ItemID="-23250217">
 								<instance_reference name="ebp" value="ebps\races\chinese\buildings\building_landmark_age3_sprit_way_chi\building_landmark_age3_spirit_way_control_chi" overrideParent="True" />
 								<group name="ui_position">
 									<int name="ui_position_row" value="3" />
@@ -2868,7 +2868,7 @@
 								</template_reference>
 								<bool name="do_requirement_check_for_construction_on_existing_item" value="False" />
 							</group>
-							<group name="construction_item" comment="Palisade Bastion" List.ItemID="773553931">
+							<group name="construction_item" comment="Palisade Bastion" List.ItemID="120067879">
 								<instance_reference name="ebp" value="ebps\races\chinese\buildings\building_defense_wall_chi\building_defense_palisade_bastion_chi" overrideParent="True" />
 								<group name="ui_position">
 									<int name="ui_position_row" value="-1" />
@@ -2889,10 +2889,10 @@
 						</list>
 						<enum name="construction_type" value="tp_construction_base" />
 					</group>
-					<group name="construction_group" List.ItemID="1834164256">
+					<group name="construction_group" List.ItemID="1076890652">
 						<instance_reference name="construction_menu" value="menu\chi_age1_wonders" />
 						<list name="construction_items" overrideParent="True">
-							<group name="construction_item" comment="Wonder 1&#xD;&#xA;" List.ItemID="-1496618282">
+							<group name="construction_item" comment="Wonder 1&#xD;&#xA;" List.ItemID="351000147">
 								<instance_reference name="ebp" value="ebps\races\chinese\buildings\building_landmark_age1_gatehouse_chi\building_landmark_age1_gatehouse_control_chi" overrideParent="True" />
 								<group name="ui_position">
 									<int name="ui_position_row" value="2" />
@@ -2934,7 +2934,7 @@
 								</template_reference>
 								<bool name="do_requirement_check_for_construction_on_existing_item" value="False" />
 							</group>
-							<group name="construction_item" comment="Wonder 2&#xD;&#xA;" List.ItemID="918295619">
+							<group name="construction_item" comment="Wonder 2&#xD;&#xA;" List.ItemID="1707504858">
 								<instance_reference name="ebp" value="ebps\races\chinese\buildings\building_landmark_age1_academy_chi\building_landmark_age1_academy_control_chi" />
 								<group name="ui_position">
 									<int name="ui_position_row" value="3" />
@@ -2979,18 +2979,18 @@
 						</list>
 						<enum name="construction_type" value="tp_construction_base" />
 					</group>
-					<group name="construction_group" comment="Feudal Age" List.ItemID="585507306">
+					<group name="construction_group" comment="Feudal Age" List.ItemID="1021884567">
 						<instance_reference name="construction_menu" value="menu\chi_age2" />
 						<list name="construction_items" overrideParent="True">
-							<group name="construction_item" comment="Blacksmith" List.ItemID="538006388">
+							<group name="construction_item" comment="Blacksmith" List.ItemID="-98734733">
 								<instance_reference name="ebp" value="ebps\races\chinese\buildings\building_tech_unit_infantry_chi\building_tech_unit_infantry_control_chi" />
 								<group name="ui_position">
 									<int name="ui_position_row" value="1" />
 									<int name="ui_position_column" value="1" overrideParent="True" />
 								</group>
 								<list name="associated_ebps" overrideParent="True">
-									<instance_reference name="ebp" value="ebps\races\mongol\buildings\building_tech_unit_infantry_moving_mon" List.ItemID="816230933" />
-									<instance_reference name="ebp" value="ebps\races\mongol\buildings\building_tech_unit_infantry_mon" List.ItemID="1596661285" />
+									<instance_reference name="ebp" value="ebps\races\mongol\buildings\building_tech_unit_infantry_moving_mon" List.ItemID="-2129673079" />
+									<instance_reference name="ebp" value="ebps\races\mongol\buildings\building_tech_unit_infantry_mon" List.ItemID="1897619420" />
 								</list>
 								<list name="alternate_ebps">
 								</list>
@@ -3035,15 +3035,15 @@
 								</template_reference>
 								<bool name="do_requirement_check_for_construction_on_existing_item" value="False" />
 							</group>
-							<group name="construction_item" comment="Archery Range" List.ItemID="503090842">
+							<group name="construction_item" comment="Archery Range" List.ItemID="1930116050">
 								<instance_reference name="ebp" value="ebps\races\chinese\buildings\building_unit_ranged_chi\building_unit_ranged_control_chi" />
 								<group name="ui_position">
 									<int name="ui_position_row" value="2" />
 									<int name="ui_position_column" value="1" />
 								</group>
 								<list name="associated_ebps" overrideParent="True">
-									<instance_reference name="ebp" value="ebps\races\mongol\buildings\building_unit_ranged_mon" List.ItemID="134711020" />
-									<instance_reference name="ebp" value="ebps\races\mongol\buildings\building_unit_ranged_moving_mon" List.ItemID="-603351775" />
+									<instance_reference name="ebp" value="ebps\races\mongol\buildings\building_unit_ranged_mon" List.ItemID="1118352575" />
+									<instance_reference name="ebp" value="ebps\races\mongol\buildings\building_unit_ranged_moving_mon" List.ItemID="1830374485" />
 								</list>
 								<list name="alternate_ebps">
 								</list>
@@ -3088,7 +3088,7 @@
 								</template_reference>
 								<bool name="do_requirement_check_for_construction_on_existing_item" value="False" />
 							</group>
-							<group name="construction_item" comment="Market" List.ItemID="-1698521824">
+							<group name="construction_item" comment="Market" List.ItemID="-1965954997">
 								<instance_reference name="ebp" value="ebps\races\chinese\buildings\building_econ_market_chi\building_econ_market_control_chi" />
 								<group name="ui_position">
 									<int name="ui_position_row" value="1" />
@@ -3139,15 +3139,15 @@
 								</template_reference>
 								<bool name="do_requirement_check_for_construction_on_existing_item" value="False" />
 							</group>
-							<group name="construction_item" comment="Stable" List.ItemID="1878157654">
+							<group name="construction_item" comment="Stable" List.ItemID="1111129932">
 								<instance_reference name="ebp" value="ebps\races\chinese\buildings\building_unit_cavalry_chi\building_unit_cavalry_control_chi" />
 								<group name="ui_position">
 									<int name="ui_position_row" value="2" />
 									<int name="ui_position_column" value="2" />
 								</group>
 								<list name="associated_ebps" overrideParent="True">
-									<instance_reference name="ebp" value="ebps\races\mongol\buildings\building_unit_cavalry_moving_mon" List.ItemID="-879065041" />
-									<instance_reference name="ebp" value="ebps\races\mongol\buildings\building_unit_cavalry_mon" List.ItemID="-466519261" />
+									<instance_reference name="ebp" value="ebps\races\mongol\buildings\building_unit_cavalry_moving_mon" List.ItemID="-1240551390" />
+									<instance_reference name="ebp" value="ebps\races\mongol\buildings\building_unit_cavalry_mon" List.ItemID="-1867152116" />
 								</list>
 								<list name="alternate_ebps">
 								</list>
@@ -3192,7 +3192,7 @@
 								</template_reference>
 								<bool name="do_requirement_check_for_construction_on_existing_item" value="False" />
 							</group>
-							<group name="construction_item" comment="Wall" List.ItemID="1997361204">
+							<group name="construction_item" comment="Wall" List.ItemID="-50191136">
 								<instance_reference name="ebp" value="ebps\races\chinese\buildings\building_defense_wall_chi\building_defense_wall_chi" />
 								<group name="ui_position">
 									<int name="ui_position_row" value="3" />
@@ -3243,7 +3243,7 @@
 								</template_reference>
 								<bool name="do_requirement_check_for_construction_on_existing_item" value="False" />
 							</group>
-							<group name="construction_item" comment="Town Center" List.ItemID="-2018234027">
+							<group name="construction_item" comment="Town Center" List.ItemID="1677049872">
 								<instance_reference name="ebp" value="ebps\races\chinese\buildings\building_town_center_chi\building_town_center_chi" />
 								<group name="ui_position">
 									<int name="ui_position_row" value="1" />
@@ -3294,7 +3294,7 @@
 								</template_reference>
 								<bool name="do_requirement_check_for_construction_on_existing_item" value="False" />
 							</group>
-							<group name="construction_item" comment="Town Center Capital (Nomad Start)" List.ItemID="-1020745742">
+							<group name="construction_item" comment="Town Center Capital (Nomad Start)" List.ItemID="1715352668">
 								<instance_reference name="ebp" value="ebps\races\chinese\buildings\building_town_center_chi\building_town_center_capital_chi" overrideParent="True" />
 								<group name="ui_position">
 									<int name="ui_position_row" value="1" />
@@ -3341,7 +3341,7 @@
 								</template_reference>
 								<bool name="do_requirement_check_for_construction_on_existing_item" value="False" />
 							</group>
-							<group name="construction_item" comment="Dynasty - Village" List.ItemID="1059308080">
+							<group name="construction_item" comment="Dynasty - Village" List.ItemID="95298662">
 								<instance_reference name="ebp" value="ebps\races\chinese\buildings\building_dynasty_village_chi\building_dynasty_village_control_chi" />
 								<group name="ui_position">
 									<int name="ui_position_row" value="2" overrideParent="True" />
@@ -3392,7 +3392,7 @@
 								</template_reference>
 								<bool name="do_requirement_check_for_construction_on_existing_item" value="False" />
 							</group>
-							<group name="construction_item" comment="Wall Gate" List.ItemID="-1112164875">
+							<group name="construction_item" comment="Wall Gate" List.ItemID="-2051505968">
 								<instance_reference name="ebp" value="ebps\races\chinese\buildings\building_defense_wall_chi\building_defense_wall_gate_chi" />
 								<group name="ui_position">
 									<int name="ui_position_row" value="3" />
@@ -3443,7 +3443,7 @@
 								</template_reference>
 								<bool name="do_requirement_check_for_construction_on_existing_item" value="False" />
 							</group>
-							<group name="construction_item" comment="Wall Bastion" List.ItemID="669885227">
+							<group name="construction_item" comment="Wall Bastion" List.ItemID="-793334408">
 								<instance_reference name="ebp" value="ebps\races\chinese\buildings\building_defense_wall_chi\building_defense_wall_bastion_chi" overrideParent="True" />
 								<group name="ui_position">
 									<int name="ui_position_row" value="-1" />
@@ -3464,10 +3464,10 @@
 						</list>
 						<enum name="construction_type" value="tp_construction_base" />
 					</group>
-					<group name="construction_group" List.ItemID="737603769">
+					<group name="construction_group" List.ItemID="1692417279">
 						<instance_reference name="construction_menu" value="menu\chi_age2_wonders" />
 						<list name="construction_items" overrideParent="True">
-							<group name="construction_item" comment="Wonder 1" List.ItemID="775848947">
+							<group name="construction_item" comment="Wonder 1" List.ItemID="98122582">
 								<instance_reference name="ebp" value="ebps\races\chinese\buildings\building_landmark_age2_palace_chi\building_landmark_age2_palace_control_chi" />
 								<group name="ui_position">
 									<int name="ui_position_row" value="2" />
@@ -3509,7 +3509,7 @@
 								</template_reference>
 								<bool name="do_requirement_check_for_construction_on_existing_item" value="False" />
 							</group>
-							<group name="construction_item" comment="Wonder 2" List.ItemID="1665946420">
+							<group name="construction_item" comment="Wonder 2" List.ItemID="2060857533">
 								<instance_reference name="ebp" value="ebps\races\chinese\buildings\building_landmark_age2_clocktower_chi\building_landmark_age2_clocktower_control_chi" />
 								<group name="ui_position">
 									<int name="ui_position_row" value="3" />
@@ -3554,10 +3554,10 @@
 						</list>
 						<enum name="construction_type" value="tp_construction_base" />
 					</group>
-					<group name="construction_group" comment="Castle Age" List.ItemID="1214329522">
+					<group name="construction_group" comment="Castle Age" List.ItemID="1532465992">
 						<instance_reference name="construction_menu" value="menu\chi_age3" />
 						<list name="construction_items" overrideParent="True">
-							<group name="construction_item" comment="Arsenal" List.ItemID="911783351">
+							<group name="construction_item" comment="Arsenal" List.ItemID="-1062431976">
 								<instance_reference name="ebp" value="ebps\races\chinese\buildings\building_tech_unit_ranged_chi\building_tech_unit_ranged_control_chi" />
 								<group name="ui_position">
 									<int name="ui_position_row" value="2" overrideParent="True" />
@@ -3603,15 +3603,15 @@
 								</template_reference>
 								<bool name="do_requirement_check_for_construction_on_existing_item" value="False" />
 							</group>
-							<group name="construction_item" comment="Siege Workshop&#xD;&#xA;" List.ItemID="-74027335">
+							<group name="construction_item" comment="Siege Workshop&#xD;&#xA;" List.ItemID="-1386863730">
 								<instance_reference name="ebp" value="ebps\races\chinese\buildings\building_unit_siege_chi\building_unit_siege_control_chi" />
 								<group name="ui_position">
 									<int name="ui_position_row" value="2" />
 									<int name="ui_position_column" value="1" overrideParent="True" />
 								</group>
 								<list name="associated_ebps" overrideParent="True">
-									<instance_reference name="ebp" value="ebps\races\mongol\buildings\building_unit_siege_moving_mon" List.ItemID="-1061156118" />
-									<instance_reference name="ebp" value="ebps\races\mongol\buildings\building_unit_siege_mon" List.ItemID="-129253265" />
+									<instance_reference name="ebp" value="ebps\races\mongol\buildings\building_unit_siege_moving_mon" List.ItemID="-36695425" />
+									<instance_reference name="ebp" value="ebps\races\mongol\buildings\building_unit_siege_mon" List.ItemID="-406087844" />
 								</list>
 								<list name="alternate_ebps">
 								</list>
@@ -3656,7 +3656,7 @@
 								</template_reference>
 								<bool name="do_requirement_check_for_construction_on_existing_item" value="False" />
 							</group>
-							<group name="construction_item" comment="Keep" List.ItemID="1964307854">
+							<group name="construction_item" comment="Keep" List.ItemID="1379666095">
 								<instance_reference name="ebp" value="ebps\races\chinese\buildings\building_defense_keep_chi\building_defense_keep_chi" />
 								<group name="ui_position">
 									<int name="ui_position_row" value="3" overrideParent="True" />
@@ -3707,7 +3707,7 @@
 								</template_reference>
 								<bool name="do_requirement_check_for_construction_on_existing_item" value="False" />
 							</group>
-							<group name="construction_item" comment="Monastery" List.ItemID="-1569128665">
+							<group name="construction_item" comment="Monastery" List.ItemID="1255041015">
 								<instance_reference name="ebp" value="ebps\races\chinese\buildings\building_unit_religious_chi\building_unit_religious_control_chi" />
 								<group name="ui_position">
 									<int name="ui_position_row" value="1" overrideParent="True" />
@@ -3758,7 +3758,7 @@
 								</template_reference>
 								<bool name="do_requirement_check_for_construction_on_existing_item" value="False" />
 							</group>
-							<group name="construction_item" comment="Dynasty - Granary" List.ItemID="-1195004239">
+							<group name="construction_item" comment="Dynasty - Granary" List.ItemID="1777246158">
 								<instance_reference name="ebp" value="ebps\races\chinese\buildings\building_dynasty_granary_chi\building_dynasty_granary_control_chi" />
 								<group name="ui_position">
 									<int name="ui_position_row" value="1" overrideParent="True" />
@@ -3812,10 +3812,10 @@
 						</list>
 						<enum name="construction_type" value="tp_construction_base" />
 					</group>
-					<group name="construction_group" List.ItemID="-1580835264">
+					<group name="construction_group" List.ItemID="-175200901">
 						<instance_reference name="construction_menu" value="menu\chi_age3_wonders" />
 						<list name="construction_items" overrideParent="True">
-							<group name="construction_item" comment="Wonder 1" List.ItemID="-1284314328">
+							<group name="construction_item" comment="Wonder 1" List.ItemID="2137834697">
 								<instance_reference name="ebp" value="ebps\races\chinese\buildings\building_landmark_age3_great_wall_chi\building_landmark_age3_great_wall_control_chi" />
 								<group name="ui_position">
 									<int name="ui_position_row" value="2" />
@@ -3857,7 +3857,7 @@
 								</template_reference>
 								<bool name="do_requirement_check_for_construction_on_existing_item" value="False" />
 							</group>
-							<group name="construction_item" comment="Wonder 2" List.ItemID="-79964300">
+							<group name="construction_item" comment="Wonder 2" List.ItemID="1707782032">
 								<instance_reference name="ebp" value="ebps\races\chinese\buildings\building_landmark_age3_sprit_way_chi\building_landmark_age3_spirit_way_control_chi" overrideParent="True" />
 								<group name="ui_position">
 									<int name="ui_position_row" value="3" />
@@ -3902,10 +3902,10 @@
 						</list>
 						<enum name="construction_type" value="tp_construction_base" />
 					</group>
-					<group name="construction_group" comment="Imperial Age" List.ItemID="300642990">
+					<group name="construction_group" comment="Imperial Age" List.ItemID="-585410194">
 						<instance_reference name="construction_menu" value="menu\chi_age4" />
 						<list name="construction_items" overrideParent="True">
-							<group name="construction_item" comment="University" List.ItemID="37125017">
+							<group name="construction_item" comment="University" List.ItemID="826164498">
 								<instance_reference name="ebp" value="ebps\races\chinese\buildings\building_tech_university_chi\building_tech_university_control_chi" />
 								<group name="ui_position">
 									<int name="ui_position_row" value="1" overrideParent="True" />
@@ -3956,7 +3956,7 @@
 								</template_reference>
 								<bool name="do_requirement_check_for_construction_on_existing_item" value="False" />
 							</group>
-							<group name="construction_item" comment="Dynasty - Pagoda" List.ItemID="2058024643">
+							<group name="construction_item" comment="Dynasty - Pagoda" List.ItemID="-1462495266">
 								<instance_reference name="ebp" value="ebps\races\chinese\buildings\building_dynasty_pagoda_chi\building_dynasty_pagoda_control_chi" />
 								<group name="ui_position">
 									<int name="ui_position_row" value="2" overrideParent="True" />
@@ -4007,7 +4007,7 @@
 								</template_reference>
 								<bool name="do_requirement_check_for_construction_on_existing_item" value="False" />
 							</group>
-							<group name="construction_item" comment="Wonder" overrideParent="True" List.ItemID="-77236317">
+							<group name="construction_item" comment="Wonder" overrideParent="True" List.ItemID="-768176695">
 								<instance_reference name="ebp" value="ebps\races\chinese\buildings\building_wonder_age4_wonder2_chi\building_wonder_age4_forbidden_control_chi" />
 								<group name="ui_position">
 									<int name="ui_position_row" value="3" overrideParent="True" />

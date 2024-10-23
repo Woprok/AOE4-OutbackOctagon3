@@ -1,59 +1,70 @@
 <instance version="6" description="" template="ebps">
 	<list name="extensions">
-		<template_reference name="exts" value="ebpextensions\entity_blueprint_ext" List.ItemID="-1976921861" List.ParentItemID="-1976921861">
+		<template_reference name="exts" value="ebpextensions\entity_blueprint_ext" List.ItemID="2037170217" List.ParentItemID="2037170217">
 			<instance_reference name="animator_attachments" value="attachments\attachment_lists\civilizations\rus\buildings\building_defense_wall_rus\building_defense_wall_stone_gate_rus" overrideParent="True" />
 			<bool name="browsable_in_editor" value="True" overrideParent="True" />
 		</template_reference>
-		<template_reference name="exts" value="ebpextensions\health_ext" List.ItemID="1039205584" List.ParentItemID="1039205584">
+		<template_reference name="exts" value="ebpextensions\health_ext" List.ItemID="1633681081" List.ParentItemID="1633681081">
 			<bool name="can_repair" value="True" overrideParent="True" />
 		</template_reference>
-		<template_reference name="exts" value="ebpextensions\type_ext" List.ItemID="1360370492" List.ParentItemID="1360370492">
+		<template_reference name="exts" value="ebpextensions\type_ext" List.ItemID="-1225885535" List.ParentItemID="-1225885535">
 			<list name="race_type_list" overrideParent="True">
-				<instance_reference name="race_type" value="racebps\rus" List.ItemID="-1008554603" />
+				<instance_reference name="race_type" value="racebps\rus" List.ItemID="712608579" />
 			</list>
 		</template_reference>
-		<template_reference name="exts" value="ebpextensions\construction_ext" List.ItemID="1599948974" List.ParentItemID="1599948974">
+		<template_reference name="exts" value="ebpextensions\construction_ext" List.ItemID="-651796476" List.ParentItemID="-651796476">
 			<template_reference name="construction_health_option" value="options\ebpextensions\constructionext\construction_health_option">
 				<float name="initial_health" value="30" overrideParent="True" />
 			</template_reference>
 		</template_reference>
-		<template_reference name="exts" value="ebpextensions\ui_ext" List.ItemID="-1447125005" List.ParentItemID="-1447125005">
+		<template_reference name="exts" value="ebpextensions\ui_ext" List.ItemID="1317018696" List.ParentItemID="1317018696">
 			<group name="ui_codex_info">
 				<int name="priority" value="3752" overrideParent="True" />
 				<bool name="exclusive" value="True" overrideParent="True" />
 			</group>
 		</template_reference>
-		<template_reference name="exts" value="ebpextensions\requirement_ext" List.ItemID="-1436115680" List.ParentItemID="-1436115680">
-			<list name="requirement_table">
-				<template_reference name="required" value="requirements\required_player_upgrade" List.ItemID="791986371" List.ParentItemID="791986371">
+		<template_reference name="exts" value="ebpextensions\requirement_ext" List.ItemID="628241389" List.ParentItemID="628241389">
+			<list name="requirement_table" overrideParent="True">
+				<template_reference name="required" value="requirements\required_player_upgrade" overrideParent="True" List.ItemID="10420384">
+					<enum name="reason" value="usage_and_display" overrideParent="True" />
+					<locstring name="ui_name" value="0" />
+					<bool name="is_present" value="True" />
+					<int name="max_completed" value="100" />
+					<int name="min_completed" value="1" />
 					<instance_reference name="upgrade_name" value="upgrade\races\rus\research\upgrade_spasskaya_tower_active" overrideParent="True" />
+					<bool name="include_queued" value="False" />
+					<group name="include_pbg_parenting">
+						<bool name="include_child_pbgs" value="False" />
+						<bool name="include_parent_pbgs" value="False" />
+					</group>
+					<bool name="include_completed" value="True" />
 				</template_reference>
 			</list>
 		</template_reference>
-		<template_reference name="exts" value="ebpextensions\burn_ext" List.ItemID="581783760" List.ParentItemID="581783760">
+		<template_reference name="exts" value="ebpextensions\burn_ext" List.ItemID="1652165784" List.ParentItemID="1652165784">
 			<float name="on_fire_threshold" value="59" overrideParent="True" />
 		</template_reference>
-		<template_reference name="exts" value="ebpextensions\territory_sector_layout_ext" List.ItemID="-1061156066" List.ParentItemID="-1061156066">
+		<template_reference name="exts" value="ebpextensions\territory_sector_layout_ext" List.ItemID="1323254935" List.ParentItemID="1323254935">
 			<template_reference name="placement_style" value="options\ebpextensions\hexmapext\placement_styles\placement_primary_fence_replacer">
 				<instance_reference name="blueprint_to_replace" value="ebps\races\rus\buildings\building_defense_wall_rus\building_defense_wall_rus" mod="d2f0913f6d4a4aa3ad8aaf127e2d8f8b" overrideParent="True" />
 				<template_reference name="gap_fillers" value="options\ebpextensions\hexmapext\gap_fillers">
 					<list name="visuals" overrideParent="True">
-						<template_reference name="visual" value="options\ebpextensions\hexmapext\gap_filler_visual" List.ItemID="73096484" List.ParentItemID="2005016817">
+						<template_reference name="visual" value="options\ebpextensions\hexmapext\gap_filler_visual" List.ItemID="-1693975204" List.ParentItemID="2005016817">
 							<file name="visual" value="civilizations\chinese\structures\stonewall\chi_stonewall_gapfill_1m\chi_stonewall_gapfill_1m" overrideParent="True" />
 							<float name="rotation_offset" value="90" />
 							<float name="visual_length" value="1" />
 						</template_reference>
-						<template_reference name="visual" value="options\ebpextensions\hexmapext\gap_filler_visual" List.ItemID="-1741347212" List.ParentItemID="1050268408">
+						<template_reference name="visual" value="options\ebpextensions\hexmapext\gap_filler_visual" List.ItemID="946581297" List.ParentItemID="1050268408">
 							<file name="visual" value="civilizations\chinese\structures\stonewall\chi_stonewall_gapfill_2m\chi_stonewall_gapfill_2m" overrideParent="True" />
 							<float name="rotation_offset" value="90" />
 							<float name="visual_length" value="2" />
 						</template_reference>
-						<template_reference name="visual" value="options\ebpextensions\hexmapext\gap_filler_visual" List.ItemID="-1637684336" List.ParentItemID="-1639245560">
+						<template_reference name="visual" value="options\ebpextensions\hexmapext\gap_filler_visual" List.ItemID="103891836" List.ParentItemID="-1639245560">
 							<file name="visual" value="civilizations\chinese\structures\stonewall\chi_stonewall_gapfill_3m\chi_stonewall_gapfill_3m" overrideParent="True" />
 							<float name="rotation_offset" value="90" />
 							<float name="visual_length" value="3" />
 						</template_reference>
-						<template_reference name="visual" value="options\ebpextensions\hexmapext\gap_filler_visual" List.ItemID="1780974085" List.ParentItemID="1799650319">
+						<template_reference name="visual" value="options\ebpextensions\hexmapext\gap_filler_visual" List.ItemID="-1103532523" List.ParentItemID="1799650319">
 							<file name="visual" value="civilizations\chinese\structures\stonewall\chi_stonewall_gapfill_4m\chi_stonewall_gapfill_4m" overrideParent="True" />
 							<float name="rotation_offset" value="90" />
 							<float name="visual_length" value="4" />
@@ -62,14 +73,14 @@
 				</template_reference>
 			</template_reference>
 		</template_reference>
-		<template_reference name="exts" value="ebpextensions\road_ext" List.ItemID="1138300222" List.ListAction="Append">
+		<template_reference name="exts" value="ebpextensions\road_ext" List.ItemID="676622812" List.ListAction="Append">
 			<list name="roads">
-				<template_reference name="road" value="roads\road_properties" List.ItemID="-388744900">
+				<template_reference name="road" value="roads\road_properties" List.ItemID="1382066008">
 					<instance_reference name="required_upgrade" value="upgrade\dev\ages\dark_age" />
 					<list name="curb_splines">
 					</list>
 					<list name="road_splines">
-						<template_reference name="road_spline" value="options\placement\spline\placement_spline_strip_option" List.ItemID="933626377">
+						<template_reference name="road_spline" value="options\placement\spline\placement_spline_strip_option" List.ItemID="-836128974">
 							<int name="draw_sort_order" value="100000" />
 							<float name="end_fade" value="0.4" />
 							<float name="width" value="3.5" />
@@ -78,12 +89,12 @@
 						</template_reference>
 					</list>
 				</template_reference>
-				<template_reference name="road" value="roads\road_properties" List.ItemID="-1934798198">
+				<template_reference name="road" value="roads\road_properties" List.ItemID="-1646349331">
 					<instance_reference name="required_upgrade" value="upgrade\dev\ages\feudal_age" />
 					<list name="curb_splines">
 					</list>
 					<list name="road_splines">
-						<template_reference name="road_spline" value="options\placement\spline\placement_spline_strip_option" List.ItemID="-1885003043">
+						<template_reference name="road_spline" value="options\placement\spline\placement_spline_strip_option" List.ItemID="-1078810698">
 							<int name="draw_sort_order" value="100000" />
 							<float name="end_fade" value="0.4" />
 							<float name="width" value="3" />
@@ -92,12 +103,12 @@
 						</template_reference>
 					</list>
 				</template_reference>
-				<template_reference name="road" value="roads\road_properties" List.ItemID="375137568">
+				<template_reference name="road" value="roads\road_properties" List.ItemID="1314044560">
 					<instance_reference name="required_upgrade" value="upgrade\dev\ages\castle_age" />
 					<list name="curb_splines">
 					</list>
 					<list name="road_splines">
-						<template_reference name="road_spline" value="options\placement\spline\placement_spline_strip_option" List.ItemID="1312141979">
+						<template_reference name="road_spline" value="options\placement\spline\placement_spline_strip_option" List.ItemID="831363817">
 							<int name="draw_sort_order" value="100000" />
 							<float name="end_fade" value="0.2" />
 							<float name="width" value="3" />
@@ -106,12 +117,12 @@
 						</template_reference>
 					</list>
 				</template_reference>
-				<template_reference name="road" value="roads\road_properties" List.ItemID="-530626563">
+				<template_reference name="road" value="roads\road_properties" List.ItemID="32416228">
 					<instance_reference name="required_upgrade" value="upgrade\dev\ages\imperial_age" />
 					<list name="curb_splines">
 					</list>
 					<list name="road_splines">
-						<template_reference name="road_spline" value="options\placement\spline\placement_spline_strip_option" List.ItemID="530081115">
+						<template_reference name="road_spline" value="options\placement\spline\placement_spline_strip_option" List.ItemID="1037691005">
 							<int name="draw_sort_order" value="100000" />
 							<float name="end_fade" value="0.2" />
 							<float name="width" value="3" />
@@ -127,46 +138,57 @@
 	<instance_reference name="parent_pbg" value="ebps\races\core\buildings\building_defense_wall_gate" mod="d2f0913f6d4a4aa3ad8aaf127e2d8f8b" />
 	<variant name="campaign">
 		<list name="extensions">
-			<template_reference name="exts" value="ebpextensions\entity_blueprint_ext" List.ItemID="1895645481" List.ParentItemID="1895645481">
+			<template_reference name="exts" value="ebpextensions\entity_blueprint_ext" List.ItemID="1731471390" List.ParentItemID="1731471390">
 				<instance_reference name="animator_attachments" value="attachments\attachment_lists\civilizations\rus\buildings\building_defense_wall_rus\building_defense_wall_stone_gate_rus" overrideParent="True" />
 				<bool name="browsable_in_editor" value="True" overrideParent="True" />
 			</template_reference>
-			<template_reference name="exts" value="ebpextensions\health_ext" List.ItemID="-766785082" List.ParentItemID="-766785082">
+			<template_reference name="exts" value="ebpextensions\health_ext" List.ItemID="-1609157341" List.ParentItemID="-1609157341">
 				<bool name="can_repair" value="True" overrideParent="True" />
 			</template_reference>
-			<template_reference name="exts" value="ebpextensions\type_ext" List.ItemID="953628684" List.ParentItemID="953628684">
+			<template_reference name="exts" value="ebpextensions\type_ext" List.ItemID="-1335219936" List.ParentItemID="-1335219936">
 				<list name="race_type_list" overrideParent="True">
-					<instance_reference name="race_type" value="racebps\rus" List.ItemID="1351745154" />
+					<instance_reference name="race_type" value="racebps\rus" List.ItemID="1984905328" />
 				</list>
 			</template_reference>
-			<template_reference name="exts" value="ebpextensions\ui_ext" List.ItemID="-904818595" List.ParentItemID="-904818595">
+			<template_reference name="exts" value="ebpextensions\ui_ext" List.ItemID="1064114435" List.ParentItemID="1064114435">
 				<group name="ui_codex_info">
 					<int name="priority" value="3752" overrideParent="True" />
 				</group>
 			</template_reference>
-			<template_reference name="exts" value="ebpextensions\requirement_ext" List.ItemID="403149478" List.ParentItemID="403149478">
+			<template_reference name="exts" value="ebpextensions\requirement_ext" List.ItemID="1830117899" List.ParentItemID="1830117899">
 				<list name="requirement_table">
-					<template_reference name="required" value="requirements\required_player_upgrade" List.ItemID="-412679833" List.ParentItemID="-412679833">
+					<template_reference name="required" value="requirements\required_player_upgrade" overrideParent="True" List.ItemID="-1999697382" List.ParentItemID="-1999697382">
+						<enum name="reason" value="usage_and_display" />
+						<locstring name="ui_name" value="0" />
+						<bool name="is_present" value="True" />
+						<int name="max_completed" value="100" />
+						<int name="min_completed" value="1" />
 						<instance_reference name="upgrade_name" value="upgrade\races\rus\research\upgrade_spasskaya_tower_active" overrideParent="True" />
+						<bool name="include_queued" value="False" />
+						<group name="include_pbg_parenting">
+							<bool name="include_child_pbgs" value="False" />
+							<bool name="include_parent_pbgs" value="False" />
+						</group>
+						<bool name="include_completed" value="True" />
 					</template_reference>
 				</list>
 			</template_reference>
-			<template_reference name="exts" value="ebpextensions\burn_ext" List.ItemID="-1861375530" List.ParentItemID="-1861375530">
+			<template_reference name="exts" value="ebpextensions\burn_ext" List.ItemID="993628596" List.ParentItemID="993628596">
 				<float name="on_fire_threshold" value="59" overrideParent="True" />
 			</template_reference>
-			<template_reference name="exts" value="ebpextensions\territory_sector_layout_ext" List.ItemID="1204870665" List.ParentItemID="1204870665">
+			<template_reference name="exts" value="ebpextensions\territory_sector_layout_ext" List.ItemID="-1406429826" List.ParentItemID="-1406429826">
 				<template_reference name="placement_style" value="options\ebpextensions\hexmapext\placement_styles\placement_primary_fence_replacer">
 					<instance_reference name="blueprint_to_replace" value="ebps\races\rus\buildings\building_defense_wall_rus\building_defense_wall_rus" mod="d2f0913f6d4a4aa3ad8aaf127e2d8f8b" overrideParent="True" />
 				</template_reference>
 			</template_reference>
-			<template_reference name="exts" value="ebpextensions\road_ext" List.ItemID="496829910" List.ListAction="Append">
+			<template_reference name="exts" value="ebpextensions\road_ext" List.ItemID="-537576206" List.ListAction="Append">
 				<list name="roads">
-					<template_reference name="road" value="roads\road_properties" List.ItemID="-1151231438">
+					<template_reference name="road" value="roads\road_properties" List.ItemID="-1647055272">
 						<instance_reference name="required_upgrade" value="upgrade\dev\ages\dark_age" />
 						<list name="curb_splines">
 						</list>
 						<list name="road_splines">
-							<template_reference name="road_spline" value="options\placement\spline\placement_spline_strip_option" List.ItemID="983055845">
+							<template_reference name="road_spline" value="options\placement\spline\placement_spline_strip_option" List.ItemID="-1039726517">
 								<int name="draw_sort_order" value="100000" />
 								<float name="end_fade" value="0.4" />
 								<float name="width" value="3.5" />
@@ -175,12 +197,12 @@
 							</template_reference>
 						</list>
 					</template_reference>
-					<template_reference name="road" value="roads\road_properties" List.ItemID="-968177299">
+					<template_reference name="road" value="roads\road_properties" List.ItemID="321630448">
 						<instance_reference name="required_upgrade" value="upgrade\dev\ages\feudal_age" />
 						<list name="curb_splines">
 						</list>
 						<list name="road_splines">
-							<template_reference name="road_spline" value="options\placement\spline\placement_spline_strip_option" List.ItemID="-868901160">
+							<template_reference name="road_spline" value="options\placement\spline\placement_spline_strip_option" List.ItemID="383655409">
 								<int name="draw_sort_order" value="100000" />
 								<float name="end_fade" value="0.4" />
 								<float name="width" value="3" />
@@ -189,12 +211,12 @@
 							</template_reference>
 						</list>
 					</template_reference>
-					<template_reference name="road" value="roads\road_properties" List.ItemID="1646951163">
+					<template_reference name="road" value="roads\road_properties" List.ItemID="-968897494">
 						<instance_reference name="required_upgrade" value="upgrade\dev\ages\castle_age" />
 						<list name="curb_splines">
 						</list>
 						<list name="road_splines">
-							<template_reference name="road_spline" value="options\placement\spline\placement_spline_strip_option" List.ItemID="-1068015169">
+							<template_reference name="road_spline" value="options\placement\spline\placement_spline_strip_option" List.ItemID="-550402824">
 								<int name="draw_sort_order" value="100000" />
 								<float name="end_fade" value="0.2" />
 								<float name="width" value="3" />
@@ -203,12 +225,12 @@
 							</template_reference>
 						</list>
 					</template_reference>
-					<template_reference name="road" value="roads\road_properties" List.ItemID="-104263320">
+					<template_reference name="road" value="roads\road_properties" List.ItemID="635077891">
 						<instance_reference name="required_upgrade" value="upgrade\dev\ages\imperial_age" />
 						<list name="curb_splines">
 						</list>
 						<list name="road_splines">
-							<template_reference name="road_spline" value="options\placement\spline\placement_spline_strip_option" List.ItemID="-1652897122">
+							<template_reference name="road_spline" value="options\placement\spline\placement_spline_strip_option" List.ItemID="-636622306">
 								<int name="draw_sort_order" value="100000" />
 								<float name="end_fade" value="0.2" />
 								<float name="width" value="3" />

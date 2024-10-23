@@ -21,9 +21,9 @@ function UiVictoryCountdowns:Initialize()
 			playersByIndex[p].IsWinning = false
 			
 			local wonder = players[p]._wonder
-			if wonder and timer_Exists(wonder.objective_timer) then
+			if wonder and timer_Exists(wonder.timer_victory_deterministic) then
 				local victoryCountdown = { 
-					TimeRemaining = timer_GetRemaining(wonder.objective_timer),
+					TimeRemaining = timer_GetRemaining(wonder.timer_victory_deterministic),
 					Icon = "pack://application:,,,/WPFGUI;component/icons/races/common/victory_conditions/victory_condition_wonder.png",
 					ClosestTo0 = false
 				}
@@ -42,8 +42,7 @@ function UiVictoryCountdowns:Initialize()
 			if lastCapturer ~= nil then
 				local lastCapturerId = lastCapturer.PlayerID
 				if lastCapturerId ~= nil then
-					tableInsert(playersById[_religious.last_capturer.PlayerID].VictoryCountdownsContext, 
-						victoryCountdown) 
+					tableInsert(playersById[_religious.last_capturer.PlayerID].VictoryCountdownsContext, victoryCountdown) 
 				end
 			end
 	    end

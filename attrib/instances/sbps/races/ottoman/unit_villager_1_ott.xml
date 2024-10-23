@@ -14,7 +14,7 @@
 		</template_reference>
 		<template_reference name="squadexts" value="sbpextensions\squad_loadout_ext" overrideParent="True" List.ItemID="1426203860" List.ParentItemID="1426203860">
 			<list name="unit_list">
-				<group name="loadout_data" List.ItemID="716005527">
+				<group name="loadout_data" List.ItemID="1637234974">
 					<float name="num" value="1" />
 					<instance_reference name="type" value="ebps\races\ottoman\units\unit_villager_1_ott" overrideParent="True" />
 					<list name="unit_attachments">
@@ -26,16 +26,16 @@
 		</template_reference>
 		<template_reference name="squadexts" value="sbpextensions\squad_type_ext" List.ItemID="891874315" List.ParentItemID="891874315">
 			<list name="squad_race_type_list" overrideParent="True">
-				<instance_reference name="squad_race_type" value="racebps\ottoman" overrideParent="True" List.ItemID="75294698" />
+				<instance_reference name="squad_race_type" value="racebps\ottoman" overrideParent="True" List.ItemID="-1131203797" />
 			</list>
 		</template_reference>
 		<template_reference name="squadexts" value="sbpextensions\squad_engineer_ext" overrideParent="True" List.ItemID="851310113" List.ParentItemID="851310113">
 			<float name="construction_rate_multiplier" value="1" />
 			<list name="construction_groups" overrideParent="True">
-				<group name="construction_group" comment="Dark Age" overrideParent="True" List.ItemID="854358271">
+				<group name="construction_group" comment="Dark Age" overrideParent="True" List.ItemID="-619695868">
 					<instance_reference name="construction_menu" value="menu\sul_age1" />
 					<list name="construction_items" overrideParent="True">
-						<group name="construction_item" comment="House" List.ItemID="-2112495011">
+						<group name="construction_item" comment="House" List.ItemID="-2057541710">
 							<instance_reference name="ebp" value="ebps\races\ottoman\buildings\building_house_ott" overrideParent="True" />
 							<group name="ui_position">
 								<int name="ui_position_row" value="1" />
@@ -86,7 +86,7 @@
 							</template_reference>
 							<bool name="do_requirement_check_for_construction_on_existing_item" value="False" />
 						</group>
-						<group name="construction_item" comment="Farm" List.ItemID="1519159008">
+						<group name="construction_item" comment="Farm" List.ItemID="-1714073257">
 							<instance_reference name="ebp" value="ebps\races\ottoman\buildings\building_resource_farm_ott" overrideParent="True" />
 							<group name="ui_position">
 								<int name="ui_position_row" value="2" overrideParent="True" />
@@ -137,7 +137,7 @@
 							</template_reference>
 							<bool name="do_requirement_check_for_construction_on_existing_item" value="False" />
 						</group>
-						<group name="construction_item" comment="Outpost" List.ItemID="-1434570012">
+						<group name="construction_item" comment="Outpost" List.ItemID="1981543243">
 							<instance_reference name="ebp" value="ebps\races\ottoman\buildings\building_defense_outpost_ott" overrideParent="True" />
 							<group name="ui_position">
 								<int name="ui_position_row" value="3" />
@@ -188,7 +188,7 @@
 							</template_reference>
 							<bool name="do_requirement_check_for_construction_on_existing_item" value="False" />
 						</group>
-						<group name="construction_item" comment="Mill" List.ItemID="1374622424">
+						<group name="construction_item" comment="Mill" List.ItemID="229084807">
 							<instance_reference name="ebp" value="ebps\races\ottoman\buildings\building_econ_food_ott" overrideParent="True" />
 							<group name="ui_position">
 								<int name="ui_position_row" value="1" overrideParent="True" />
@@ -239,7 +239,7 @@
 							</template_reference>
 							<bool name="do_requirement_check_for_construction_on_existing_item" value="False" />
 						</group>
-						<group name="construction_item" comment="Barracks" List.ItemID="1252738715">
+						<group name="construction_item" comment="Barracks" List.ItemID="796390579">
 							<instance_reference name="ebp" value="ebps\races\ottoman\buildings\building_unit_infantry_ott" overrideParent="True" />
 							<group name="ui_position">
 								<int name="ui_position_row" value="2" />
@@ -290,7 +290,7 @@
 							</template_reference>
 							<bool name="do_requirement_check_for_construction_on_existing_item" value="False" />
 						</group>
-						<group name="construction_item" comment="Palisade" List.ItemID="911457260">
+						<group name="construction_item" comment="Palisade" List.ItemID="429675485">
 							<instance_reference name="ebp" value="ebps\races\ottoman\buildings\building_defense_wall_ott\building_defense_palisade_ott" overrideParent="True" />
 							<group name="ui_position">
 								<int name="ui_position_row" value="3" />
@@ -341,7 +341,7 @@
 							</template_reference>
 							<bool name="do_requirement_check_for_construction_on_existing_item" value="False" />
 						</group>
-						<group name="construction_item" comment="Lumber Camp" List.ItemID="-93971238">
+						<group name="construction_item" comment="Lumber Camp" List.ItemID="-1343433711">
 							<instance_reference name="ebp" value="ebps\races\ottoman\buildings\building_econ_wood_ott" overrideParent="True" />
 							<group name="ui_position">
 								<int name="ui_position_row" value="1" overrideParent="True" />
@@ -392,7 +392,7 @@
 							</template_reference>
 							<bool name="do_requirement_check_for_construction_on_existing_item" value="False" />
 						</group>
-						<group name="construction_item" comment="Dock" List.ItemID="-2062922299">
+						<group name="construction_item" comment="Dock" List.ItemID="2088729142">
 							<instance_reference name="ebp" value="ebps\races\ottoman\buildings\building_unit_naval_ott" overrideParent="True" />
 							<group name="ui_position">
 								<int name="ui_position_row" value="2" overrideParent="True" />
@@ -443,7 +443,7 @@
 							</template_reference>
 							<bool name="do_requirement_check_for_construction_on_existing_item" value="False" />
 						</group>
-						<group name="construction_item" comment="Palisade Gate" List.ItemID="52897893">
+						<group name="construction_item" comment="Palisade Gate" List.ItemID="-258609855">
 							<instance_reference name="ebp" value="ebps\races\ottoman\buildings\building_defense_wall_ott\building_defense_palisade_gate_ott" overrideParent="True" />
 							<group name="ui_position">
 								<int name="ui_position_row" value="3" />
@@ -494,7 +494,7 @@
 							</template_reference>
 							<bool name="do_requirement_check_for_construction_on_existing_item" value="False" />
 						</group>
-						<group name="construction_item" comment="Stone Mining Camp" List.ItemID="-1896121788">
+						<group name="construction_item" comment="Stone Mining Camp" List.ItemID="2053473835">
 							<instance_reference name="ebp" value="ebps\races\ottoman\buildings\building_econ_mining_camp_ott" overrideParent="True" />
 							<group name="ui_position">
 								<int name="ui_position_row" value="1" overrideParent="True" />
@@ -545,7 +545,7 @@
 							</template_reference>
 							<bool name="do_requirement_check_for_construction_on_existing_item" value="False" />
 						</group>
-						<group name="construction_item" comment="Palisade Bastion" List.ItemID="572054510">
+						<group name="construction_item" comment="Palisade Bastion" List.ItemID="-1279336371">
 							<instance_reference name="ebp" value="ebps\races\ottoman\buildings\building_defense_wall_ott\building_defense_palisade_bastion_ott" overrideParent="True" />
 							<group name="ui_position">
 								<int name="ui_position_row" value="-1" />
@@ -563,7 +563,7 @@
 							</template_reference>
 							<bool name="do_requirement_check_for_construction_on_existing_item" value="False" />
 						</group>
-						<group name="construction_item" comment="Military School" List.ItemID="616143182">
+						<group name="construction_item" comment="Military School" List.ItemID="-562686937">
 							<instance_reference name="ebp" value="ebps\races\ottoman\buildings\building_military_school_ott" overrideParent="True" />
 							<group name="ui_position">
 								<int name="ui_position_row" value="2" />
@@ -617,10 +617,10 @@
 					</list>
 					<enum name="construction_type" value="tp_construction_base" />
 				</group>
-				<group name="construction_group" List.ItemID="948181003">
+				<group name="construction_group" List.ItemID="1465082159">
 					<instance_reference name="construction_menu" value="menu\sul_age1_wonders" />
 					<list name="construction_items" overrideParent="True">
-						<group name="construction_item" comment="Cifte Minareli Medrese&#xD;&#xA;" List.ItemID="1724517963">
+						<group name="construction_item" comment="Cifte Minareli Medrese&#xD;&#xA;" List.ItemID="-73962242">
 							<instance_reference name="ebp" value="ebps\races\ottoman\buildings\building_landmark_age1_cifte_minareli_medrese_ott" overrideParent="True" />
 							<group name="ui_position">
 								<int name="ui_position_row" value="1" />
@@ -662,7 +662,7 @@
 							</template_reference>
 							<bool name="do_requirement_check_for_construction_on_existing_item" value="False" />
 						</group>
-						<group name="construction_item" comment="Han Caravanserai&#xD;&#xA;" List.ItemID="1005201528">
+						<group name="construction_item" comment="Han Caravanserai&#xD;&#xA;" List.ItemID="593927671">
 							<instance_reference name="ebp" value="ebps\races\ottoman\buildings\building_landmark_age1_han_caravanserai_ott" overrideParent="True" />
 							<group name="ui_position">
 								<int name="ui_position_row" value="2" />
@@ -707,10 +707,10 @@
 					</list>
 					<enum name="construction_type" value="tp_construction_base" />
 				</group>
-				<group name="construction_group" comment="Feudal Age" List.ItemID="-1479931214">
+				<group name="construction_group" comment="Feudal Age" List.ItemID="2085260641">
 					<instance_reference name="construction_menu" value="menu\sul_age2" />
 					<list name="construction_items" overrideParent="True">
-						<group name="construction_item" comment="Blacksmith" List.ItemID="893342269">
+						<group name="construction_item" comment="Blacksmith" List.ItemID="1616150540">
 							<instance_reference name="ebp" value="ebps\races\ottoman\buildings\building_tech_unit_infantry_ott" overrideParent="True" />
 							<group name="ui_position">
 								<int name="ui_position_row" value="1" />
@@ -761,7 +761,7 @@
 							</template_reference>
 							<bool name="do_requirement_check_for_construction_on_existing_item" value="False" />
 						</group>
-						<group name="construction_item" comment="Archery Range" List.ItemID="1215829045">
+						<group name="construction_item" comment="Archery Range" List.ItemID="1613482541">
 							<instance_reference name="ebp" value="ebps\races\ottoman\buildings\building_unit_ranged_ott" overrideParent="True" />
 							<group name="ui_position">
 								<int name="ui_position_row" value="2" />
@@ -812,7 +812,7 @@
 							</template_reference>
 							<bool name="do_requirement_check_for_construction_on_existing_item" value="False" />
 						</group>
-						<group name="construction_item" comment="Market" List.ItemID="603545361">
+						<group name="construction_item" comment="Market" List.ItemID="1094900372">
 							<instance_reference name="ebp" value="ebps\races\ottoman\buildings\building_econ_market_ott" overrideParent="True" />
 							<group name="ui_position">
 								<int name="ui_position_row" value="1" />
@@ -863,7 +863,7 @@
 							</template_reference>
 							<bool name="do_requirement_check_for_construction_on_existing_item" value="False" />
 						</group>
-						<group name="construction_item" comment="Stable" List.ItemID="-2088176949">
+						<group name="construction_item" comment="Stable" List.ItemID="377047898">
 							<instance_reference name="ebp" value="ebps\races\ottoman\buildings\building_unit_cavalry_ott" overrideParent="True" />
 							<group name="ui_position">
 								<int name="ui_position_row" value="2" />
@@ -914,7 +914,7 @@
 							</template_reference>
 							<bool name="do_requirement_check_for_construction_on_existing_item" value="False" />
 						</group>
-						<group name="construction_item" comment="Wall" List.ItemID="-419728468">
+						<group name="construction_item" comment="Wall" List.ItemID="-999413460">
 							<instance_reference name="ebp" value="ebps\races\ottoman\buildings\building_defense_wall_ott\building_defense_wall_ott" overrideParent="True" />
 							<group name="ui_position">
 								<int name="ui_position_row" value="3" />
@@ -965,7 +965,7 @@
 							</template_reference>
 							<bool name="do_requirement_check_for_construction_on_existing_item" value="False" />
 						</group>
-						<group name="construction_item" comment="Town Center" List.ItemID="-640037897">
+						<group name="construction_item" comment="Town Center" List.ItemID="1694966080">
 							<instance_reference name="ebp" value="ebps\races\ottoman\buildings\building_town_center_ott" overrideParent="True" />
 							<group name="ui_position">
 								<int name="ui_position_row" value="1" />
@@ -1016,7 +1016,7 @@
 							</template_reference>
 							<bool name="do_requirement_check_for_construction_on_existing_item" value="False" />
 						</group>
-						<group name="construction_item" comment="Town Center Capital (Nomad Start)" List.ItemID="-1819542460">
+						<group name="construction_item" comment="Town Center Capital (Nomad Start)" List.ItemID="-839904300">
 							<instance_reference name="ebp" value="ebps\races\ottoman\buildings\building_town_center_capital_ott" overrideParent="True" />
 							<group name="ui_position">
 								<int name="ui_position_row" value="1" />
@@ -1067,7 +1067,7 @@
 							</template_reference>
 							<bool name="do_requirement_check_for_construction_on_existing_item" value="False" />
 						</group>
-						<group name="construction_item" comment="Wall Gate" List.ItemID="-11205783">
+						<group name="construction_item" comment="Wall Gate" List.ItemID="1585016606">
 							<instance_reference name="ebp" value="ebps\races\ottoman\buildings\building_defense_wall_ott\building_defense_wall_gate_ott" overrideParent="True" />
 							<group name="ui_position">
 								<int name="ui_position_row" value="3" />
@@ -1118,7 +1118,7 @@
 							</template_reference>
 							<bool name="do_requirement_check_for_construction_on_existing_item" value="False" />
 						</group>
-						<group name="construction_item" comment="Wall Bastion" List.ItemID="1506982671">
+						<group name="construction_item" comment="Wall Bastion" List.ItemID="1851571583">
 							<instance_reference name="ebp" value="ebps\races\ottoman\buildings\building_defense_wall_ott\building_defense_wall_bastion_ott" overrideParent="True" />
 							<group name="ui_position">
 								<int name="ui_position_row" value="-1" />
@@ -1139,10 +1139,10 @@
 					</list>
 					<enum name="construction_type" value="tp_construction_base" />
 				</group>
-				<group name="construction_group" List.ItemID="-1896390084">
+				<group name="construction_group" List.ItemID="2090982486">
 					<instance_reference name="construction_menu" value="menu\sul_age2_wonders" />
 					<list name="construction_items" overrideParent="True">
-						<group name="construction_item" comment="Kilitbahir Castle" List.ItemID="-1692311805">
+						<group name="construction_item" comment="Kilitbahir Castle" List.ItemID="-1409359667">
 							<instance_reference name="ebp" value="ebps\races\ottoman\buildings\building_landmark_age2_topkapi_palace_ott" overrideParent="True" />
 							<group name="ui_position">
 								<int name="ui_position_row" value="1" />
@@ -1184,7 +1184,7 @@
 							</template_reference>
 							<bool name="do_requirement_check_for_construction_on_existing_item" value="False" />
 						</group>
-						<group name="construction_item" comment="Tophan Armory" List.ItemID="-917563072">
+						<group name="construction_item" comment="Tophan Armory" List.ItemID="298991498">
 							<instance_reference name="ebp" value="ebps\races\ottoman\buildings\building_landmark_age2_tophane_armory_ott" overrideParent="True" />
 							<group name="ui_position">
 								<int name="ui_position_row" value="2" />
@@ -1229,10 +1229,10 @@
 					</list>
 					<enum name="construction_type" value="tp_construction_base" />
 				</group>
-				<group name="construction_group" comment="Castle Age" List.ItemID="1503049192">
+				<group name="construction_group" comment="Castle Age" List.ItemID="139864090">
 					<instance_reference name="construction_menu" value="menu\sul_age3" />
 					<list name="construction_items" overrideParent="True">
-						<group name="construction_item" comment="Siege Workshop&#xD;&#xA;" List.ItemID="934500177">
+						<group name="construction_item" comment="Siege Workshop&#xD;&#xA;" List.ItemID="-1064916152">
 							<instance_reference name="ebp" value="ebps\races\ottoman\buildings\building_unit_siege_ott" overrideParent="True" />
 							<group name="ui_position">
 								<int name="ui_position_row" value="2" />
@@ -1283,7 +1283,7 @@
 							</template_reference>
 							<bool name="do_requirement_check_for_construction_on_existing_item" value="False" />
 						</group>
-						<group name="construction_item" comment="Keep" List.ItemID="-822994552">
+						<group name="construction_item" comment="Keep" List.ItemID="-475840524">
 							<instance_reference name="ebp" value="ebps\races\ottoman\buildings\building_defense_keep_ott" overrideParent="True" />
 							<group name="ui_position">
 								<int name="ui_position_row" value="3" overrideParent="True" />
@@ -1334,7 +1334,7 @@
 							</template_reference>
 							<bool name="do_requirement_check_for_construction_on_existing_item" value="False" />
 						</group>
-						<group name="construction_item" comment="Mosque" List.ItemID="-1817066273">
+						<group name="construction_item" comment="Mosque" List.ItemID="-1098538874">
 							<instance_reference name="ebp" value="ebps\races\ottoman\buildings\building_unit_religious_ott" overrideParent="True" />
 							<group name="ui_position">
 								<int name="ui_position_row" value="2" overrideParent="True" />
@@ -1388,10 +1388,10 @@
 					</list>
 					<enum name="construction_type" value="tp_construction_base" />
 				</group>
-				<group name="construction_group" List.ItemID="360365760">
+				<group name="construction_group" List.ItemID="-1952562561">
 					<instance_reference name="construction_menu" value="menu\sul_age3_wonders" />
 					<list name="construction_items" overrideParent="True">
-						<group name="construction_item" comment="Istanbul Observatory" overrideParent="True" List.ItemID="-1966762675">
+						<group name="construction_item" comment="Istanbul Observatory" overrideParent="True" List.ItemID="-2108484347">
 							<instance_reference name="ebp" value="ebps\races\ottoman\buildings\building_landmark_age3_istanbul_observatory_ott" overrideParent="True" />
 							<group name="ui_position">
 								<int name="ui_position_row" value="1" />
@@ -1433,7 +1433,7 @@
 							</template_reference>
 							<bool name="do_requirement_check_for_construction_on_existing_item" value="False" />
 						</group>
-						<group name="construction_item" comment="Topkapi Palace" List.ItemID="-389598970">
+						<group name="construction_item" comment="Topkapi Palace" List.ItemID="-1956287965">
 							<instance_reference name="ebp" value="ebps\races\ottoman\buildings\building_landmark_age3_kilitbahir_castle_ott" overrideParent="True" />
 							<group name="ui_position">
 								<int name="ui_position_row" value="2" />
@@ -1478,10 +1478,10 @@
 					</list>
 					<enum name="construction_type" value="tp_construction_base" />
 				</group>
-				<group name="construction_group" comment="Imperial Age" List.ItemID="1135132332">
+				<group name="construction_group" comment="Imperial Age" List.ItemID="-22276191">
 					<instance_reference name="construction_menu" value="menu\sul_age4" />
 					<list name="construction_items" overrideParent="True">
-						<group name="construction_item" comment="University" List.ItemID="-591692020">
+						<group name="construction_item" comment="University" List.ItemID="-1667617681">
 							<instance_reference name="ebp" value="ebps\races\ottoman\buildings\building_tech_university_ott" overrideParent="True" />
 							<group name="ui_position">
 								<int name="ui_position_row" value="1" overrideParent="True" />
@@ -1532,7 +1532,7 @@
 							</template_reference>
 							<bool name="do_requirement_check_for_construction_on_existing_item" value="False" />
 						</group>
-						<group name="construction_item" comment="Wonder" overrideParent="True" List.ItemID="-1659226612">
+						<group name="construction_item" comment="Wonder" overrideParent="True" List.ItemID="-1941592374">
 							<instance_reference name="ebp" value="ebps\races\ottoman\buildings\building_wonder_age4_blue_mosque_ott" overrideParent="True" />
 							<group name="ui_position">
 								<int name="ui_position_row" value="3" overrideParent="True" />

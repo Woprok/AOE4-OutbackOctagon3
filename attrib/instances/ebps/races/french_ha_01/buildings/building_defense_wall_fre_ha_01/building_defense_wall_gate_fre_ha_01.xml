@@ -1,33 +1,33 @@
 <instance version="4" description="" template="ebps">
 	<list name="extensions">
-		<template_reference name="exts" value="ebpextensions\entity_blueprint_ext" List.ItemID="-1976921861" List.ParentItemID="-1976921861">
+		<template_reference name="exts" value="ebpextensions\entity_blueprint_ext" List.ItemID="2037170217" List.ParentItemID="2037170217">
 			<instance_reference name="animator_attachments" value="attachments\attachment_lists\civilizations\french\buildings\building_defense_wall_fre\building_defense_wall_stone_gate_fre" overrideParent="True" />
 			<bool name="browsable_in_editor" value="True" overrideParent="True" />
 		</template_reference>
-		<template_reference name="exts" value="ebpextensions\health_ext" List.ItemID="1039205584" List.ParentItemID="1039205584">
+		<template_reference name="exts" value="ebpextensions\health_ext" List.ItemID="1633681081" List.ParentItemID="1633681081">
 			<bool name="can_repair" value="True" overrideParent="True" />
 		</template_reference>
-		<template_reference name="exts" value="ebpextensions\type_ext" List.ItemID="1360370492" List.ParentItemID="1360370492">
+		<template_reference name="exts" value="ebpextensions\type_ext" List.ItemID="-1225885535" List.ParentItemID="-1225885535">
 			<list name="race_type_list" overrideParent="True">
-				<instance_reference name="race_type" value="racebps\french_ha_01" overrideParent="True" List.ItemID="-1235406451" />
+				<instance_reference name="race_type" value="racebps\french_ha_01" overrideParent="True" List.ItemID="79185184" />
 			</list>
 		</template_reference>
-		<template_reference name="exts" value="ebpextensions\burn_ext" List.ItemID="581783760" List.ParentItemID="581783760">
+		<template_reference name="exts" value="ebpextensions\burn_ext" List.ItemID="1652165784" List.ParentItemID="1652165784">
 			<float name="on_fire_threshold" value="59" overrideParent="True" />
 		</template_reference>
-		<template_reference name="exts" value="ebpextensions\territory_sector_layout_ext" List.ItemID="-1061156066" List.ParentItemID="-1061156066">
+		<template_reference name="exts" value="ebpextensions\territory_sector_layout_ext" List.ItemID="1323254935" List.ParentItemID="1323254935">
 			<template_reference name="placement_style" value="options\ebpextensions\hexmapext\placement_styles\placement_primary_fence_replacer">
 				<instance_reference name="blueprint_to_replace" value="ebps\races\french_ha_01\buildings\building_defense_wall_fre_ha_01\building_defense_wall_fre_ha_01" overrideParent="True" />
 			</template_reference>
 		</template_reference>
-		<template_reference name="exts" value="ebpextensions\road_ext" List.ItemID="-1794832232" List.ListAction="Append">
+		<template_reference name="exts" value="ebpextensions\road_ext" List.ItemID="-1449586604" List.ListAction="Append">
 			<list name="roads">
-				<template_reference name="road" value="roads\road_properties" List.ItemID="-188129456">
+				<template_reference name="road" value="roads\road_properties" List.ItemID="1799957597">
 					<instance_reference name="required_upgrade" value="upgrade\dev\ages\dark_age" />
 					<list name="curb_splines">
 					</list>
 					<list name="road_splines">
-						<template_reference name="road_spline" value="options\placement\spline\placement_spline_strip_option" List.ItemID="-1043692371">
+						<template_reference name="road_spline" value="options\placement\spline\placement_spline_strip_option" List.ItemID="-1695714724">
 							<int name="draw_sort_order" value="100000" />
 							<float name="end_fade" value="0.4" />
 							<float name="width" value="3.5" />
@@ -36,12 +36,12 @@
 						</template_reference>
 					</list>
 				</template_reference>
-				<template_reference name="road" value="roads\road_properties" List.ItemID="-396251890">
+				<template_reference name="road" value="roads\road_properties" List.ItemID="1501637163">
 					<instance_reference name="required_upgrade" value="upgrade\dev\ages\feudal_age" />
 					<list name="curb_splines">
 					</list>
 					<list name="road_splines">
-						<template_reference name="road_spline" value="options\placement\spline\placement_spline_strip_option" List.ItemID="1268470877">
+						<template_reference name="road_spline" value="options\placement\spline\placement_spline_strip_option" List.ItemID="1010974219">
 							<int name="draw_sort_order" value="100000" />
 							<float name="end_fade" value="0.4" />
 							<float name="width" value="3" />
@@ -50,12 +50,12 @@
 						</template_reference>
 					</list>
 				</template_reference>
-				<template_reference name="road" value="roads\road_properties" List.ItemID="532343024">
+				<template_reference name="road" value="roads\road_properties" List.ItemID="-482895378">
 					<instance_reference name="required_upgrade" value="upgrade\dev\ages\castle_age" />
 					<list name="curb_splines">
 					</list>
 					<list name="road_splines">
-						<template_reference name="road_spline" value="options\placement\spline\placement_spline_strip_option" List.ItemID="206409893">
+						<template_reference name="road_spline" value="options\placement\spline\placement_spline_strip_option" List.ItemID="662185362">
 							<int name="draw_sort_order" value="100000" />
 							<float name="end_fade" value="0.2" />
 							<float name="width" value="3" />
@@ -64,12 +64,12 @@
 						</template_reference>
 					</list>
 				</template_reference>
-				<template_reference name="road" value="roads\road_properties" List.ItemID="665644140">
+				<template_reference name="road" value="roads\road_properties" List.ItemID="-1818423095">
 					<instance_reference name="required_upgrade" value="upgrade\dev\ages\imperial_age" />
 					<list name="curb_splines">
 					</list>
 					<list name="road_splines">
-						<template_reference name="road_spline" value="options\placement\spline\placement_spline_strip_option" List.ItemID="-571076465">
+						<template_reference name="road_spline" value="options\placement\spline\placement_spline_strip_option" List.ItemID="820122567">
 							<int name="draw_sort_order" value="100000" />
 							<float name="end_fade" value="0.2" />
 							<float name="width" value="3" />

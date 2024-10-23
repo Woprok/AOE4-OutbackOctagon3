@@ -1,6 +1,6 @@
 <instance version="4" description="Special entity spawned instantly when the the Daimyo Town Center is upgraded." template="sbps">
 	<list name="extensions">
-		<template_reference name="squadexts" value="sbpextensions\squad_blueprint_ext" List.ItemID="563721539" List.ParentItemID="-2056667985">
+		<template_reference name="squadexts" value="sbpextensions\squad_blueprint_ext" List.ItemID="-2003968278" List.ParentItemID="-2056667985">
 			<bool name="browsable_in_editor" value="False" />
 			<enum_table name="QueryTree_States">
 				<state_tree_node name="squad_state_idle" value="unit_squad_query\Idle" />
@@ -20,26 +20,26 @@
 			</enum_table>
 			<bool name="can_be_controlled" value="True" />
 		</template_reference>
-		<template_reference name="squadexts" value="sbpextensions\squad_command_forwarding_ext" List.ItemID="364623173" List.ParentItemID="-1663272583">
+		<template_reference name="squadexts" value="sbpextensions\squad_command_forwarding_ext" List.ItemID="1702496978" List.ParentItemID="-1663272583">
 			<instance_reference name="default_command_weight" value="default_command_weight\villager" />
 		</template_reference>
-		<template_reference name="squadexts" value="sbpextensions\squad_capture_strategic_point_ext" List.ItemID="2026600565" List.ParentItemID="848836882">
+		<template_reference name="squadexts" value="sbpextensions\squad_capture_strategic_point_ext" List.ItemID="358270142" List.ParentItemID="848836882">
 			<float name="capture_distance" value="10" />
 			<float name="capture_rate_multiplier" value="0" />
 			<float name="revert_rate_multiplier" value="1" />
 		</template_reference>
-		<template_reference name="squadexts" value="sbpextensions\squad_ui_ext" List.ItemID="-215106463" List.ParentItemID="443384137">
+		<template_reference name="squadexts" value="sbpextensions\squad_ui_ext" List.ItemID="1825022897" List.ParentItemID="443384137">
 			<list name="race_list">
-				<group name="race_data" List.ItemID="-959268837" List.ParentItemID="422230052">
+				<group name="race_data" List.ItemID="-169760818" List.ParentItemID="422230052">
 					<group name="info">
 						<file name="icon_name" value="races\japanese\units\villager" />
 						<locstring name="help_text" value="0" />
 						<template_reference name="help_text_formatter" value="ui_text_formatter">
 							<list name="formatter_arguments">
-								<int name="int_value" value="5" List.ItemID="978599160" />
-								<int name="int_value" value="20" List.ItemID="751599658" />
-								<int name="int_value" value="5" List.ItemID="-1836541929" />
-								<int name="int_value" value="20" List.ItemID="227971085" />
+								<int name="int_value" value="5" List.ItemID="-592617022" />
+								<int name="int_value" value="20" List.ItemID="1381059333" />
+								<int name="int_value" value="5" List.ItemID="410067649" />
+								<int name="int_value" value="20" List.ItemID="1668503838" />
 							</list>
 							<locstring name="formatter" value="11252355" />
 						</template_reference>
@@ -116,9 +116,9 @@
 				</group>
 			</list>
 		</template_reference>
-		<template_reference name="squadexts" value="sbpextensions\squad_loadout_ext" List.ItemID="-2006623157" List.ParentItemID="1426203860">
+		<template_reference name="squadexts" value="sbpextensions\squad_loadout_ext" List.ItemID="-663374447" List.ParentItemID="1426203860">
 			<list name="unit_list">
-				<group name="loadout_data" List.ItemID="721132320" List.ParentItemID="-1619519596">
+				<group name="loadout_data" List.ItemID="-236565055" List.ParentItemID="-1619519596">
 					<instance_reference name="type" value="ebps\races\japanese\units\unit_villager_free_jpn" />
 					<float name="num" value="1" />
 					<list name="unit_attachments">
@@ -128,14 +128,14 @@
 			</list>
 			<float name="squad_female_chance" value="0" />
 		</template_reference>
-		<template_reference name="squadexts" value="sbpextensions\squad_modifier_ext" List.ItemID="-240906613" List.ParentItemID="902884710">
+		<template_reference name="squadexts" value="sbpextensions\squad_modifier_ext" List.ItemID="1413679842" List.ParentItemID="902884710">
 		</template_reference>
-		<template_reference name="squadexts" value="sbpextensions\squad_requirement_ext" List.ItemID="1846478289" List.ParentItemID="300608956">
+		<template_reference name="squadexts" value="sbpextensions\squad_requirement_ext" List.ItemID="-108001722" List.ParentItemID="300608956">
 			<list name="requirement_table">
 			</list>
 			<state_tree_node name="requirement_statetree" value="" />
 		</template_reference>
-		<template_reference name="squadexts" value="sbpextensions\squad_combat_behaviour_ext" List.ItemID="1237392590" List.ParentItemID="-1835882321">
+		<template_reference name="squadexts" value="sbpextensions\squad_combat_behaviour_ext" List.ItemID="1028459882" List.ParentItemID="-1835882321">
 			<float name="heavy_weapon_setup_delay" value="999" />
 			<float name="reaction_delay_seconds" value="25" />
 			<float name="reveal_self_attacker_time" value="0" />
@@ -193,21 +193,21 @@
 			<bool name="can_be_tied_up" value="False" />
 			<bool name="attack_move_command_requires_valid_range" value="True" />
 		</template_reference>
-		<template_reference name="squadexts" value="sbpextensions\squad_holdable_ext" List.ItemID="-2050460087" List.ParentItemID="-19144017">
+		<template_reference name="squadexts" value="sbpextensions\squad_holdable_ext" List.ItemID="1450358855" List.ParentItemID="-19144017">
 			<list name="modifier_table">
 			</list>
 			<state_tree_node name="hold_target_requirement" value="" />
 		</template_reference>
-		<template_reference name="squadexts" value="sbpextensions\squad_ability_ext" List.ItemID="687595759" List.ParentItemID="-634721594">
+		<template_reference name="squadexts" value="sbpextensions\squad_ability_ext" List.ItemID="762781377" List.ParentItemID="-634721594">
 			<list name="abilities">
-				<instance_reference name="ability" value="abilities\modal_abilities\core\villager_repair" List.ItemID="1185084456" List.ParentItemID="894791369" />
-				<instance_reference name="ability" value="abilities\modal_abilities\core\capture_farm" List.ItemID="-1249349575" List.ParentItemID="-1856300042" />
-				<instance_reference name="ability" value="abilities\timed_abilities\civ_core\core_unit_death" List.ItemID="-1509430694" List.ParentItemID="1449254139" />
-				<instance_reference name="ability" value="abilities\toggle_abilities\civ_core\core_formation_line" List.ItemID="-290676580" List.ParentItemID="-1324877753" />
-				<instance_reference name="ability" value="abilities\toggle_abilities\civ_core\core_formation_spread" List.ItemID="-1912168948" List.ParentItemID="-350820573" />
-				<instance_reference name="ability" value="abilities\toggle_abilities\civ_core\core_formation_wedge" List.ItemID="-525983084" List.ParentItemID="1301573767" />
-				<instance_reference name="ability" value="abilities\modal_abilities\core\town_bell\villager_return_to_work" List.ItemID="-2125672868" List.ParentItemID="-9141637" />
-				<instance_reference name="ability" value="abilities\modal_abilities\core\town_bell\villager_town_bell" List.ItemID="402990272" List.ParentItemID="1219156496" />
+				<instance_reference name="ability" value="abilities\modal_abilities\core\villager_repair" List.ItemID="-1659718160" List.ParentItemID="894791369" />
+				<instance_reference name="ability" value="abilities\modal_abilities\core\capture_farm" List.ItemID="-806388924" List.ParentItemID="-1856300042" />
+				<instance_reference name="ability" value="abilities\timed_abilities\civ_core\core_unit_death" List.ItemID="-1112408994" List.ParentItemID="1449254139" />
+				<instance_reference name="ability" value="abilities\toggle_abilities\civ_core\core_formation_line" List.ItemID="1032465379" List.ParentItemID="-1324877753" />
+				<instance_reference name="ability" value="abilities\toggle_abilities\civ_core\core_formation_spread" List.ItemID="486794476" List.ParentItemID="-350820573" />
+				<instance_reference name="ability" value="abilities\toggle_abilities\civ_core\core_formation_wedge" List.ItemID="-249729883" List.ParentItemID="1301573767" />
+				<instance_reference name="ability" value="abilities\modal_abilities\core\town_bell\villager_return_to_work" List.ItemID="-1288620583" List.ParentItemID="-9141637" />
+				<instance_reference name="ability" value="abilities\modal_abilities\core\town_bell\villager_town_bell" List.ItemID="1750292280" List.ParentItemID="1219156496" />
 			</list>
 			<int name="ui_combine_priority" value="0" />
 			<group name="squad_orders">
@@ -279,19 +279,19 @@
 				</group>
 			</group>
 		</template_reference>
-		<template_reference name="squadexts" value="sbpextensions\squad_type_ext" List.ItemID="-1656711802" List.ParentItemID="891874315">
+		<template_reference name="squadexts" value="sbpextensions\squad_type_ext" List.ItemID="1963940959" List.ParentItemID="891874315">
 			<list name="squad_race_type_list">
-				<instance_reference name="squad_race_type" value="racebps\japanese" List.ItemID="-1416865707" />
+				<instance_reference name="squad_race_type" value="racebps\japanese" List.ItemID="-1000658408" />
 			</list>
 			<list name="squad_type_list">
 			</list>
 		</template_reference>
-		<template_reference name="squadexts" value="sbpextensions\squad_engineer_ext" List.ItemID="-541321812" List.ParentItemID="851310113">
+		<template_reference name="squadexts" value="sbpextensions\squad_engineer_ext" List.ItemID="1530930628" List.ParentItemID="851310113">
 			<list name="construction_groups">
-				<group name="construction_group" comment="Dark Age" List.ItemID="-1399549097">
+				<group name="construction_group" comment="Dark Age" List.ItemID="-1117044395">
 					<instance_reference name="construction_menu" value="menu\jpn_age1" />
 					<list name="construction_items">
-						<group name="construction_item" comment="House" List.ItemID="-1611883562">
+						<group name="construction_item" comment="House" List.ItemID="1907057510">
 							<instance_reference name="ebp" value="ebps\races\japanese\buildings\building_house_jpn" />
 							<group name="ui_position">
 								<int name="ui_position_row" value="1" />
@@ -342,7 +342,7 @@
 							</template_reference>
 							<bool name="do_requirement_check_for_construction_on_existing_item" value="False" />
 						</group>
-						<group name="construction_item" comment="Farm" List.ItemID="1027901055">
+						<group name="construction_item" comment="Farm" List.ItemID="-1608791784">
 							<instance_reference name="ebp" value="ebps\races\japanese\buildings\building_resource_farm_jpn" />
 							<group name="ui_position">
 								<int name="ui_position_row" value="2" />
@@ -393,7 +393,7 @@
 							</template_reference>
 							<bool name="do_requirement_check_for_construction_on_existing_item" value="False" />
 						</group>
-						<group name="construction_item" comment="Outpost" List.ItemID="1697105367">
+						<group name="construction_item" comment="Outpost" List.ItemID="-1938179169">
 							<instance_reference name="ebp" value="ebps\races\japanese\buildings\building_defense_outpost_jpn" />
 							<group name="ui_position">
 								<int name="ui_position_row" value="3" />
@@ -444,15 +444,15 @@
 							</template_reference>
 							<bool name="do_requirement_check_for_construction_on_existing_item" value="False" />
 						</group>
-						<group name="construction_item" comment="Barracks" List.ItemID="-795343007">
+						<group name="construction_item" comment="Barracks" List.ItemID="1652723859">
 							<instance_reference name="ebp" value="ebps\races\japanese\buildings\building_unit_infantry_jpn" />
 							<group name="ui_position">
 								<int name="ui_position_row" value="2" />
 								<int name="ui_position_column" value="2" />
 							</group>
 							<list name="associated_ebps">
-								<instance_reference name="ebp" value="ebps\races\mongol\buildings\building_unit_infantry_moving_mon" List.ItemID="-1542729560" />
-								<instance_reference name="ebp" value="ebps\races\mongol\buildings\building_unit_infantry_mon" List.ItemID="22117660" />
+								<instance_reference name="ebp" value="ebps\races\mongol\buildings\building_unit_infantry_moving_mon" List.ItemID="144041334" />
+								<instance_reference name="ebp" value="ebps\races\mongol\buildings\building_unit_infantry_mon" List.ItemID="1449401005" />
 							</list>
 							<instance_reference name="hotkey_binding" value="hotkeys\hotkey_binding\villager_build_menu\age_1\build_barracks" />
 							<list name="alternate_ebps">
@@ -497,7 +497,7 @@
 							</template_reference>
 							<bool name="do_requirement_check_for_construction_on_existing_item" value="False" />
 						</group>
-						<group name="construction_item" comment="Palisade" List.ItemID="450615243">
+						<group name="construction_item" comment="Palisade" List.ItemID="-376468252">
 							<instance_reference name="ebp" value="ebps\races\japanese\buildings\building_defense_wall_jpn\building_defense_palisade_jpn" />
 							<group name="ui_position">
 								<int name="ui_position_row" value="3" />
@@ -548,7 +548,7 @@
 							</template_reference>
 							<bool name="do_requirement_check_for_construction_on_existing_item" value="False" />
 						</group>
-						<group name="construction_item" comment="Lumber Camp" List.ItemID="-1381192528">
+						<group name="construction_item" comment="Lumber Camp" List.ItemID="-599540180">
 							<instance_reference name="ebp" value="ebps\races\japanese\buildings\building_econ_wood_jpn" />
 							<group name="ui_position">
 								<int name="ui_position_row" value="1" />
@@ -599,7 +599,7 @@
 							</template_reference>
 							<bool name="do_requirement_check_for_construction_on_existing_item" value="False" />
 						</group>
-						<group name="construction_item" comment="Dock" List.ItemID="-1744806958">
+						<group name="construction_item" comment="Dock" List.ItemID="197993450">
 							<instance_reference name="ebp" value="ebps\races\japanese\buildings\building_unit_naval_jpn" />
 							<group name="ui_position">
 								<int name="ui_position_row" value="2" />
@@ -650,7 +650,7 @@
 							</template_reference>
 							<bool name="do_requirement_check_for_construction_on_existing_item" value="False" />
 						</group>
-						<group name="construction_item" comment="Palisade Gate" List.ItemID="-444125593">
+						<group name="construction_item" comment="Palisade Gate" List.ItemID="-575685360">
 							<instance_reference name="ebp" value="ebps\races\japanese\buildings\building_defense_wall_jpn\building_defense_palisade_gate_jpn" />
 							<group name="ui_position">
 								<int name="ui_position_row" value="3" />
@@ -701,7 +701,7 @@
 							</template_reference>
 							<bool name="do_requirement_check_for_construction_on_existing_item" value="False" />
 						</group>
-						<group name="construction_item" comment="Stone Mining Camp" List.ItemID="-803935215">
+						<group name="construction_item" comment="Stone Mining Camp" List.ItemID="248085604">
 							<instance_reference name="ebp" value="ebps\races\japanese\buildings\building_econ_mining_camp_jpn" />
 							<group name="ui_position">
 								<int name="ui_position_row" value="1" />
@@ -752,7 +752,7 @@
 							</template_reference>
 							<bool name="do_requirement_check_for_construction_on_existing_item" value="False" />
 						</group>
-						<group name="construction_item" comment="Palisade Bastion" List.ItemID="1750994997">
+						<group name="construction_item" comment="Palisade Bastion" List.ItemID="-2130093560">
 							<instance_reference name="ebp" value="ebps\races\japanese\buildings\building_defense_wall_jpn\building_defense_palisade_bastion_jpn" />
 							<group name="ui_position">
 								<int name="ui_position_row" value="-1" />
@@ -773,10 +773,10 @@
 					</list>
 					<enum name="construction_type" value="tp_construction_base" />
 				</group>
-				<group name="construction_group" List.ItemID="-2083609045">
+				<group name="construction_group" List.ItemID="119697044">
 					<instance_reference name="construction_menu" value="menu\jpn_age1_wonders" />
 					<list name="construction_items">
-						<group name="construction_item" comment="Wonder 1&#xD;&#xA;" List.ItemID="-119333821">
+						<group name="construction_item" comment="Wonder 1&#xD;&#xA;" List.ItemID="1979024654">
 							<instance_reference name="ebp" value="ebps\races\japanese\buildings\building_landmark_age1_storehouse_jpn" />
 							<group name="ui_position">
 								<int name="ui_position_row" value="2" />
@@ -818,7 +818,7 @@
 							</template_reference>
 							<bool name="do_requirement_check_for_construction_on_existing_item" value="False" />
 						</group>
-						<group name="construction_item" comment="Wonder 2&#xD;&#xA;" List.ItemID="-2136437848">
+						<group name="construction_item" comment="Wonder 2&#xD;&#xA;" List.ItemID="786104873">
 							<instance_reference name="ebp" value="ebps\races\japanese\buildings\building_landmark_age1_shinobi_jpn" />
 							<group name="ui_position">
 								<int name="ui_position_row" value="3" />
@@ -863,18 +863,18 @@
 					</list>
 					<enum name="construction_type" value="tp_construction_base" />
 				</group>
-				<group name="construction_group" comment="Feudal Age" List.ItemID="902734087">
+				<group name="construction_group" comment="Feudal Age" List.ItemID="1224145555">
 					<instance_reference name="construction_menu" value="menu\jpn_age2" />
 					<list name="construction_items">
-						<group name="construction_item" comment="Archery Range" List.ItemID="-786059430">
+						<group name="construction_item" comment="Archery Range" List.ItemID="-910592591">
 							<instance_reference name="ebp" value="ebps\races\japanese\buildings\building_unit_ranged_jpn" />
 							<group name="ui_position">
 								<int name="ui_position_row" value="2" />
 								<int name="ui_position_column" value="1" />
 							</group>
 							<list name="associated_ebps">
-								<instance_reference name="ebp" value="ebps\races\mongol\buildings\building_unit_ranged_mon" List.ItemID="201233786" />
-								<instance_reference name="ebp" value="ebps\races\mongol\buildings\building_unit_ranged_moving_mon" List.ItemID="-685848841" />
+								<instance_reference name="ebp" value="ebps\races\mongol\buildings\building_unit_ranged_mon" List.ItemID="-1436388328" />
+								<instance_reference name="ebp" value="ebps\races\mongol\buildings\building_unit_ranged_moving_mon" List.ItemID="438890183" />
 							</list>
 							<instance_reference name="hotkey_binding" value="hotkeys\hotkey_binding\villager_build_menu\age_2\build_archery_range" />
 							<list name="alternate_ebps">
@@ -919,7 +919,7 @@
 							</template_reference>
 							<bool name="do_requirement_check_for_construction_on_existing_item" value="False" />
 						</group>
-						<group name="construction_item" comment="Market" List.ItemID="330343521">
+						<group name="construction_item" comment="Market" List.ItemID="776627157">
 							<instance_reference name="ebp" value="ebps\races\japanese\buildings\building_econ_market_jpn" />
 							<group name="ui_position">
 								<int name="ui_position_row" value="1" />
@@ -970,15 +970,15 @@
 							</template_reference>
 							<bool name="do_requirement_check_for_construction_on_existing_item" value="False" />
 						</group>
-						<group name="construction_item" comment="Stable" List.ItemID="390976974">
+						<group name="construction_item" comment="Stable" List.ItemID="2113425331">
 							<instance_reference name="ebp" value="ebps\races\japanese\buildings\building_unit_cavalry_jpn" />
 							<group name="ui_position">
 								<int name="ui_position_row" value="2" />
 								<int name="ui_position_column" value="2" />
 							</group>
 							<list name="associated_ebps">
-								<instance_reference name="ebp" value="ebps\races\mongol\buildings\building_unit_cavalry_moving_mon" List.ItemID="-882753920" />
-								<instance_reference name="ebp" value="ebps\races\mongol\buildings\building_unit_cavalry_mon" List.ItemID="-1524230835" />
+								<instance_reference name="ebp" value="ebps\races\mongol\buildings\building_unit_cavalry_moving_mon" List.ItemID="-1113559737" />
+								<instance_reference name="ebp" value="ebps\races\mongol\buildings\building_unit_cavalry_mon" List.ItemID="-2114606492" />
 							</list>
 							<instance_reference name="hotkey_binding" value="hotkeys\hotkey_binding\villager_build_menu\age_2\build_stable" />
 							<list name="alternate_ebps">
@@ -1023,7 +1023,7 @@
 							</template_reference>
 							<bool name="do_requirement_check_for_construction_on_existing_item" value="False" />
 						</group>
-						<group name="construction_item" comment="Wall" List.ItemID="252050346">
+						<group name="construction_item" comment="Wall" List.ItemID="1028005120">
 							<instance_reference name="ebp" value="ebps\races\japanese\buildings\building_defense_wall_jpn\building_defense_wall_jpn" />
 							<group name="ui_position">
 								<int name="ui_position_row" value="3" />
@@ -1074,7 +1074,7 @@
 							</template_reference>
 							<bool name="do_requirement_check_for_construction_on_existing_item" value="False" />
 						</group>
-						<group name="construction_item" comment="Town Center" List.ItemID="-1677452833">
+						<group name="construction_item" comment="Town Center" List.ItemID="816141928">
 							<instance_reference name="ebp" value="ebps\races\japanese\buildings\building_town_center_jpn" />
 							<group name="ui_position">
 								<int name="ui_position_row" value="1" />
@@ -1125,7 +1125,7 @@
 							</template_reference>
 							<bool name="do_requirement_check_for_construction_on_existing_item" value="False" />
 						</group>
-						<group name="construction_item" comment="Town Center Capital (Nomad Start)" List.ItemID="-1643372929">
+						<group name="construction_item" comment="Town Center Capital (Nomad Start)" List.ItemID="-1025887977">
 							<instance_reference name="ebp" value="ebps\races\japanese\buildings\building_town_center_capital_jpn" />
 							<group name="ui_position">
 								<int name="ui_position_row" value="1" />
@@ -1171,7 +1171,7 @@
 							</template_reference>
 							<bool name="do_requirement_check_for_construction_on_existing_item" value="False" />
 						</group>
-						<group name="construction_item" comment="Wall Gate" List.ItemID="758307684">
+						<group name="construction_item" comment="Wall Gate" List.ItemID="-201536252">
 							<instance_reference name="ebp" value="ebps\races\japanese\buildings\building_defense_wall_jpn\building_defense_wall_gate_jpn" />
 							<group name="ui_position">
 								<int name="ui_position_row" value="3" />
@@ -1222,7 +1222,7 @@
 							</template_reference>
 							<bool name="do_requirement_check_for_construction_on_existing_item" value="False" />
 						</group>
-						<group name="construction_item" comment="Wall Bastion" List.ItemID="1751121675">
+						<group name="construction_item" comment="Wall Bastion" List.ItemID="1850366729">
 							<instance_reference name="ebp" value="ebps\races\japanese\buildings\building_defense_wall_jpn\building_defense_wall_bastion_jpn" />
 							<group name="ui_position">
 								<int name="ui_position_row" value="-1" />
@@ -1243,10 +1243,10 @@
 					</list>
 					<enum name="construction_type" value="tp_construction_base" />
 				</group>
-				<group name="construction_group" List.ItemID="907135560">
+				<group name="construction_group" List.ItemID="962821569">
 					<instance_reference name="construction_menu" value="menu\jpn_age2_wonders" />
 					<list name="construction_items">
-						<group name="construction_item" comment="Wonder 1" List.ItemID="-843246992">
+						<group name="construction_item" comment="Wonder 1" List.ItemID="1378589404">
 							<instance_reference name="ebp" value="ebps\races\japanese\buildings\building_landmark_age2_buddhist_jpn" />
 							<group name="ui_position">
 								<int name="ui_position_row" value="2" />
@@ -1288,7 +1288,7 @@
 							</template_reference>
 							<bool name="do_requirement_check_for_construction_on_existing_item" value="False" />
 						</group>
-						<group name="construction_item" comment="Wonder 2" List.ItemID="-1635322844">
+						<group name="construction_item" comment="Wonder 2" List.ItemID="468985867">
 							<instance_reference name="ebp" value="ebps\races\japanese\buildings\building_landmark_age2_shinto_jpn" />
 							<group name="ui_position">
 								<int name="ui_position_row" value="3" />
@@ -1333,18 +1333,18 @@
 					</list>
 					<enum name="construction_type" value="tp_construction_base" />
 				</group>
-				<group name="construction_group" comment="Castle Age" List.ItemID="1176181995">
+				<group name="construction_group" comment="Castle Age" List.ItemID="325704116">
 					<instance_reference name="construction_menu" value="menu\jpn_age3" />
 					<list name="construction_items">
-						<group name="construction_item" comment="Siege Workshop&#xD;&#xA;" List.ItemID="1027931624">
+						<group name="construction_item" comment="Siege Workshop&#xD;&#xA;" List.ItemID="861951829">
 							<instance_reference name="ebp" value="ebps\races\japanese\buildings\building_unit_siege_jpn" />
 							<group name="ui_position">
 								<int name="ui_position_row" value="2" />
 								<int name="ui_position_column" value="1" />
 							</group>
 							<list name="associated_ebps">
-								<instance_reference name="ebp" value="ebps\races\mongol\buildings\building_unit_siege_moving_mon" List.ItemID="-1693294456" />
-								<instance_reference name="ebp" value="ebps\races\mongol\buildings\building_unit_siege_mon" List.ItemID="295491650" />
+								<instance_reference name="ebp" value="ebps\races\mongol\buildings\building_unit_siege_moving_mon" List.ItemID="2026772166" />
+								<instance_reference name="ebp" value="ebps\races\mongol\buildings\building_unit_siege_mon" List.ItemID="367904209" />
 							</list>
 							<instance_reference name="hotkey_binding" value="hotkeys\hotkey_binding\villager_build_menu\age_3\build_siege_workshop" />
 							<list name="alternate_ebps">
@@ -1389,7 +1389,7 @@
 							</template_reference>
 							<bool name="do_requirement_check_for_construction_on_existing_item" value="False" />
 						</group>
-						<group name="construction_item" comment="Shinto Shrine" List.ItemID="1645626171">
+						<group name="construction_item" comment="Shinto Shrine" List.ItemID="-988346997">
 							<instance_reference name="ebp" value="ebps\races\japanese\buildings\building_unit_religious_shinto_jpn" />
 							<group name="ui_position">
 								<int name="ui_position_row" value="1" />
@@ -1440,7 +1440,7 @@
 							</template_reference>
 							<bool name="do_requirement_check_for_construction_on_existing_item" value="False" />
 						</group>
-						<group name="construction_item" comment="Buddhist Temple" List.ItemID="758554494">
+						<group name="construction_item" comment="Buddhist Temple" List.ItemID="548322436">
 							<instance_reference name="ebp" value="ebps\races\japanese\buildings\building_unit_religious_buddhist_jpn" />
 							<group name="ui_position">
 								<int name="ui_position_row" value="1" />
@@ -1491,7 +1491,7 @@
 							</template_reference>
 							<bool name="do_requirement_check_for_construction_on_existing_item" value="False" />
 						</group>
-						<group name="construction_item" comment="Shinto Shrine" List.ItemID="-1318894561">
+						<group name="construction_item" comment="Shinto Shrine" List.ItemID="400829696">
 							<instance_reference name="ebp" value="ebps\races\japanese\buildings\building_placeholder_religious_choice_jpn" />
 							<group name="ui_position">
 								<int name="ui_position_row" value="1" />
@@ -1545,10 +1545,10 @@
 					</list>
 					<enum name="construction_type" value="tp_construction_base" />
 				</group>
-				<group name="construction_group" List.ItemID="1969480653">
+				<group name="construction_group" List.ItemID="422724687">
 					<instance_reference name="construction_menu" value="menu\jpn_age3_wonders" />
 					<list name="construction_items">
-						<group name="construction_item" comment="Wonder 1" List.ItemID="1642984138">
+						<group name="construction_item" comment="Wonder 1" List.ItemID="-1456794849">
 							<instance_reference name="ebp" value="ebps\races\japanese\buildings\building_landmark_age3_ozutsu_jpn" />
 							<group name="ui_position">
 								<int name="ui_position_row" value="2" />
@@ -1590,7 +1590,7 @@
 							</template_reference>
 							<bool name="do_requirement_check_for_construction_on_existing_item" value="False" />
 						</group>
-						<group name="construction_item" comment="Wonder 2" List.ItemID="1450574520">
+						<group name="construction_item" comment="Wonder 2" List.ItemID="553375285">
 							<instance_reference name="ebp" value="ebps\races\japanese\buildings\building_landmark_age3_treasure_jpn" />
 							<group name="ui_position">
 								<int name="ui_position_row" value="3" />
@@ -1635,10 +1635,10 @@
 					</list>
 					<enum name="construction_type" value="tp_construction_base" />
 				</group>
-				<group name="construction_group" comment="Imperial Age" List.ItemID="1680768157">
+				<group name="construction_group" comment="Imperial Age" List.ItemID="443325658">
 					<instance_reference name="construction_menu" value="menu\jpn_age4" />
 					<list name="construction_items">
-						<group name="construction_item" comment="University" List.ItemID="2086026633">
+						<group name="construction_item" comment="University" List.ItemID="1176920275">
 							<instance_reference name="ebp" value="ebps\races\japanese\buildings\building_tech_university_jpn" />
 							<group name="ui_position">
 								<int name="ui_position_row" value="1" />
@@ -1689,7 +1689,7 @@
 							</template_reference>
 							<bool name="do_requirement_check_for_construction_on_existing_item" value="False" />
 						</group>
-						<group name="construction_item" comment="Keep" List.ItemID="-2075676372">
+						<group name="construction_item" comment="Keep" List.ItemID="-2080873552">
 							<instance_reference name="ebp" value="ebps\races\japanese\buildings\building_defense_keep_jpn" />
 							<group name="ui_position">
 								<int name="ui_position_row" value="2" />
@@ -1740,7 +1740,7 @@
 							</template_reference>
 							<bool name="do_requirement_check_for_construction_on_existing_item" value="False" />
 						</group>
-						<group name="construction_item" comment="Wonder" List.ItemID="166584428">
+						<group name="construction_item" comment="Wonder" List.ItemID="-513246041">
 							<instance_reference name="ebp" value="ebps\races\japanese\buildings\building_wonder_age4_nikko_toshogu_jpn" />
 							<group name="ui_position">
 								<int name="ui_position_row" value="3" />
@@ -1797,7 +1797,7 @@
 			</list>
 			<float name="construction_rate_multiplier" value="1" />
 		</template_reference>
-		<template_reference name="squadexts" value="sbpextensions\squad_resource_ext" List.ItemID="747227092" List.ParentItemID="1501469924">
+		<template_reference name="squadexts" value="sbpextensions\squad_resource_ext" List.ItemID="1564029671" List.ParentItemID="1501469924">
 			<enum_table name="initial_resources">
 				<float name="action" value="0" />
 				<float name="popcap" value="0" />
@@ -1827,7 +1827,7 @@
 				<instance_reference name="bar_style" value="ui_resource_bar_style\rage" />
 			</group>
 		</template_reference>
-		<template_reference name="squadexts" value="sbpextensions\squad_speech_ext" List.ItemID="732870406" List.ParentItemID="237667869">
+		<template_reference name="squadexts" value="sbpextensions\squad_speech_ext" List.ItemID="2048460749" List.ParentItemID="237667869">
 			<string name="squad_speaker_code" value="villagerFemale" />
 			<group name="squad_speech_parameters">
 				<string name="squad_class_code" value="villager" />
@@ -1838,13 +1838,13 @@
 			<int name="importance" value="1" />
 			<bool name="is_idle_battle_chatter_enabled" value="False" />
 			<list name="age_mapping">
-				<int name="age_number" value="1" List.ItemID="1082340710" List.ParentItemID="-2133303705" />
-				<int name="age_number" value="2" List.ItemID="1712155647" List.ParentItemID="1755209603" />
-				<int name="age_number" value="3" List.ItemID="796425512" List.ParentItemID="516163439" />
-				<int name="age_number" value="4" List.ItemID="1622281744" List.ParentItemID="-1874434998" />
+				<int name="age_number" value="1" List.ItemID="573630643" List.ParentItemID="-2133303705" />
+				<int name="age_number" value="2" List.ItemID="1786981725" List.ParentItemID="1755209603" />
+				<int name="age_number" value="3" List.ItemID="-291200850" List.ParentItemID="516163439" />
+				<int name="age_number" value="4" List.ItemID="-261364727" List.ParentItemID="-1874434998" />
 			</list>
 		</template_reference>
-		<template_reference name="squadexts" value="sbpextensions\squad_audio_ext" List.ItemID="2053051867" List.ParentItemID="-1557180347">
+		<template_reference name="squadexts" value="sbpextensions\squad_audio_ext" List.ItemID="-728864838" List.ParentItemID="-1557180347">
 			<list name="rtpc_events">
 			</list>
 			<list name="sound_banks">
@@ -1860,10 +1860,10 @@
 			<int name="music_importance" value="5" />
 			<bool name="is_dynamic_audio_object" value="True" />
 		</template_reference>
-		<template_reference name="squadexts" value="sbpextensions\squad_statemodel_ext" List.ItemID="1073201935" List.ParentItemID="958773329">
+		<template_reference name="squadexts" value="sbpextensions\squad_statemodel_ext" List.ItemID="-1983284249" List.ParentItemID="958773329">
 			<instance_reference name="schema" value="statemodel_schema\units\villager" />
 		</template_reference>
-		<template_reference name="squadexts" value="sbpextensions\squad_formation_group_ext" List.ItemID="-1855267827" List.ParentItemID="529555986">
+		<template_reference name="squadexts" value="sbpextensions\squad_formation_group_ext" List.ItemID="1526608580" List.ParentItemID="529555986">
 			<instance_reference name="default_formation_group_spot_generator" value="formation_group_spot_generator\land\non_formation_land_box_fill_spot_generator" />
 			<float name="desired_protection_level_in_formation" value="8" />
 		</template_reference>

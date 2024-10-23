@@ -1,35 +1,35 @@
 <instance version="4" description="" template="ebps">
 	<list name="extensions">
-		<template_reference name="exts" value="ebpextensions\entity_blueprint_ext" List.ItemID="-1623200963" List.ParentItemID="-1623200963">
+		<template_reference name="exts" value="ebpextensions\entity_blueprint_ext" List.ItemID="29024612" List.ParentItemID="29024612">
 			<bool name="browsable_in_editor" value="True" overrideParent="True" />
 			<enum name="subclass_type" value="Wall" overrideParent="True" />
 		</template_reference>
-		<template_reference name="exts" value="ebpextensions\type_ext" List.ItemID="1292505085" List.ParentItemID="1292505085">
+		<template_reference name="exts" value="ebpextensions\type_ext" List.ItemID="395358434" List.ParentItemID="395358434">
 			<list name="race_type_list" overrideParent="True">
-				<instance_reference name="race_type" value="racebps\abbasid_ha_01" overrideParent="True" List.ItemID="-1539312790" />
+				<instance_reference name="race_type" value="racebps\abbasid_ha_01" overrideParent="True" List.ItemID="-1580856553" />
 			</list>
 		</template_reference>
-		<template_reference name="exts" value="ebpextensions\territory_sector_layout_ext" List.ItemID="1695299188" List.ParentItemID="1695299188">
+		<template_reference name="exts" value="ebpextensions\territory_sector_layout_ext" List.ItemID="166765763" List.ParentItemID="166765763">
 			<template_reference name="placement_style" value="options\ebpextensions\hexmapext\placement_styles\placement_primary">
 				<instance_reference name="fence_cap_entity" value="ebps\races\abbasid_ha_01\buildings\building_defense_wall_bastion_abb_ha_01" mod="d2f0913f6d4a4aa3ad8aaf127e2d8f8b" overrideParent="True" />
 				<template_reference name="gap_fillers" value="options\ebpextensions\hexmapext\gap_fillers">
 					<list name="visuals" overrideParent="True">
-						<template_reference name="visual" value="options\ebpextensions\hexmapext\gap_filler_visual" List.ItemID="-2146433066" List.ParentItemID="2005016817">
+						<template_reference name="visual" value="options\ebpextensions\hexmapext\gap_filler_visual" List.ItemID="-1546893453" List.ParentItemID="2005016817">
 							<file name="visual" value="civilizations\chinese\structures\stonewall\chi_stonewall_gapfill_1m\chi_stonewall_gapfill_1m" overrideParent="True" />
 							<float name="rotation_offset" value="90" />
 							<float name="visual_length" value="1" />
 						</template_reference>
-						<template_reference name="visual" value="options\ebpextensions\hexmapext\gap_filler_visual" List.ItemID="-95758931" List.ParentItemID="1050268408">
+						<template_reference name="visual" value="options\ebpextensions\hexmapext\gap_filler_visual" List.ItemID="45894463" List.ParentItemID="1050268408">
 							<file name="visual" value="civilizations\chinese\structures\stonewall\chi_stonewall_gapfill_2m\chi_stonewall_gapfill_2m" overrideParent="True" />
 							<float name="rotation_offset" value="90" />
 							<float name="visual_length" value="2" />
 						</template_reference>
-						<template_reference name="visual" value="options\ebpextensions\hexmapext\gap_filler_visual" List.ItemID="-465312801" List.ParentItemID="-1639245560">
+						<template_reference name="visual" value="options\ebpextensions\hexmapext\gap_filler_visual" List.ItemID="124380982" List.ParentItemID="-1639245560">
 							<file name="visual" value="civilizations\chinese\structures\stonewall\chi_stonewall_gapfill_3m\chi_stonewall_gapfill_3m" overrideParent="True" />
 							<float name="rotation_offset" value="90" />
 							<float name="visual_length" value="3" />
 						</template_reference>
-						<template_reference name="visual" value="options\ebpextensions\hexmapext\gap_filler_visual" List.ItemID="-684111480" List.ParentItemID="1799650319">
+						<template_reference name="visual" value="options\ebpextensions\hexmapext\gap_filler_visual" List.ItemID="192112076" List.ParentItemID="1799650319">
 							<file name="visual" value="civilizations\chinese\structures\stonewall\chi_stonewall_gapfill_4m\chi_stonewall_gapfill_4m" overrideParent="True" />
 							<float name="rotation_offset" value="90" />
 							<float name="visual_length" value="4" />
@@ -38,6 +38,10 @@
 				</template_reference>
 			</template_reference>
 			<instance_reference name="segment_attachment_list" value="attachments\attachment_lists\civilizations\common\buildings\building_defense_wall_stone_segments_east" overrideParent="True" />
+		</template_reference>
+		<template_reference name="exts" value="ebpextensions\tier_ext" List.ItemID="986749556" List.ListAction="Append">
+			<list name="tier_group_list">
+			</list>
 		</template_reference>
 	</list>
 	<uniqueid name="pbgid" value="3254210" />

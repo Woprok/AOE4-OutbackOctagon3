@@ -2,57 +2,58 @@
 	<uniqueid name="pbgid" value="203943" />
 	<instance_reference name="parent_pbg" value="ebps\races\sultanate\buildings\building_defense_wall_sul\building_defense_wall_sul" mod="d2f0913f6d4a4aa3ad8aaf127e2d8f8b" />
 	<list name="extensions">
-		<template_reference name="exts" value="ebpextensions\requirement_ext" List.ItemID="679832596" List.ParentItemID="679832596">
+		<template_reference name="exts" value="ebpextensions\requirement_ext" List.ItemID="1939959203" List.ParentItemID="1939959203">
 			<list name="requirement_table">
-				<template_reference name="required" value="requirements\required_statemodelbool" overrideParent="True" List.ItemID="2106053480" List.ListAction="Append">
-					<locstring name="ui_name" value="9" mod="d2f0913f6d4a4aa3ad8aaf127e2d8f8b" overrideParent="True" />
-					<enum name="reason" value="usage_and_display" overrideParent="True" />
-					<enum name="key" value="compound_of_the_defender_active_sul" overrideParent="True" />
-					<enum name="data_source_type" value="player_datasource" overrideParent="True" />
+				<template_reference name="required" value="requirements\required_statemodelbool" overrideParent="True" List.ItemID="-1637024392" List.ParentItemID="-1637024392">
+					<locstring name="ui_name" value="11154521" />
+					<enum name="reason" value="usage" />
+					<enum name="key" value="compound_of_the_defender_active_sul" />
+					<enum name="data_source_type" value="player_datasource" />
 					<bool name="default_value" value="False" />
-					<bool name="compare_to_value" value="True" overrideParent="True" />
+					<bool name="compare_to_value" value="True" />
 				</template_reference>
 			</list>
 		</template_reference>
-		<template_reference name="exts" value="ebpextensions\territory_sector_layout_ext" List.ItemID="1695299188" List.ParentItemID="1695299188">
+		<template_reference name="exts" value="ebpextensions\territory_sector_layout_ext" List.ItemID="166765763" List.ParentItemID="166765763">
 			<template_reference name="placement_style" value="options\ebpextensions\hexmapext\placement_styles\placement_primary">
 				<template_reference name="gap_fillers" value="options\ebpextensions\hexmapext\gap_fillers">
 					<list name="visuals" overrideParent="True">
-						<template_reference name="visual" value="options\ebpextensions\hexmapext\gap_filler_visual" List.ItemID="-33554495" List.ParentItemID="2005016817">
+						<template_reference name="visual" value="options\ebpextensions\hexmapext\gap_filler_visual" List.ItemID="1228284215" List.ParentItemID="2005016817">
 							<file name="visual" value="civilizations\chinese\structures\stonewall\chi_stonewall_gapfill_1m\chi_stonewall_gapfill_1m" overrideParent="True" />
 							<float name="rotation_offset" value="90" />
 							<float name="visual_length" value="1" />
 						</template_reference>
-						<template_reference name="visual" value="options\ebpextensions\hexmapext\gap_filler_visual" List.ItemID="1667920677" List.ParentItemID="1050268408">
+						<template_reference name="visual" value="options\ebpextensions\hexmapext\gap_filler_visual" List.ItemID="-925092410" List.ParentItemID="1050268408">
 							<file name="visual" value="civilizations\chinese\structures\stonewall\chi_stonewall_gapfill_2m\chi_stonewall_gapfill_2m" overrideParent="True" />
 							<float name="rotation_offset" value="90" />
 							<float name="visual_length" value="2" />
 						</template_reference>
-						<template_reference name="visual" value="options\ebpextensions\hexmapext\gap_filler_visual" List.ItemID="679904985" List.ParentItemID="-1639245560">
+						<template_reference name="visual" value="options\ebpextensions\hexmapext\gap_filler_visual" List.ItemID="807133155" List.ParentItemID="-1639245560">
 							<file name="visual" value="civilizations\chinese\structures\stonewall\chi_stonewall_gapfill_3m\chi_stonewall_gapfill_3m" overrideParent="True" />
 							<float name="rotation_offset" value="90" />
 							<float name="visual_length" value="3" />
 						</template_reference>
-						<template_reference name="visual" value="options\ebpextensions\hexmapext\gap_filler_visual" List.ItemID="1615974761" List.ParentItemID="1799650319">
+						<template_reference name="visual" value="options\ebpextensions\hexmapext\gap_filler_visual" List.ItemID="-1260052364" List.ParentItemID="1799650319">
 							<file name="visual" value="civilizations\chinese\structures\stonewall\chi_stonewall_gapfill_4m\chi_stonewall_gapfill_4m" overrideParent="True" />
 							<float name="rotation_offset" value="90" />
 							<float name="visual_length" value="4" />
 						</template_reference>
 					</list>
 				</template_reference>
+				<instance_reference name="fence_cap_entity" value="ebps\races\sultanate\buildings\building_defense_wall_sul\building_defense_wall_bastion_sul" overrideParent="True" />
 			</template_reference>
 		</template_reference>
 	</list>
 	<variant name="campaign">
 		<list name="extensions">
-			<template_reference name="exts" value="ebpextensions\entity_blueprint_ext" List.ItemID="1693344625" List.ParentItemID="1693344625">
+			<template_reference name="exts" value="ebpextensions\entity_blueprint_ext" List.ItemID="1454323807" List.ParentItemID="1454323807">
 				<enum name="subclass_type" value="Wall" overrideParent="True" />
 			</template_reference>
-			<template_reference name="exts" value="ebpextensions\requirement_ext" List.ItemID="1791609097" List.ParentItemID="1791609097">
-				<list name="requirement_table">
-					<template_reference name="required" value="requirements\required_statemodelbool" overrideParent="True" List.ItemID="-316079545" List.ListAction="Append">
-						<locstring name="ui_name" value="10" mod="d2f0913f6d4a4aa3ad8aaf127e2d8f8b" overrideParent="True" />
-						<enum name="reason" value="usage_and_display" overrideParent="True" />
+			<template_reference name="exts" value="ebpextensions\requirement_ext" List.ItemID="1048907597" List.ParentItemID="1048907597">
+				<list name="requirement_table" overrideParent="True">
+					<template_reference name="required" value="requirements\required_statemodelbool" overrideParent="True" List.ItemID="1950931157">
+						<locstring name="ui_name" value="11154521" />
+						<enum name="reason" value="usage" overrideParent="True" />
 						<enum name="key" value="compound_of_the_defender_active_sul" overrideParent="True" />
 						<enum name="data_source_type" value="player_datasource" overrideParent="True" />
 						<bool name="default_value" value="False" />
@@ -60,10 +61,15 @@
 					</template_reference>
 				</list>
 			</template_reference>
-			<template_reference name="exts" value="ebpextensions\tier_ext" List.ItemID="-1305654682" List.ParentItemID="-1305654682">
+			<template_reference name="exts" value="ebpextensions\territory_sector_layout_ext" List.ItemID="166733460" List.ParentItemID="166733460">
+				<template_reference name="placement_style" value="options\ebpextensions\hexmapext\placement_styles\placement_primary">
+					<instance_reference name="fence_cap_entity" value="ebps\races\sultanate\buildings\building_defense_wall_sul\building_defense_wall_bastion_sul" overrideParent="True" />
+				</template_reference>
+			</template_reference>
+			<template_reference name="exts" value="ebpextensions\tier_ext" List.ItemID="2142891615" List.ParentItemID="2142891615">
 				<list name="tier_group_list" overrideParent="True">
-					<list name="tier_group" overrideParent="True" List.ItemID="-249605872">
-						<group name="tier" List.ItemID="-884653792">
+					<list name="tier_group" overrideParent="True" List.ItemID="-740065053">
+						<group name="tier" List.ItemID="-1495998992">
 							<list name="tier_requirements">
 							</list>
 							<instance_reference name="attachments" value="" />
@@ -72,7 +78,7 @@
 								<bool name="start_suspended" value="False" />
 							</template_reference>
 							<instance_reference name="statetree_tier_requirements_pbg" value="" />
-							<instance_reference name="statetree_tier_pgb_upgrade_target_entity" value="ebps\races\sultanate\buildings\building_defense_wall_sul\building_defense_wall_sul" mod="d2f0913f6d4a4aa3ad8aaf127e2d8f8b" overrideParent="True" />
+							<instance_reference name="statetree_tier_pgb_upgrade_target_entity" value="ebps\races\sultanate\buildings\building_defense_wall_sul\building_defense_wall_sul" overrideParent="True" />
 							<instance_reference name="statetree_tier_pgb_upgrade_target_squad" value="" />
 							<string name="tier_attachment_action" value="" />
 							<template_reference name="blueprint_conversion_parameters" value="blueprint_conversion_parameters">

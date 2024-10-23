@@ -1,44 +1,44 @@
 <instance version="4" description="" template="ebps">
 	<list name="extensions">
-		<template_reference name="exts" value="ebpextensions\entity_blueprint_ext" List.ItemID="-1623200963" List.ParentItemID="-1623200963">
+		<template_reference name="exts" value="ebpextensions\entity_blueprint_ext" List.ItemID="29024612" List.ParentItemID="29024612">
 			<bool name="browsable_in_editor" value="True" overrideParent="True" />
 			<enum name="subclass_type" value="Wall" overrideParent="True" />
 		</template_reference>
-		<template_reference name="exts" value="ebpextensions\health_ext" List.ItemID="586946940" List.ParentItemID="586946940">
+		<template_reference name="exts" value="ebpextensions\health_ext" List.ItemID="947558827" List.ParentItemID="947558827">
 			<bool name="can_repair" value="True" overrideParent="True" />
 			<enum_table name="armor_scaler_by_damage_type">
 				<float name="Fire" value="0" overrideParent="True" />
 			</enum_table>
 		</template_reference>
-		<template_reference name="exts" value="ebpextensions\type_ext" List.ItemID="1292505085" List.ParentItemID="1292505085">
+		<template_reference name="exts" value="ebpextensions\type_ext" List.ItemID="395358434" List.ParentItemID="395358434">
 			<list name="race_type_list" overrideParent="True">
-				<instance_reference name="race_type" value="racebps\chinese_ha_01" overrideParent="True" List.ItemID="-611961250" />
+				<instance_reference name="race_type" value="racebps\chinese_ha_01" overrideParent="True" List.ItemID="-154123566" />
 			</list>
 		</template_reference>
-		<template_reference name="exts" value="ebpextensions\ui_ext" List.ItemID="1723915762" List.ParentItemID="1723915762">
+		<template_reference name="exts" value="ebpextensions\ui_ext" List.ItemID="-1209345629" List.ParentItemID="-1209345629">
 			<enum name="decorator_visibility" value="visible" overrideParent="True" />
 		</template_reference>
-		<template_reference name="exts" value="ebpextensions\territory_sector_layout_ext" List.ItemID="1695299188" List.ParentItemID="1695299188">
+		<template_reference name="exts" value="ebpextensions\territory_sector_layout_ext" List.ItemID="166765763" List.ParentItemID="166765763">
 			<template_reference name="placement_style" value="options\ebpextensions\hexmapext\placement_styles\placement_primary">
 				<instance_reference name="fence_cap_entity" value="ebps\races\chinese_ha_01\buildings\building_defense_wall_chi_ha_01\building_defense_wall_bastion_chi_ha_01" overrideParent="True" />
 				<template_reference name="gap_fillers" value="options\ebpextensions\hexmapext\gap_fillers">
 					<list name="visuals" overrideParent="True">
-						<template_reference name="visual" value="options\ebpextensions\hexmapext\gap_filler_visual" List.ItemID="216554946" List.ParentItemID="2005016817">
+						<template_reference name="visual" value="options\ebpextensions\hexmapext\gap_filler_visual" List.ItemID="2018124487" List.ParentItemID="2005016817">
 							<file name="visual" value="civilizations\chinese\structures\stonewall\chi_stonewall_gapfill_1m\chi_stonewall_gapfill_1m" overrideParent="True" />
 							<float name="rotation_offset" value="90" />
 							<float name="visual_length" value="1" />
 						</template_reference>
-						<template_reference name="visual" value="options\ebpextensions\hexmapext\gap_filler_visual" List.ItemID="1860430130" List.ParentItemID="1050268408">
+						<template_reference name="visual" value="options\ebpextensions\hexmapext\gap_filler_visual" List.ItemID="-1645248665" List.ParentItemID="1050268408">
 							<file name="visual" value="civilizations\chinese\structures\stonewall\chi_stonewall_gapfill_2m\chi_stonewall_gapfill_2m" overrideParent="True" />
 							<float name="rotation_offset" value="90" />
 							<float name="visual_length" value="2" />
 						</template_reference>
-						<template_reference name="visual" value="options\ebpextensions\hexmapext\gap_filler_visual" List.ItemID="-545118376" List.ParentItemID="-1639245560">
+						<template_reference name="visual" value="options\ebpextensions\hexmapext\gap_filler_visual" List.ItemID="-812005176" List.ParentItemID="-1639245560">
 							<file name="visual" value="civilizations\chinese\structures\stonewall\chi_stonewall_gapfill_3m\chi_stonewall_gapfill_3m" overrideParent="True" />
 							<float name="rotation_offset" value="90" />
 							<float name="visual_length" value="3" />
 						</template_reference>
-						<template_reference name="visual" value="options\ebpextensions\hexmapext\gap_filler_visual" List.ItemID="961132691" List.ParentItemID="1799650319">
+						<template_reference name="visual" value="options\ebpextensions\hexmapext\gap_filler_visual" List.ItemID="1146037986" List.ParentItemID="1799650319">
 							<file name="visual" value="civilizations\chinese\structures\stonewall\chi_stonewall_gapfill_4m\chi_stonewall_gapfill_4m" overrideParent="True" />
 							<float name="rotation_offset" value="90" />
 							<float name="visual_length" value="4" />
@@ -50,7 +50,7 @@
 				</template_reference>
 			</template_reference>
 			<list name="cap_connection_variants" overrideParent="True">
-				<group name="cap_connection_entry" List.ItemID="1846701890">
+				<group name="cap_connection_entry" List.ItemID="-1877789018">
 					<string name="attachment_category" value="" overrideParent="True" />
 					<float name="default_angle_between_connections" value="0" />
 					<int name="number_of_connections" value="0" />
@@ -61,8 +61,12 @@
 			</list>
 			<instance_reference name="segment_attachment_list" value="attachments\attachment_lists\civilizations\common\buildings\building_defense_wall_stone_segments_east" overrideParent="True" />
 		</template_reference>
-		<template_reference name="exts" value="ebpextensions\statemodel_ext" List.ItemID="-1072357899" List.ParentItemID="-1072357899">
+		<template_reference name="exts" value="ebpextensions\statemodel_ext" List.ItemID="13951701" List.ParentItemID="13951701">
 			<instance_reference name="schema" value="statemodel_schema\buildings\civilizations\chinese\wall_stone_chi" overrideParent="True" />
+		</template_reference>
+		<template_reference name="exts" value="ebpextensions\tier_ext" List.ItemID="1978800852" List.ListAction="Append">
+			<list name="tier_group_list">
+			</list>
 		</template_reference>
 	</list>
 	<uniqueid name="pbgid" value="8903393" />

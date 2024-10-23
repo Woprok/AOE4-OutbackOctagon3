@@ -5,7 +5,7 @@
 		</template_reference>
 		<template_reference name="squadexts" value="sbpextensions\squad_loadout_ext" overrideParent="True" List.ItemID="-1479400647" List.ParentItemID="-1479400647">
 			<list name="unit_list">
-				<group name="loadout_data" List.ItemID="1742966567">
+				<group name="loadout_data" List.ItemID="-428227429">
 					<float name="num" value="1" />
 					<instance_reference name="type" value="ebps\races\sultanate\units\unit_archer_4_sul" />
 					<list name="unit_attachments">
@@ -24,24 +24,24 @@
 		</template_reference>
 		<template_reference name="squadexts" value="sbpextensions\squad_ability_ext" List.ItemID="-2098523511" List.ParentItemID="-2098523511">
 			<list name="abilities" overrideParent="True">
-				<instance_reference name="ability" value="abilities\timed_abilities\civ_core\core_unit_death" List.ItemID="-564144235" />
-				<instance_reference name="ability" value="abilities\toggle_abilities\civ_core\core_formation_spread" List.ItemID="-289484969" />
-				<instance_reference name="ability" value="abilities\toggle_abilities\civ_core\core_formation_line" List.ItemID="-2000783792" />
-				<instance_reference name="ability" value="abilities\toggle_abilities\civ_core\core_formation_wedge" List.ItemID="376626472" />
-				<instance_reference name="ability" value="abilities\always_on_abilities\sultanate\infantry_block_stone_wall_construction_sul" List.ItemID="-740938608" />
+				<instance_reference name="ability" value="abilities\timed_abilities\civ_core\core_unit_death" List.ItemID="-1272880132" />
+				<instance_reference name="ability" value="abilities\toggle_abilities\civ_core\core_formation_spread" List.ItemID="386936614" />
+				<instance_reference name="ability" value="abilities\toggle_abilities\civ_core\core_formation_line" List.ItemID="-164496236" />
+				<instance_reference name="ability" value="abilities\toggle_abilities\civ_core\core_formation_wedge" List.ItemID="-676653224" />
+				<instance_reference name="ability" value="abilities\always_on_abilities\sultanate\infantry_block_stone_wall_construction_sul" List.ItemID="-904415647" />
 			</list>
 		</template_reference>
 		<template_reference name="squadexts" value="sbpextensions\squad_type_ext" List.ItemID="-1816252207" List.ParentItemID="-1816252207">
 			<list name="squad_race_type_list" overrideParent="True">
-				<instance_reference name="squad_race_type" value="racebps\sultanate" List.ItemID="-1577318504" />
+				<instance_reference name="squad_race_type" value="racebps\sultanate" List.ItemID="-857863203" />
 			</list>
 		</template_reference>
 		<template_reference name="squadexts" value="sbpextensions\squad_engineer_ext" List.ItemID="591179255" List.ParentItemID="591179255">
 			<list name="construction_groups" overrideParent="True">
-				<group name="construction_group" List.ItemID="1413302220">
+				<group name="construction_group" List.ItemID="-958975300">
 					<instance_reference name="construction_menu" value="menu\siege_engineer_sul" overrideParent="True" />
 					<list name="construction_items" overrideParent="True">
-						<group name="construction_item" List.ItemID="-192311717">
+						<group name="construction_item" List.ItemID="-159303423">
 							<instance_reference name="ebp" value="ebps\races\sultanate\units\unit_ram_3_sul" overrideParent="True" />
 							<group name="ui_position">
 								<int name="ui_position_row" value="1" />
@@ -95,7 +95,7 @@
 							</template_reference>
 							<bool name="do_requirement_check_for_construction_on_existing_item" value="False" />
 						</group>
-						<group name="construction_item" List.ItemID="931453862">
+						<group name="construction_item" List.ItemID="515501053">
 							<instance_reference name="ebp" value="ebps\races\sultanate\units\unit_siege_tower_3_sul" overrideParent="True" />
 							<group name="ui_position">
 								<int name="ui_position_row" value="2" overrideParent="True" />
@@ -149,7 +149,7 @@
 							</template_reference>
 							<bool name="do_requirement_check_for_construction_on_existing_item" value="False" />
 						</group>
-						<group name="construction_item" comment="Palisade" List.ItemID="-318265691">
+						<group name="construction_item" comment="Palisade" List.ItemID="-1767128892">
 							<instance_reference name="ebp" value="ebps\races\sultanate\buildings\building_defense_wall_sul\building_defense_palisade_sul" />
 							<group name="ui_position">
 								<int name="ui_position_row" value="1" overrideParent="True" />
@@ -203,7 +203,7 @@
 							</template_reference>
 							<bool name="do_requirement_check_for_construction_on_existing_item" value="False" />
 						</group>
-						<group name="construction_item" comment="Palisade Gate" List.ItemID="-173635751">
+						<group name="construction_item" comment="Palisade Gate" List.ItemID="1122597528">
 							<instance_reference name="ebp" value="ebps\races\sultanate\buildings\building_defense_wall_sul\building_defense_palisade_gate_sul" />
 							<group name="ui_position">
 								<int name="ui_position_row" value="2" overrideParent="True" />
@@ -257,7 +257,7 @@
 							</template_reference>
 							<bool name="do_requirement_check_for_construction_on_existing_item" value="False" />
 						</group>
-						<group name="construction_item" comment="Palisade Bastion" List.ItemID="-1887411861">
+						<group name="construction_item" comment="Palisade Bastion" List.ItemID="-1290586294">
 							<instance_reference name="ebp" value="ebps\races\sultanate\buildings\building_defense_wall_sul\building_defense_palisade_bastion_sul" overrideParent="True" />
 							<group name="ui_position">
 								<int name="ui_position_row" value="-1" />
@@ -275,7 +275,7 @@
 							</template_reference>
 							<bool name="do_requirement_check_for_construction_on_existing_item" value="False" />
 						</group>
-						<group name="construction_item" comment="Stone Wall - Infantry Version" List.ItemID="1547145876">
+						<group name="construction_item" comment="Stone Wall - Infantry Version" List.ItemID="2110655800">
 							<instance_reference name="ebp" value="ebps\races\sultanate\buildings\building_defense_wall_sul\building_defense_wall_sul" overrideParent="True" />
 							<group name="ui_position">
 								<int name="ui_position_row" value="1" overrideParent="True" />
@@ -325,7 +325,7 @@
 								</group>
 							</template_reference>
 							<list name="additional_requirements" overrideParent="True">
-								<template_reference name="requirement" value="requirements\required_statemodelbool" List.ItemID="-288819074">
+								<template_reference name="requirement" value="requirements\required_statemodelbool" List.ItemID="24185039">
 									<locstring name="ui_name" value="11154521" />
 									<enum name="reason" value="usage" overrideParent="True" />
 									<enum name="key" value="compound_of_the_defender_active_sul" overrideParent="True" />
@@ -337,7 +337,7 @@
 							<state_tree_node name="additional_requirement_statetree" value="" />
 							<bool name="do_requirement_check_for_construction_on_existing_item" value="False" />
 						</group>
-						<group name="construction_item" comment="Stone Gate - Infantry Version" List.ItemID="651043125">
+						<group name="construction_item" comment="Stone Gate - Infantry Version" List.ItemID="-2083390324">
 							<instance_reference name="ebp" value="ebps\races\sultanate\buildings\building_defense_wall_sul\building_defense_wall_gate_sul" overrideParent="True" />
 							<group name="ui_position">
 								<int name="ui_position_row" value="2" overrideParent="True" />
@@ -387,7 +387,7 @@
 								</group>
 							</template_reference>
 							<list name="additional_requirements" overrideParent="True">
-								<template_reference name="requirement" value="requirements\required_statemodelbool" List.ItemID="-1413035385">
+								<template_reference name="requirement" value="requirements\required_statemodelbool" List.ItemID="-1539605158">
 									<locstring name="ui_name" value="11154521" />
 									<enum name="reason" value="usage" overrideParent="True" />
 									<enum name="key" value="compound_of_the_defender_active_sul" overrideParent="True" />
@@ -399,7 +399,7 @@
 							<state_tree_node name="additional_requirement_statetree" value="" />
 							<bool name="do_requirement_check_for_construction_on_existing_item" value="False" />
 						</group>
-						<group name="construction_item" comment="Stone Bastion" List.ItemID="405295233">
+						<group name="construction_item" comment="Stone Bastion" List.ItemID="-1031325418">
 							<instance_reference name="ebp" value="ebps\races\sultanate\buildings\building_defense_wall_sul\building_defense_wall_bastion_sul" overrideParent="True" />
 							<group name="ui_position">
 								<int name="ui_position_row" value="-1" overrideParent="True" />
@@ -413,7 +413,7 @@
 							<template_reference name="ui_info_extended" value="" overrideParent="True">
 							</template_reference>
 							<list name="additional_requirements" overrideParent="True">
-								<template_reference name="requirement" value="requirements\required_statemodelbool" List.ItemID="-1537076841">
+								<template_reference name="requirement" value="requirements\required_statemodelbool" List.ItemID="-1143753399">
 									<locstring name="ui_name" value="11154521" />
 									<enum name="reason" value="usage" overrideParent="True" />
 									<enum name="key" value="compound_of_the_defender_active_sul" overrideParent="True" />
@@ -443,7 +443,7 @@
 		<list name="extensions">
 			<template_reference name="squadexts" value="sbpextensions\squad_loadout_ext" overrideParent="True" List.ItemID="-2089102750" List.ParentItemID="-2089102750">
 				<list name="unit_list">
-					<group name="loadout_data" List.ItemID="1973826197">
+					<group name="loadout_data" List.ItemID="-89414071">
 						<float name="num" value="1" />
 						<instance_reference name="type" value="ebps\races\sultanate\units\unit_archer_4_sul" />
 						<list name="unit_attachments">
@@ -462,15 +462,15 @@
 			</template_reference>
 			<template_reference name="squadexts" value="sbpextensions\squad_type_ext" List.ItemID="-2029073997" List.ParentItemID="-2029073997">
 				<list name="squad_race_type_list" overrideParent="True">
-					<instance_reference name="squad_race_type" value="racebps\sultanate" List.ItemID="-891974724" />
+					<instance_reference name="squad_race_type" value="racebps\sultanate" List.ItemID="-1338471649" />
 				</list>
 			</template_reference>
 			<template_reference name="squadexts" value="sbpextensions\squad_engineer_ext" List.ItemID="-1986684179" List.ParentItemID="-1986684179">
 				<list name="construction_groups" overrideParent="True">
-					<group name="construction_group" List.ItemID="1483411720">
+					<group name="construction_group" List.ItemID="-2051976457">
 						<instance_reference name="construction_menu" value="menu\siege_engineer_sul" overrideParent="True" />
 						<list name="construction_items" overrideParent="True">
-							<group name="construction_item" List.ItemID="1490559976">
+							<group name="construction_item" List.ItemID="579843601">
 								<instance_reference name="ebp" value="ebps\races\sultanate\units\unit_ram_3_sul" overrideParent="True" />
 								<group name="ui_position">
 									<int name="ui_position_row" value="1" />
@@ -520,7 +520,7 @@
 								</template_reference>
 								<bool name="do_requirement_check_for_construction_on_existing_item" value="False" />
 							</group>
-							<group name="construction_item" List.ItemID="1585499527">
+							<group name="construction_item" List.ItemID="-1459028103">
 								<instance_reference name="ebp" value="ebps\races\sultanate\units\unit_siege_tower_3_sul" overrideParent="True" />
 								<group name="ui_position">
 									<int name="ui_position_row" value="2" overrideParent="True" />
@@ -570,7 +570,7 @@
 								</template_reference>
 								<bool name="do_requirement_check_for_construction_on_existing_item" value="False" />
 							</group>
-							<group name="construction_item" comment="Palisade" List.ItemID="-498007269">
+							<group name="construction_item" comment="Palisade" List.ItemID="-955355535">
 								<instance_reference name="ebp" value="ebps\races\sultanate\buildings\building_defense_wall_sul\building_defense_palisade_sul" />
 								<group name="ui_position">
 									<int name="ui_position_row" value="1" overrideParent="True" />
@@ -620,7 +620,7 @@
 								</template_reference>
 								<bool name="do_requirement_check_for_construction_on_existing_item" value="False" />
 							</group>
-							<group name="construction_item" comment="Palisade Gate" List.ItemID="-1206642595">
+							<group name="construction_item" comment="Palisade Gate" List.ItemID="2039560119">
 								<instance_reference name="ebp" value="ebps\races\sultanate\buildings\building_defense_wall_sul\building_defense_palisade_gate_sul" />
 								<group name="ui_position">
 									<int name="ui_position_row" value="2" overrideParent="True" />
@@ -670,7 +670,7 @@
 								</template_reference>
 								<bool name="do_requirement_check_for_construction_on_existing_item" value="False" />
 							</group>
-							<group name="construction_item" comment="Palisade Bastion" List.ItemID="-1321915304">
+							<group name="construction_item" comment="Palisade Bastion" List.ItemID="1436272357">
 								<instance_reference name="ebp" value="ebps\races\sultanate\buildings\building_defense_wall_sul\building_defense_palisade_bastion_sul" overrideParent="True" />
 								<group name="ui_position">
 									<int name="ui_position_row" value="-1" />
@@ -688,57 +688,7 @@
 								</template_reference>
 								<bool name="do_requirement_check_for_construction_on_existing_item" value="False" />
 							</group>
-							<group name="construction_item" comment="Stone Wall Tower - Regular Version (so that towers can be repaired by infantry)." List.ItemID="-1987572125">
-								<instance_reference name="ebp" value="ebps\races\sultanate\buildings\building_defense_wall_sul\building_defense_tower_sul" overrideParent="True" />
-								<group name="ui_position">
-									<int name="ui_position_row" value="-1" overrideParent="True" />
-									<int name="ui_position_column" value="-1" overrideParent="True" />
-								</group>
-								<list name="associated_ebps">
-								</list>
-								<list name="alternate_ebps">
-								</list>
-								<instance_reference name="hotkey_binding" value="" />
-								<list name="additional_requirements">
-								</list>
-								<state_tree_node name="additional_requirement_statetree" value="" />
-								<template_reference name="ui_info_extended" value="tables\ui_info_ext" overrideParent="True">
-									<template_reference name="command_card_info" value="ui_command_card_info">
-										<group name="ui_position">
-											<int name="ui_position_row" value="2" />
-											<int name="ui_position_column" value="5" />
-										</group>
-										<int name="command_card_priority" value="1" />
-									</template_reference>
-									<template_reference name="quick_abilities_info" value="ui_quick_abilities_info">
-										<enum name="dpad_position" value="dpad_down" overrideParent="True" />
-										<int name="quick_abilities_page_num" value="2" overrideParent="True" />
-										<int name="quick_abilities_priority" value="4" />
-									</template_reference>
-									<template_reference name="quick_commands_info" value="">
-									</template_reference>
-									<template_reference name="quick_formation_info" value="">
-									</template_reference>
-									<template_reference name="ping_menu_info" value="">
-									</template_reference>
-									<enum name="category" value="Military" />
-									<template_reference name="quick_commands_launch_hud_info" value="ui_quick_commands_launch_hud_info">
-										<enum name="quick_commands_hotkey" value="" />
-										<int name="quick_commands_priority" value="-1" />
-										<int name="quick_commands_slot_index" value="-1" />
-										<enum name="quick_commands_hold_time" value="quick_command_hold_time" />
-									</template_reference>
-									<template_reference name="relic_radial_menu_info" value="">
-									</template_reference>
-									<enum name="observer_type" value="Disabled" />
-									<group name="issuable_info">
-										<bool name="is_secondary" value="False" />
-										<instance_reference name="secondary_issuable" value="" />
-									</group>
-								</template_reference>
-								<bool name="do_requirement_check_for_construction_on_existing_item" value="False" />
-							</group>
-							<group name="construction_item" comment="Stone Wall - Infantry Version" List.ItemID="787600231">
+							<group name="construction_item" comment="Stone Wall - Infantry Version" List.ItemID="-1531347616">
 								<instance_reference name="ebp" value="ebps\races\sultanate\buildings\building_defense_wall_sul\building_defense_wall_infantry_sul" overrideParent="True" />
 								<group name="ui_position">
 									<int name="ui_position_row" value="1" overrideParent="True" />
@@ -788,7 +738,7 @@
 								</template_reference>
 								<bool name="do_requirement_check_for_construction_on_existing_item" value="False" />
 							</group>
-							<group name="construction_item" comment="Stone Gate - Infantry Version" List.ItemID="-1601903155">
+							<group name="construction_item" comment="Stone Gate - Infantry Version" List.ItemID="1590675046">
 								<instance_reference name="ebp" value="ebps\races\sultanate\buildings\building_defense_wall_sul\building_defense_wall_gate_infantry_sul" overrideParent="True" />
 								<group name="ui_position">
 									<int name="ui_position_row" value="2" overrideParent="True" />
@@ -806,7 +756,7 @@
 								</template_reference>
 								<bool name="do_requirement_check_for_construction_on_existing_item" value="False" />
 							</group>
-							<group name="construction_item" comment="Stone Bastion" List.ItemID="1438131227">
+							<group name="construction_item" comment="Stone Bastion" List.ItemID="470727742">
 								<instance_reference name="ebp" value="ebps\races\sultanate\buildings\building_defense_wall_sul\building_defense_wall_bastion_sul" overrideParent="True" />
 								<group name="ui_position">
 									<int name="ui_position_row" value="-1" overrideParent="True" />
@@ -824,7 +774,7 @@
 								</template_reference>
 								<bool name="do_requirement_check_for_construction_on_existing_item" value="False" />
 							</group>
-							<group name="construction_item" comment="Stone Wall - Regular Version (so that walls can be repaired by infantry)." List.ItemID="149112172">
+							<group name="construction_item" comment="Stone Wall - Regular Version (so that walls can be repaired by infantry)." List.ItemID="-1552404793">
 								<instance_reference name="ebp" value="ebps\races\sultanate\buildings\building_defense_wall_sul\building_defense_wall_sul" overrideParent="True" />
 								<group name="ui_position">
 									<int name="ui_position_row" value="-1" overrideParent="True" />
@@ -874,7 +824,7 @@
 								</template_reference>
 								<bool name="do_requirement_check_for_construction_on_existing_item" value="False" />
 							</group>
-							<group name="construction_item" comment="Stone Gate - Regular Version (so that walls can be repaired by infantry)." List.ItemID="-1382730037">
+							<group name="construction_item" comment="Stone Gate - Regular Version (so that walls can be repaired by infantry)." List.ItemID="373371284">
 								<instance_reference name="ebp" value="ebps\races\sultanate\buildings\building_defense_wall_sul\building_defense_wall_gate_sul" overrideParent="True" />
 								<group name="ui_position">
 									<int name="ui_position_row" value="-1" overrideParent="True" />

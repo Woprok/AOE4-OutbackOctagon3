@@ -1,6 +1,6 @@
 <instance version="6" description="" template="ebps">
 	<list name="extensions" overrideParent="True">
-		<template_reference name="exts" value="ebpextensions\entity_blueprint_ext" List.ItemID="-1976921861">
+		<template_reference name="exts" value="ebpextensions\entity_blueprint_ext" List.ItemID="2037170217">
 			<file name="alternate_sua" value="art\civilizations\english\structures\stonewall\eng_stonewall_smallgate_mp\eng_stonewall_smallgate_mp" />
 			<bool name="always_revealed_in_fow" value="False" />
 			<bool name="is_visible_in_game" value="True" />
@@ -15,12 +15,12 @@
 			<float name="entity_scale" value="100" />
 			<enum name="subclass_type" value="Wall" overrideParent="True" />
 		</template_reference>
-		<template_reference name="exts" value="ebpextensions\sim_entity_ext" List.ItemID="1581104690">
+		<template_reference name="exts" value="ebpextensions\sim_entity_ext" List.ItemID="101812420">
 			<float name="rotate_snap" value="360" />
 			<bool name="kill_paradrop" value="False" />
 			<enum name="transferable" value="None" />
 		</template_reference>
-		<template_reference name="exts" value="ebpextensions\health_ext" List.ItemID="1039205584">
+		<template_reference name="exts" value="ebpextensions\health_ext" List.ItemID="1633681081">
 			<bool name="can_repair" value="True" />
 			<bool name="cuttable" value="False" />
 			<string name="death_event_name" value="death" />
@@ -71,8 +71,14 @@
 			<state_tree_node name="on_reach_invulnerable_min_cap_entity_state_tree_ref" value="" />
 			<state_tree_node name="on_reach_max_health_entity_state_tree_ref" value="" />
 			<bool name="can_be_damaged_by_ally" value="False" />
+			<enum_table name="percentage_reduction_armor_by_damage_type">
+				<float name="True Damage" value="0" />
+				<float name="Melee" value="0" />
+				<float name="Ranged" value="0" />
+				<float name="Fire" value="0" />
+			</enum_table>
 		</template_reference>
-		<template_reference name="exts" value="ebpextensions\hit_object_ext" List.ItemID="432461452">
+		<template_reference name="exts" value="ebpextensions\hit_object_ext" List.ItemID="-690322645">
 			<instance_reference name="hit_material" value="hit_material\stone" />
 			<float name="hit_chance" value="1" />
 			<template_reference name="projectile_reflect_option" value="options\none">
@@ -95,7 +101,7 @@
 				<bool name="collide_with_missed_ranged_weapon_shots" value="True" />
 			</group>
 		</template_reference>
-		<template_reference name="exts" value="ebpextensions\line_of_sight_ext" List.ItemID="506453174">
+		<template_reference name="exts" value="ebpextensions\line_of_sight_ext" List.ItemID="1589813600">
 			<group name="blocking_box">
 				<float name="x" value="0.01" />
 				<float name="y" value="0.01" />
@@ -109,9 +115,9 @@
 			</list>
 			<bool name="disable_shot_blocking_on_death" value="True" />
 		</template_reference>
-		<template_reference name="exts" value="ebpextensions\modifier_ext" List.ItemID="2075765694">
+		<template_reference name="exts" value="ebpextensions\modifier_ext" List.ItemID="1754426123">
 		</template_reference>
-		<template_reference name="exts" value="ebpextensions\site_ext" List.ItemID="588329328">
+		<template_reference name="exts" value="ebpextensions\site_ext" List.ItemID="1473553396">
 			<bool name="snap_to_terrain" value="False" overrideParent="True" />
 			<float name="extra_build_test_footprint_x" value="0" />
 			<float name="extra_build_test_footprint_z" value="0" />
@@ -127,26 +133,26 @@
 			<bool name="forced_axis_aligned_footprint" value="False" />
 			<bool name="remove_if_constructed_over" value="False" />
 			<list name="snap_to_surface_types">
-				<enum name="surface_type" value="Ground" List.ItemID="1279954435" />
+				<enum name="surface_type" value="Ground" List.ItemID="-1480892714" />
 			</list>
 			<bool name="snap_to_construction_grid" value="False" />
 			<bool name="despawn_if_constructed_over" value="False" />
 		</template_reference>
-		<template_reference name="exts" value="ebpextensions\type_ext" List.ItemID="1360370492">
+		<template_reference name="exts" value="ebpextensions\type_ext" List.ItemID="-1225885535">
 			<enum name="weapon_targeting" value="automatic" />
 			<bool name="intersection_testing" value="False" />
 			<list name="unit_type_list">
-				<enum name="unit_type" value="building" List.ItemID="738599595" />
-				<enum name="unit_type" value="wall" List.ItemID="-568572109" />
-				<enum name="unit_type" value="defensive_structure" List.ItemID="1686188204" />
-				<enum name="unit_type" value="gate" List.ItemID="594560065" />
-				<enum name="unit_type" value="stone_gate" List.ItemID="-2068131963" />
-				<enum name="unit_type" value="siegeable" List.ItemID="415261105" />
+				<enum name="unit_type" value="building" List.ItemID="-774995155" />
+				<enum name="unit_type" value="wall" List.ItemID="-2135450952" />
+				<enum name="unit_type" value="defensive_structure" List.ItemID="853363004" />
+				<enum name="unit_type" value="gate" List.ItemID="-761494369" />
+				<enum name="unit_type" value="stone_gate" List.ItemID="1265765288" />
+				<enum name="unit_type" value="siegeable" List.ItemID="1917051001" />
 			</list>
 			<list name="race_type_list">
 			</list>
 			<list name="attack_target_restriction_on_attacker">
-				<enum name="unit_type" value="human" List.ItemID="-1881192387" />
+				<enum name="unit_type" value="human" List.ItemID="210523172" />
 			</list>
 			<list name="attack_target_restriction_on_victim">
 			</list>
@@ -166,7 +172,7 @@
 			<list name="unit_type_list_ui_appear_as_only">
 			</list>
 		</template_reference>
-		<template_reference name="exts" value="ebpextensions\construction_ext" List.ItemID="1599948974">
+		<template_reference name="exts" value="ebpextensions\construction_ext" List.ItemID="-651796476">
 			<bool name="automatic_fit_on_placement" value="False" />
 			<float name="cancel_refund_percentage" value="100" />
 			<string name="construction_state_name" value="construction_state" />
@@ -205,21 +211,21 @@
 				<bool name="must_be_in_explored_area" value="True" />
 				<bool name="must_be_on_movement_node" value="False" />
 				<list name="placement_requirement_options">
-					<template_reference name="placement_requirement_option" value="options\placement\requirements\placement_requirement_entity_in_footprint_option" List.ItemID="-939121597">
+					<template_reference name="placement_requirement_option" value="options\placement\requirements\placement_requirement_entity_in_footprint_option" List.ItemID="234446756">
 						<bool name="required" value="False" overrideParent="True" />
 						<template_reference name="footprint_size_offset" value="basic_data_types\vector2">
 							<float name="x" value="3" overrideParent="True" />
 							<float name="y" value="1" overrideParent="True" />
 						</template_reference>
 						<list name="unit_types">
-							<enum name="unit_type" value="stone_wall" overrideParent="True" List.ItemID="-2087319925" />
-							<enum name="unit_type" value="palisade_wall" List.ItemID="-1246204551" />
-							<enum name="unit_type" value="gate" List.ItemID="1188535800" />
+							<enum name="unit_type" value="stone_wall" overrideParent="True" List.ItemID="-1249320091" />
+							<enum name="unit_type" value="palisade_wall" List.ItemID="460393764" />
+							<enum name="unit_type" value="gate" List.ItemID="-1240653097" />
 						</list>
 						<list name="ownership_types">
-							<enum name="ownership_type" value="enemy" List.ItemID="1419947746" />
-							<enum name="ownership_type" value="neutral" List.ItemID="-2061935200" />
-							<enum name="ownership_type" value="ally" List.ItemID="780174358" />
+							<enum name="ownership_type" value="enemy" List.ItemID="504131096" />
+							<enum name="ownership_type" value="neutral" List.ItemID="1732932354" />
+							<enum name="ownership_type" value="ally" List.ItemID="-1130274645" />
 						</list>
 					</template_reference>
 				</list>
@@ -274,7 +280,7 @@
 			</list>
 			<float name="aqueduct_cistern_proximity_test_square_scale" value="0" />
 		</template_reference>
-		<template_reference name="exts" value="ebpextensions\cost_ext" List.ItemID="1524316113">
+		<template_reference name="exts" value="ebpextensions\cost_ext" List.ItemID="1281613895">
 			<group name="time_cost">
 				<enum_table name="cost">
 					<float name="action" value="0" />
@@ -291,7 +297,7 @@
 				<int name="time_turns" value="0" />
 			</group>
 		</template_reference>
-		<template_reference name="exts" value="ebpextensions\sight_ext" List.ItemID="788670160">
+		<template_reference name="exts" value="ebpextensions\sight_ext" List.ItemID="-1828039787">
 			<group name="detect_camouflage">
 				<float name="tp_global" value="10" />
 				<float name="tp_mine" value="0" />
@@ -325,7 +331,7 @@
 				<float name="throttle" value="0" />
 			</group>
 		</template_reference>
-		<template_reference name="exts" value="ebpextensions\ui_ext" List.ItemID="-1447125005">
+		<template_reference name="exts" value="ebpextensions\ui_ext" List.ItemID="1317018696">
 			<bool name="ap_killed_kicker" value="True" />
 			<bool name="ap_loss_kicker" value="True" />
 			<float name="decorator_height" value="12" />
@@ -449,18 +455,18 @@
 			<locstring name="extra_text_controller" value="0" />
 			<bool name="static_selection_bounds" value="False" />
 		</template_reference>
-		<template_reference name="exts" value="ebpextensions\supply_ext" List.ItemID="-599659515">
+		<template_reference name="exts" value="ebpextensions\supply_ext" List.ItemID="-998045741">
 			<bool name="default_on" value="True" />
 		</template_reference>
-		<template_reference name="exts" value="ebpextensions\requirement_ext" List.ItemID="-1436115680">
+		<template_reference name="exts" value="ebpextensions\requirement_ext" overrideParent="True" List.ItemID="628241389">
 			<list name="requirement_table">
-				<template_reference name="required" value="requirements\required_player_upgrade" List.ItemID="791986371">
+				<template_reference name="required" value="requirements\required_player_upgrade" List.ItemID="-1336403195">
 					<enum name="reason" value="usage" />
 					<locstring name="ui_name" value="0" />
 					<bool name="is_present" value="True" />
 					<int name="max_completed" value="100" />
 					<int name="min_completed" value="1" />
-					<instance_reference name="upgrade_name" value="upgrade\dev\ages\castle_age" overrideParent="True" />
+					<instance_reference name="upgrade_name" value="upgrade\dev\ages\castle_age" />
 					<bool name="include_queued" value="False" />
 					<group name="include_pbg_parenting">
 						<bool name="include_child_pbgs" value="False" />
@@ -471,14 +477,14 @@
 			</list>
 			<state_tree_node name="requirement_statetree" value="" />
 		</template_reference>
-		<template_reference name="exts" value="ebpextensions\burn_ext" List.ItemID="581783760">
+		<template_reference name="exts" value="ebpextensions\burn_ext" List.ItemID="1652165784">
 			<float name="on_fire_damage_per_sec" value="5" />
 			<float name="on_fire_decay_amount_per_sec" value="0" />
 			<float name="on_fire_threshold" value="59" />
 			<float name="max_fire_damage_per_second" value="10000" />
 			<float name="on_fire_health_percentage" value="0.25" />
 		</template_reference>
-		<template_reference name="exts" value="ebpextensions\territory_sector_layout_ext" List.ItemID="-1061156066">
+		<template_reference name="exts" value="ebpextensions\territory_sector_layout_ext" List.ItemID="1323254935">
 			<list name="fill_steps_on_construction_begin">
 			</list>
 			<list name="fill_steps_on_building_placed">
@@ -500,7 +506,7 @@
 					<bool name="rasterize_partial_cells" value="True" />
 					<float name="gap_filler_offset" value="1.6" />
 					<list name="blocked_pass_types">
-						<instance_reference name="pass_type" value="pass_types\infantry" List.ItemID="-1274887267" />
+						<instance_reference name="pass_type" value="pass_types\infantry" List.ItemID="1050723911" />
 					</list>
 					<group name="spacing">
 						<float name="degrees_occupied_by_wall" value="80" />
@@ -514,30 +520,30 @@
 						</group>
 					</group>
 					<list name="visuals">
-						<template_reference name="visual" value="options\ebpextensions\hexmapext\gap_filler_visual" List.ItemID="1222367442">
+						<template_reference name="visual" value="options\ebpextensions\hexmapext\gap_filler_visual" List.ItemID="-803867353">
 							<file name="visual" value="civilizations\english\structures\stonewall\eng_stonewall_gapfill_1m\eng_stonewall_gapfill_1m" />
 							<float name="rotation_offset" value="90" />
 							<float name="visual_length" value="1" />
 						</template_reference>
-						<template_reference name="visual" value="options\ebpextensions\hexmapext\gap_filler_visual" List.ItemID="562671844">
+						<template_reference name="visual" value="options\ebpextensions\hexmapext\gap_filler_visual" List.ItemID="752125148">
 							<file name="visual" value="civilizations\english\structures\stonewall\eng_stonewall_gapfill_2m\eng_stonewall_gapfill_2m" />
 							<float name="rotation_offset" value="90" />
 							<float name="visual_length" value="2" />
 						</template_reference>
-						<template_reference name="visual" value="options\ebpextensions\hexmapext\gap_filler_visual" List.ItemID="1210297911">
+						<template_reference name="visual" value="options\ebpextensions\hexmapext\gap_filler_visual" List.ItemID="1014264259">
 							<file name="visual" value="civilizations\english\structures\stonewall\eng_stonewall_gapfill_3m\eng_stonewall_gapfill_3m" />
 							<float name="rotation_offset" value="90" />
 							<float name="visual_length" value="3" />
 						</template_reference>
-						<template_reference name="visual" value="options\ebpextensions\hexmapext\gap_filler_visual" List.ItemID="-1043289482">
+						<template_reference name="visual" value="options\ebpextensions\hexmapext\gap_filler_visual" List.ItemID="-2023552435">
 							<file name="visual" value="civilizations\english\structures\stonewall\eng_stonewall_gapfill_4m\eng_stonewall_gapfill_4m" />
 							<float name="rotation_offset" value="90" />
 							<float name="visual_length" value="4" />
 						</template_reference>
 					</list>
 					<list name="additional_blocking_pass_types">
-						<instance_reference name="pass_type" value="pass_types\vehicle" List.ItemID="-757813846" />
-						<instance_reference name="pass_type" value="pass_types\water_default" List.ItemID="-1829967863" />
+						<instance_reference name="pass_type" value="pass_types\vehicle" List.ItemID="-327894013" />
+						<instance_reference name="pass_type" value="pass_types\water_default" List.ItemID="-788311010" />
 					</list>
 					<bool name="only_create_capless_wall_end_gap_fillers" value="True" comment="We don't want gap-fillers sticking out the front/back of the gate but we want gap-fillers if the gate is the end of the wall to make sure any gap between the wall and impasse is filled." />
 					<float name="gap_filler_length_capless_wall_end" value="5" overrideParent="True" />
@@ -549,11 +555,11 @@
 			<float name="cell_material_edge_fade_speed" value="0.2" />
 			<float name="cell_material_edge_fade_noise_amount" value="0.1" />
 			<list name="vertex_impacts">
-				<template_reference name="vertex_impact" value="hex_cell_fill_steps\vertex_impact" List.ItemID="-961714282">
+				<template_reference name="vertex_impact" value="hex_cell_fill_steps\vertex_impact" List.ItemID="-2003311566">
 					<enum name="impact_type" value="UnlockVertices" />
 					<int name="impact_value" value="0" />
 				</template_reference>
-				<template_reference name="vertex_impact" value="hex_cell_fill_steps\vertex_impact" List.ItemID="876988110">
+				<template_reference name="vertex_impact" value="hex_cell_fill_steps\vertex_impact" List.ItemID="521894319">
 					<enum name="impact_type" value="IncrementVertices" />
 					<int name="impact_value" value="1" />
 				</template_reference>
@@ -576,9 +582,9 @@
 			<float name="collapse_narrow_phase_obb_distance" value="0" />
 			<bool name="should_kill_cap_slot_neighbours" value="False" />
 		</template_reference>
-		<template_reference name="exts" value="ebpextensions\action_apply_ext" List.ItemID="-1930490718">
+		<template_reference name="exts" value="ebpextensions\action_apply_ext" List.ItemID="-704517330">
 			<list name="action_state_trees">
-				<group name="container" List.ItemID="-505975843">
+				<group name="container" List.ItemID="-1261410182">
 					<string name="state_tree" value="building_action_apply\buildings\gate_action_apply" />
 				</group>
 			</list>
@@ -594,15 +600,15 @@
 			<list name="physical_state_trees_run_once">
 			</list>
 		</template_reference>
-		<template_reference name="exts" value="ebpextensions\ability_ext" List.ItemID="832754192">
+		<template_reference name="exts" value="ebpextensions\ability_ext" List.ItemID="24462201">
 			<list name="abilities">
-				<instance_reference name="ability" value="abilities\timed_abilities\civ_core\core_building_scuttle_no_enemies" List.ItemID="150311555" />
-				<instance_reference name="ability" value="abilities\toggle_abilities\civ_core\core_gate_auto_toggle" List.ItemID="-299355031" />
+				<instance_reference name="ability" value="abilities\timed_abilities\civ_core\core_building_scuttle_no_enemies" List.ItemID="-1656690022" />
+				<instance_reference name="ability" value="abilities\toggle_abilities\civ_core\core_gate_auto_toggle" List.ItemID="1606445442" />
 			</list>
 		</template_reference>
-		<template_reference name="exts" value="ebpextensions\interactive_object_ext" List.ItemID="-512788714">
+		<template_reference name="exts" value="ebpextensions\interactive_object_ext" List.ItemID="-1632312260">
 			<list name="type_list">
-				<group name="type" List.ItemID="1340729182">
+				<group name="type" List.ItemID="126050697">
 					<enum name="interaction_type" value="repair" />
 					<int name="prefer_number" value="-1" />
 					<int name="max_number" value="-1" />
@@ -611,7 +617,7 @@
 					</template_reference>
 					<bool name="block_pathing_when_interacted" value="False" />
 				</group>
-				<group name="type" List.ItemID="-18094099">
+				<group name="type" List.ItemID="-207020381">
 					<enum name="interaction_type" value="construct" />
 					<int name="prefer_number" value="-1" />
 					<int name="max_number" value="-1" />
@@ -622,12 +628,12 @@
 				</group>
 			</list>
 		</template_reference>
-		<template_reference name="exts" value="ebpextensions\marker_ext" List.ItemID="322932072">
+		<template_reference name="exts" value="ebpextensions\marker_ext" List.ItemID="-418935237">
 		</template_reference>
-		<template_reference name="exts" value="ebpextensions\statemodel_ext" List.ItemID="1525085740">
+		<template_reference name="exts" value="ebpextensions\statemodel_ext" List.ItemID="-1387556529">
 			<instance_reference name="schema" value="statemodel_schema\buildings\gate_stone" />
 		</template_reference>
-		<template_reference name="exts" value="ebpextensions\animation_action_tree_ext" List.ItemID="2115688535">
+		<template_reference name="exts" value="ebpextensions\animation_action_tree_ext" List.ItemID="-341261494">
 			<state_tree_node name="ActionTree_OpeningBranch" value="gates" />
 			<bool name="use_root_motion" value="True" />
 			<bool name="start_suspended" value="False" />
@@ -635,7 +641,7 @@
 			<float name="speed_scale_threshold" value="100" />
 			<string name="default_animation" value="" />
 		</template_reference>
-		<template_reference name="exts" value="ebpextensions\action_tree_ext" List.ItemID="946522038">
+		<template_reference name="exts" value="ebpextensions\action_tree_ext" List.ItemID="-2043000638">
 			<state_tree_node name="ActionTree_OpeningBranch" value="unit_building" />
 			<bool name="start_suspended" value="False" />
 			<state_tree_node name="fallback_default_move_command_conditions" value="" />
@@ -643,7 +649,7 @@
 			</list>
 			<enum name="stop_on_death" value="Default" />
 		</template_reference>
-		<template_reference name="exts" value="ebpextensions\audio_ext" List.ItemID="-1481657767">
+		<template_reference name="exts" value="ebpextensions\audio_ext" List.ItemID="-1183549860">
 			<list name="rtpc_events">
 			</list>
 			<list name="sound_banks">
@@ -654,24 +660,24 @@
 			<list name="select_audible_to_relation_list">
 			</list>
 		</template_reference>
-		<template_reference name="exts" value="ebpextensions\walkable_slottedspline_entity_ext" List.ItemID="-1041808002">
+		<template_reference name="exts" value="ebpextensions\walkable_slottedspline_entity_ext" List.ItemID="448657253">
 			<float name="primary_walkable_height_meters" value="0" />
 			<int name="walkable_width_meters" value="3" />
 			<list name="boundary_blocked_pass_types">
-				<instance_reference name="pass_type" value="pass_types\vehicle" List.ItemID="-979312005" />
-				<instance_reference name="pass_type" value="pass_types\infantry" List.ItemID="-1195778472" />
-				<instance_reference name="pass_type" value="pass_types\water_default" List.ItemID="1465414896" />
+				<instance_reference name="pass_type" value="pass_types\vehicle" List.ItemID="-1372859887" />
+				<instance_reference name="pass_type" value="pass_types\infantry" List.ItemID="-1805776966" />
+				<instance_reference name="pass_type" value="pass_types\water_default" List.ItemID="-1762703620" />
 			</list>
 			<list name="surface_blocked_pass_types">
-				<instance_reference name="pass_type" value="pass_types\water_default" List.ItemID="1824228094" />
+				<instance_reference name="pass_type" value="pass_types\water_default" List.ItemID="552475382" />
 			</list>
 			<bool name="override_boundary_cells" value="False" comment="Allow gates to keep their boundary cells since those are the edges for interaction not the edge of the walkable surface" />
 			<list name="owner_blocker_override_pass_types">
-				<instance_reference name="pass_type" value="pass_types\infantry" List.ItemID="1862143935" />
-				<instance_reference name="pass_type" value="pass_types\vehicle" List.ItemID="2066355062" />
+				<instance_reference name="pass_type" value="pass_types\infantry" List.ItemID="-1841267955" />
+				<instance_reference name="pass_type" value="pass_types\vehicle" List.ItemID="-700488048" />
 			</list>
 			<list name="owner_blocker_override_simbox_filters">
-				<group name="FilterSimbox" List.ItemID="1606640244">
+				<group name="FilterSimbox" List.ItemID="214233465">
 					<string name="named_simbox" value="gate" />
 					<bool name="keep_covered_cells" value="True" />
 					<bool name="partial_rasterize" value="True" />
@@ -683,7 +689,7 @@
 			<bool name="owner_blocker_override_blocks_can_build" value="False" />
 			<bool name="surface_blocks_can_build" value="True" />
 		</template_reference>
-		<template_reference name="exts" value="ebpextensions\speech_ext" List.ItemID="-878440351">
+		<template_reference name="exts" value="ebpextensions\speech_ext" List.ItemID="-1156127949">
 			<string name="speaker_code" value="" />
 			<group name="speech_parameters">
 				<string name="class_code" value="" />
@@ -692,12 +698,12 @@
 			</group>
 			<int name="importance" value="5" />
 		</template_reference>
-		<template_reference name="exts" value="ebpextensions\boundary_cells_ext" List.ItemID="-1871419022">
+		<template_reference name="exts" value="ebpextensions\boundary_cells_ext" List.ItemID="347931427">
 			<list name="additional_boundary_simboxes">
-				<group name="boundary_box" List.ItemID="-957800453">
+				<group name="boundary_box" List.ItemID="-2081472049">
 					<list name="boundary_path">
-						<instance_reference name="path_type" value="pass_types\infantry" List.ItemID="-1343027650" />
-						<instance_reference name="path_type" value="pass_types\vehicle" List.ItemID="495317371" />
+						<instance_reference name="path_type" value="pass_types\infantry" List.ItemID="-1848325895" />
+						<instance_reference name="path_type" value="pass_types\vehicle" List.ItemID="-1713493015" />
 					</list>
 					<string name="named_simbox" value="boundary_cell_generator" />
 				</group>
@@ -709,20 +715,20 @@
 			<list name="center_cells">
 			</list>
 		</template_reference>
-		<template_reference name="exts" value="ebpextensions\hit_react_tree_ext" List.ItemID="-1037695162">
+		<template_reference name="exts" value="ebpextensions\hit_react_tree_ext" List.ItemID="-86374867">
 			<state_tree_node name="ActionTree_OpeningBranch" value="building_hit_tree" />
 		</template_reference>
-		<template_reference name="exts" value="ebpextensions\building_presentation_ext" List.ItemID="1217062592">
+		<template_reference name="exts" value="ebpextensions\building_presentation_ext" List.ItemID="-968979445">
 			<file name="construction_stamp" value="art\stamps\scaffolding\west\west_gate" />
 		</template_reference>
-		<template_reference name="exts" value="ebpextensions\wall_ext" comment="Only here to accomodate BP converting from segment to gate. The use of entity subclasses forces the inclusion and exclusion of certain extensions." List.ItemID="984210298">
+		<template_reference name="exts" value="ebpextensions\wall_ext" comment="Only here to accomodate BP converting from segment to gate. The use of entity subclasses forces the inclusion and exclusion of certain extensions." List.ItemID="-707155100">
 		</template_reference>
 	</list>
 	<uniqueid name="pbgid" value="129064" />
 	<instance_reference name="parent_pbg" value="ebps\races\core\buildings\building_alpha" />
 	<variant name="campaign">
 		<list name="extensions">
-			<template_reference name="exts" value="ebpextensions\entity_blueprint_ext" List.ItemID="1895645481" List.ListAction="Append">
+			<template_reference name="exts" value="ebpextensions\entity_blueprint_ext" List.ItemID="1731471390" List.ListAction="Append">
 				<file name="alternate_sua" value="art\civilizations\english\structures\stonewall\eng_stonewall_smallgate\eng_stonewall_smallgate" />
 				<bool name="always_revealed_in_fow" value="False" />
 				<bool name="is_visible_in_game" value="True" />
@@ -737,12 +743,12 @@
 				<float name="entity_scale" value="100" />
 				<enum name="subclass_type" value="Building" />
 			</template_reference>
-			<template_reference name="exts" value="ebpextensions\sim_entity_ext" List.ItemID="341299863" List.ListAction="Append">
+			<template_reference name="exts" value="ebpextensions\sim_entity_ext" List.ItemID="290281937" List.ListAction="Append">
 				<float name="rotate_snap" value="360" />
 				<bool name="kill_paradrop" value="False" />
 				<enum name="transferable" value="None" />
 			</template_reference>
-			<template_reference name="exts" value="ebpextensions\health_ext" List.ItemID="-766785082" List.ListAction="Append">
+			<template_reference name="exts" value="ebpextensions\health_ext" List.ItemID="-1609157341" List.ListAction="Append">
 				<bool name="can_repair" value="True" />
 				<bool name="cuttable" value="False" />
 				<string name="death_event_name" value="death" />
@@ -793,8 +799,14 @@
 				<state_tree_node name="on_reach_invulnerable_min_cap_entity_state_tree_ref" value="" />
 				<state_tree_node name="on_reach_max_health_entity_state_tree_ref" value="" />
 				<bool name="can_be_damaged_by_ally" value="False" />
+				<enum_table name="percentage_reduction_armor_by_damage_type">
+					<float name="True Damage" value="0" />
+					<float name="Melee" value="0" />
+					<float name="Ranged" value="0" />
+					<float name="Fire" value="0" />
+				</enum_table>
 			</template_reference>
-			<template_reference name="exts" value="ebpextensions\hit_object_ext" List.ItemID="-385190054" List.ListAction="Append">
+			<template_reference name="exts" value="ebpextensions\hit_object_ext" List.ItemID="-1178511628" List.ListAction="Append">
 				<instance_reference name="hit_material" value="hit_material\stone" />
 				<float name="hit_chance" value="1" />
 				<template_reference name="projectile_reflect_option" value="options\none">
@@ -817,7 +829,7 @@
 					<bool name="collide_with_missed_ranged_weapon_shots" value="True" />
 				</group>
 			</template_reference>
-			<template_reference name="exts" value="ebpextensions\line_of_sight_ext" List.ItemID="25406279" List.ListAction="Append">
+			<template_reference name="exts" value="ebpextensions\line_of_sight_ext" List.ItemID="1197356936" List.ListAction="Append">
 				<group name="blocking_box">
 					<float name="x" value="0.01" />
 					<float name="y" value="0.01" />
@@ -831,9 +843,9 @@
 				</list>
 				<bool name="disable_shot_blocking_on_death" value="True" />
 			</template_reference>
-			<template_reference name="exts" value="ebpextensions\modifier_ext" List.ItemID="821217880" List.ListAction="Append">
+			<template_reference name="exts" value="ebpextensions\modifier_ext" List.ItemID="-1846807943" List.ListAction="Append">
 			</template_reference>
-			<template_reference name="exts" value="ebpextensions\site_ext" List.ItemID="1246356620" List.ListAction="Append">
+			<template_reference name="exts" value="ebpextensions\site_ext" List.ItemID="1009023083" List.ListAction="Append">
 				<bool name="snap_to_terrain" value="True" />
 				<float name="extra_build_test_footprint_x" value="0" />
 				<float name="extra_build_test_footprint_z" value="0" />
@@ -849,21 +861,21 @@
 				<bool name="forced_axis_aligned_footprint" value="False" />
 				<bool name="remove_if_constructed_over" value="False" />
 				<list name="snap_to_surface_types">
-					<enum name="surface_type" value="Ground" List.ItemID="-13702857" />
+					<enum name="surface_type" value="Ground" List.ItemID="603897273" />
 				</list>
 				<bool name="snap_to_construction_grid" value="False" />
 				<bool name="despawn_if_constructed_over" value="False" />
 			</template_reference>
-			<template_reference name="exts" value="ebpextensions\type_ext" List.ItemID="953628684" List.ListAction="Append">
+			<template_reference name="exts" value="ebpextensions\type_ext" List.ItemID="-1335219936" List.ListAction="Append">
 				<enum name="weapon_targeting" value="manual_only" />
 				<bool name="intersection_testing" value="False" />
 				<list name="unit_type_list">
-					<enum name="unit_type" value="building" List.ItemID="-893347209" />
-					<enum name="unit_type" value="wall" List.ItemID="1095906142" />
-					<enum name="unit_type" value="defensive_structure" List.ItemID="-321299299" />
-					<enum name="unit_type" value="gate" List.ItemID="518332245" />
-					<enum name="unit_type" value="stone_gate" List.ItemID="-1247288156" />
-					<enum name="unit_type" value="siegeable" List.ItemID="1661784061" />
+					<enum name="unit_type" value="building" List.ItemID="-660067200" />
+					<enum name="unit_type" value="wall" List.ItemID="1788856346" />
+					<enum name="unit_type" value="defensive_structure" List.ItemID="439105867" />
+					<enum name="unit_type" value="gate" List.ItemID="387138658" />
+					<enum name="unit_type" value="stone_gate" List.ItemID="-1320132531" />
+					<enum name="unit_type" value="siegeable" List.ItemID="-66073233" />
 				</list>
 				<list name="race_type_list">
 				</list>
@@ -887,7 +899,7 @@
 				<list name="unit_type_list_ui_appear_as_only">
 				</list>
 			</template_reference>
-			<template_reference name="exts" value="ebpextensions\construction_ext" List.ItemID="1358563107" List.ListAction="Append">
+			<template_reference name="exts" value="ebpextensions\construction_ext" List.ItemID="307681344" List.ListAction="Append">
 				<bool name="automatic_fit_on_placement" value="False" />
 				<float name="cancel_refund_percentage" value="100" />
 				<string name="construction_state_name" value="construction_state" />
@@ -978,7 +990,7 @@
 				</list>
 				<float name="aqueduct_cistern_proximity_test_square_scale" value="0" />
 			</template_reference>
-			<template_reference name="exts" value="ebpextensions\cost_ext" List.ItemID="2138113673" List.ListAction="Append">
+			<template_reference name="exts" value="ebpextensions\cost_ext" List.ItemID="-85880625" List.ListAction="Append">
 				<group name="time_cost">
 					<enum_table name="cost">
 						<float name="action" value="0" />
@@ -995,7 +1007,7 @@
 					<int name="time_turns" value="0" />
 				</group>
 			</template_reference>
-			<template_reference name="exts" value="ebpextensions\sight_ext" List.ItemID="1336024225" List.ListAction="Append">
+			<template_reference name="exts" value="ebpextensions\sight_ext" List.ItemID="520277366" List.ListAction="Append">
 				<group name="detect_camouflage">
 					<float name="tp_global" value="10" />
 					<float name="tp_mine" value="0" />
@@ -1029,7 +1041,7 @@
 					<float name="throttle" value="0" />
 				</group>
 			</template_reference>
-			<template_reference name="exts" value="ebpextensions\ui_ext" List.ItemID="-904818595" List.ListAction="Append">
+			<template_reference name="exts" value="ebpextensions\ui_ext" List.ItemID="1064114435" List.ListAction="Append">
 				<bool name="ap_killed_kicker" value="True" />
 				<bool name="ap_loss_kicker" value="True" />
 				<float name="decorator_height" value="-1" />
@@ -1153,12 +1165,12 @@
 				<locstring name="extra_text_controller" value="0" />
 				<bool name="static_selection_bounds" value="False" />
 			</template_reference>
-			<template_reference name="exts" value="ebpextensions\supply_ext" List.ItemID="739802005" List.ListAction="Append">
+			<template_reference name="exts" value="ebpextensions\supply_ext" List.ItemID="1685046699" List.ListAction="Append">
 				<bool name="default_on" value="True" />
 			</template_reference>
-			<template_reference name="exts" value="ebpextensions\requirement_ext" List.ItemID="403149478" List.ListAction="Append">
+			<template_reference name="exts" value="ebpextensions\requirement_ext" List.ItemID="1830117899" List.ListAction="Append">
 				<list name="requirement_table">
-					<template_reference name="required" value="requirements\required_player_upgrade" List.ItemID="-412679833">
+					<template_reference name="required" value="requirements\required_player_upgrade" List.ItemID="-1999697382">
 						<enum name="reason" value="usage" />
 						<locstring name="ui_name" value="0" />
 						<bool name="is_present" value="True" />
@@ -1175,14 +1187,14 @@
 				</list>
 				<state_tree_node name="requirement_statetree" value="" />
 			</template_reference>
-			<template_reference name="exts" value="ebpextensions\burn_ext" List.ItemID="-1861375530" List.ListAction="Append">
+			<template_reference name="exts" value="ebpextensions\burn_ext" List.ItemID="993628596" List.ListAction="Append">
 				<float name="on_fire_damage_per_sec" value="5" />
 				<float name="on_fire_decay_amount_per_sec" value="0" />
 				<float name="on_fire_threshold" value="59" />
 				<float name="max_fire_damage_per_second" value="10000" />
 				<float name="on_fire_health_percentage" value="0.25" />
 			</template_reference>
-			<template_reference name="exts" value="ebpextensions\territory_sector_layout_ext" List.ItemID="1204870665" List.ListAction="Append">
+			<template_reference name="exts" value="ebpextensions\territory_sector_layout_ext" List.ItemID="-1406429826" List.ListAction="Append">
 				<list name="fill_steps_on_construction_begin">
 				</list>
 				<list name="fill_steps_on_building_placed">
@@ -1207,11 +1219,11 @@
 				<float name="cell_material_edge_fade_speed" value="0.2" />
 				<float name="cell_material_edge_fade_noise_amount" value="0.1" />
 				<list name="vertex_impacts">
-					<template_reference name="vertex_impact" value="hex_cell_fill_steps\vertex_impact" List.ItemID="1407899059">
+					<template_reference name="vertex_impact" value="hex_cell_fill_steps\vertex_impact" List.ItemID="-810207972">
 						<enum name="impact_type" value="UnlockVertices" />
 						<int name="impact_value" value="0" />
 					</template_reference>
-					<template_reference name="vertex_impact" value="hex_cell_fill_steps\vertex_impact" List.ItemID="-88535409">
+					<template_reference name="vertex_impact" value="hex_cell_fill_steps\vertex_impact" List.ItemID="1831400613">
 						<enum name="impact_type" value="IncrementVertices" />
 						<int name="impact_value" value="1" />
 					</template_reference>
@@ -1234,9 +1246,9 @@
 				<float name="collapse_narrow_phase_obb_distance" value="0" />
 				<bool name="should_kill_cap_slot_neighbours" value="False" />
 			</template_reference>
-			<template_reference name="exts" value="ebpextensions\action_apply_ext" List.ItemID="-1783153627" List.ListAction="Append">
+			<template_reference name="exts" value="ebpextensions\action_apply_ext" List.ItemID="-1250130042" List.ListAction="Append">
 				<list name="action_state_trees">
-					<group name="container" List.ItemID="-1071006277">
+					<group name="container" List.ItemID="-1052468738">
 						<string name="state_tree" value="campaignMod_building_action_apply\buildings\gate_action_apply" />
 					</group>
 				</list>
@@ -1252,15 +1264,15 @@
 				<list name="physical_state_trees_run_once">
 				</list>
 			</template_reference>
-			<template_reference name="exts" value="ebpextensions\ability_ext" List.ItemID="-1411212899" List.ListAction="Append">
+			<template_reference name="exts" value="ebpextensions\ability_ext" List.ItemID="518647611" List.ListAction="Append">
 				<list name="abilities">
-					<instance_reference name="ability" value="abilities\timed_abilities\civ_core\core_building_scuttle_no_enemies" List.ItemID="1605340667" />
-					<instance_reference name="ability" value="abilities\toggle_abilities\civ_core\core_gate_auto_toggle" List.ItemID="1661870096" />
+					<instance_reference name="ability" value="abilities\timed_abilities\civ_core\core_building_scuttle_no_enemies" List.ItemID="1680458229" />
+					<instance_reference name="ability" value="abilities\toggle_abilities\civ_core\core_gate_auto_toggle" List.ItemID="-1288530468" />
 				</list>
 			</template_reference>
-			<template_reference name="exts" value="ebpextensions\interactive_object_ext" List.ItemID="-762170451" List.ListAction="Append">
+			<template_reference name="exts" value="ebpextensions\interactive_object_ext" List.ItemID="-749265265" List.ListAction="Append">
 				<list name="type_list">
-					<group name="type" List.ItemID="824239287">
+					<group name="type" List.ItemID="-1950375089">
 						<enum name="interaction_type" value="repair" />
 						<int name="prefer_number" value="-1" />
 						<int name="max_number" value="-1" />
@@ -1269,7 +1281,7 @@
 						</template_reference>
 						<bool name="block_pathing_when_interacted" value="False" />
 					</group>
-					<group name="type" List.ItemID="372842063">
+					<group name="type" List.ItemID="-1009884228">
 						<enum name="interaction_type" value="construct" />
 						<int name="prefer_number" value="-1" />
 						<int name="max_number" value="-1" />
@@ -1280,12 +1292,12 @@
 					</group>
 				</list>
 			</template_reference>
-			<template_reference name="exts" value="ebpextensions\marker_ext" List.ItemID="-511014334" List.ListAction="Append">
+			<template_reference name="exts" value="ebpextensions\marker_ext" List.ItemID="-2124048554" List.ListAction="Append">
 			</template_reference>
-			<template_reference name="exts" value="ebpextensions\statemodel_ext" List.ItemID="948171900" List.ListAction="Append">
+			<template_reference name="exts" value="ebpextensions\statemodel_ext" List.ItemID="451472747" List.ListAction="Append">
 				<instance_reference name="schema" value="statemodel_schema\buildings\gate" />
 			</template_reference>
-			<template_reference name="exts" value="ebpextensions\animation_action_tree_ext" List.ItemID="932861908" List.ListAction="Append">
+			<template_reference name="exts" value="ebpextensions\animation_action_tree_ext" List.ItemID="1413385695" List.ListAction="Append">
 				<state_tree_node name="ActionTree_OpeningBranch" value="campaignMod_gates" />
 				<bool name="use_root_motion" value="True" />
 				<bool name="start_suspended" value="False" />
@@ -1293,7 +1305,7 @@
 				<float name="speed_scale_threshold" value="100" />
 				<string name="default_animation" value="" />
 			</template_reference>
-			<template_reference name="exts" value="ebpextensions\action_tree_ext" List.ItemID="-2017982954" List.ListAction="Append">
+			<template_reference name="exts" value="ebpextensions\action_tree_ext" List.ItemID="1570390905" List.ListAction="Append">
 				<state_tree_node name="ActionTree_OpeningBranch" value="campaignMod_unit_building" />
 				<bool name="start_suspended" value="False" />
 				<state_tree_node name="fallback_default_move_command_conditions" value="" />
@@ -1301,7 +1313,7 @@
 				</list>
 				<enum name="stop_on_death" value="Default" />
 			</template_reference>
-			<template_reference name="exts" value="ebpextensions\audio_ext" List.ItemID="-2046668473" List.ListAction="Append">
+			<template_reference name="exts" value="ebpextensions\audio_ext" List.ItemID="327853150" List.ListAction="Append">
 				<list name="rtpc_events">
 				</list>
 				<list name="sound_banks">
@@ -1312,29 +1324,29 @@
 				<list name="select_audible_to_relation_list">
 				</list>
 			</template_reference>
-			<template_reference name="exts" value="ebpextensions\entity_targeting_ext" List.ItemID="-819161656" List.ListAction="Append">
+			<template_reference name="exts" value="ebpextensions\entity_targeting_ext" List.ItemID="598563818" List.ListAction="Append">
 				<bool name="allow_weapon_target_scanning" value="False" />
 				<int name="history_size" value="2" />
 				<bool name="allow_entity_scan_close_enemies" value="False" />
 			</template_reference>
-			<template_reference name="exts" value="ebpextensions\walkable_slottedspline_entity_ext" List.ItemID="-1536953746" List.ListAction="Append">
+			<template_reference name="exts" value="ebpextensions\walkable_slottedspline_entity_ext" List.ItemID="1865682825" List.ListAction="Append">
 				<float name="primary_walkable_height_meters" value="0" />
 				<int name="walkable_width_meters" value="3" />
 				<list name="boundary_blocked_pass_types">
-					<instance_reference name="pass_type" value="pass_types\vehicle" List.ItemID="1589381513" />
-					<instance_reference name="pass_type" value="pass_types\infantry" List.ItemID="737078243" />
-					<instance_reference name="pass_type" value="pass_types\water_default" List.ItemID="-1555755258" />
+					<instance_reference name="pass_type" value="pass_types\vehicle" List.ItemID="-953943489" />
+					<instance_reference name="pass_type" value="pass_types\infantry" List.ItemID="1572248570" />
+					<instance_reference name="pass_type" value="pass_types\water_default" List.ItemID="-757052713" />
 				</list>
 				<list name="surface_blocked_pass_types">
-					<instance_reference name="pass_type" value="pass_types\water_default" List.ItemID="212481578" />
+					<instance_reference name="pass_type" value="pass_types\water_default" List.ItemID="2387476" />
 				</list>
 				<bool name="override_boundary_cells" value="False" comment="Allow gates to keep their boundary cells since those are the edges for interaction not the edge of the walkable surface" />
 				<list name="owner_blocker_override_pass_types">
-					<instance_reference name="pass_type" value="pass_types\infantry" List.ItemID="581769266" />
-					<instance_reference name="pass_type" value="pass_types\vehicle" List.ItemID="-259322584" />
+					<instance_reference name="pass_type" value="pass_types\infantry" List.ItemID="700807837" />
+					<instance_reference name="pass_type" value="pass_types\vehicle" List.ItemID="2051765872" />
 				</list>
 				<list name="owner_blocker_override_simbox_filters">
-					<group name="FilterSimbox" List.ItemID="47639382">
+					<group name="FilterSimbox" List.ItemID="123799695">
 						<string name="named_simbox" value="gate" />
 						<bool name="keep_covered_cells" value="True" />
 						<bool name="partial_rasterize" value="True" />
@@ -1346,7 +1358,7 @@
 				<bool name="owner_blocker_override_blocks_can_build" value="False" />
 				<bool name="surface_blocks_can_build" value="True" />
 			</template_reference>
-			<template_reference name="exts" value="ebpextensions\speech_ext" List.ItemID="1853494333" List.ListAction="Append">
+			<template_reference name="exts" value="ebpextensions\speech_ext" List.ItemID="-689876411" List.ListAction="Append">
 				<string name="speaker_code" value="" />
 				<group name="speech_parameters">
 					<string name="class_code" value="" />
@@ -1355,12 +1367,12 @@
 				</group>
 				<int name="importance" value="5" />
 			</template_reference>
-			<template_reference name="exts" value="ebpextensions\boundary_cells_ext" List.ItemID="770831969" List.ListAction="Append">
+			<template_reference name="exts" value="ebpextensions\boundary_cells_ext" List.ItemID="1575097529" List.ListAction="Append">
 				<list name="additional_boundary_simboxes">
-					<group name="boundary_box" List.ItemID="2144350554">
+					<group name="boundary_box" List.ItemID="1194819667">
 						<list name="boundary_path">
-							<instance_reference name="path_type" value="pass_types\infantry" List.ItemID="-1815241328" />
-							<instance_reference name="path_type" value="pass_types\vehicle" List.ItemID="1646667161" />
+							<instance_reference name="path_type" value="pass_types\infantry" List.ItemID="422554131" />
+							<instance_reference name="path_type" value="pass_types\vehicle" List.ItemID="1926296738" />
 						</list>
 						<string name="named_simbox" value="boundary_cell_generator" />
 					</group>
@@ -1372,7 +1384,7 @@
 				<list name="center_cells">
 				</list>
 			</template_reference>
-			<template_reference name="exts" value="ebpextensions\hit_react_tree_ext" List.ItemID="1149985595" List.ListAction="Append">
+			<template_reference name="exts" value="ebpextensions\hit_react_tree_ext" List.ItemID="598457570" List.ListAction="Append">
 				<state_tree_node name="ActionTree_OpeningBranch" value="campaignMod_building_hit_tree" />
 			</template_reference>
 		</list>
@@ -1381,7 +1393,7 @@
 	</variant>
 	<variant name="xp3">
 		<list name="extensions" overrideParent="True">
-			<template_reference name="exts" value="ebpextensions\entity_blueprint_ext" List.ItemID="-213794455">
+			<template_reference name="exts" value="ebpextensions\entity_blueprint_ext" List.ItemID="555740536">
 				<file name="alternate_sua" value="art\civilizations\english\structures\stonewall\eng_stonewall_smallgate_mp\eng_stonewall_smallgate_mp" />
 				<bool name="always_revealed_in_fow" value="False" />
 				<bool name="is_visible_in_game" value="True" />
@@ -1396,12 +1408,12 @@
 				<float name="entity_scale" value="100" />
 				<enum name="subclass_type" value="Building" />
 			</template_reference>
-			<template_reference name="exts" value="ebpextensions\sim_entity_ext" List.ItemID="-787969199">
+			<template_reference name="exts" value="ebpextensions\sim_entity_ext" List.ItemID="1990849506">
 				<float name="rotate_snap" value="360" />
 				<bool name="kill_paradrop" value="False" />
 				<enum name="transferable" value="None" />
 			</template_reference>
-			<template_reference name="exts" value="ebpextensions\health_ext" List.ItemID="578120264">
+			<template_reference name="exts" value="ebpextensions\health_ext" List.ItemID="-1355934094">
 				<bool name="can_repair" value="True" />
 				<bool name="cuttable" value="False" />
 				<string name="death_event_name" value="death" />
@@ -1452,8 +1464,14 @@
 				<state_tree_node name="on_reach_invulnerable_min_cap_entity_state_tree_ref" value="" />
 				<state_tree_node name="on_reach_max_health_entity_state_tree_ref" value="" />
 				<bool name="can_be_damaged_by_ally" value="False" />
+				<enum_table name="percentage_reduction_armor_by_damage_type">
+					<float name="True Damage" value="0" />
+					<float name="Melee" value="0" />
+					<float name="Ranged" value="0" />
+					<float name="Fire" value="0" />
+				</enum_table>
 			</template_reference>
-			<template_reference name="exts" value="ebpextensions\hit_object_ext" List.ItemID="-1341656796">
+			<template_reference name="exts" value="ebpextensions\hit_object_ext" List.ItemID="-804813674">
 				<instance_reference name="hit_material" value="hit_material\stone" />
 				<float name="hit_chance" value="1" />
 				<template_reference name="projectile_reflect_option" value="options\none">
@@ -1476,7 +1494,7 @@
 					<bool name="collide_with_missed_ranged_weapon_shots" value="True" />
 				</group>
 			</template_reference>
-			<template_reference name="exts" value="ebpextensions\line_of_sight_ext" List.ItemID="-103049492">
+			<template_reference name="exts" value="ebpextensions\line_of_sight_ext" List.ItemID="-510695192">
 				<group name="blocking_box">
 					<float name="x" value="0.01" />
 					<float name="y" value="0.01" />
@@ -1490,9 +1508,9 @@
 				</list>
 				<bool name="disable_shot_blocking_on_death" value="True" />
 			</template_reference>
-			<template_reference name="exts" value="ebpextensions\modifier_ext" List.ItemID="-16026851">
+			<template_reference name="exts" value="ebpextensions\modifier_ext" List.ItemID="-1539115030">
 			</template_reference>
-			<template_reference name="exts" value="ebpextensions\site_ext" List.ItemID="-487308655">
+			<template_reference name="exts" value="ebpextensions\site_ext" List.ItemID="820290750">
 				<bool name="snap_to_terrain" value="False" overrideParent="True" />
 				<float name="extra_build_test_footprint_x" value="0" />
 				<float name="extra_build_test_footprint_z" value="0" />
@@ -1508,26 +1526,26 @@
 				<bool name="forced_axis_aligned_footprint" value="False" />
 				<bool name="remove_if_constructed_over" value="False" />
 				<list name="snap_to_surface_types">
-					<enum name="surface_type" value="Ground" List.ItemID="-97623353" />
+					<enum name="surface_type" value="Ground" List.ItemID="-802372913" />
 				</list>
 				<bool name="snap_to_construction_grid" value="False" />
 				<bool name="despawn_if_constructed_over" value="False" />
 			</template_reference>
-			<template_reference name="exts" value="ebpextensions\type_ext" List.ItemID="2083655577">
+			<template_reference name="exts" value="ebpextensions\type_ext" List.ItemID="1811168350">
 				<enum name="weapon_targeting" value="automatic" />
 				<bool name="intersection_testing" value="False" />
 				<list name="unit_type_list">
-					<enum name="unit_type" value="building" List.ItemID="1458208498" />
-					<enum name="unit_type" value="wall" List.ItemID="-1697474011" />
-					<enum name="unit_type" value="defensive_structure" List.ItemID="-1889360017" />
-					<enum name="unit_type" value="gate" List.ItemID="1634600551" />
-					<enum name="unit_type" value="stone_gate" List.ItemID="982446640" />
-					<enum name="unit_type" value="siegeable" List.ItemID="1246937135" />
+					<enum name="unit_type" value="building" List.ItemID="1956454049" />
+					<enum name="unit_type" value="wall" List.ItemID="-787858503" />
+					<enum name="unit_type" value="defensive_structure" List.ItemID="-1752516120" />
+					<enum name="unit_type" value="gate" List.ItemID="-1921974093" />
+					<enum name="unit_type" value="stone_gate" List.ItemID="1633149260" />
+					<enum name="unit_type" value="siegeable" List.ItemID="1132364760" />
 				</list>
 				<list name="race_type_list">
 				</list>
 				<list name="attack_target_restriction_on_attacker">
-					<enum name="unit_type" value="human" List.ItemID="-1586112623" />
+					<enum name="unit_type" value="human" List.ItemID="-697806992" />
 				</list>
 				<list name="attack_target_restriction_on_victim">
 				</list>
@@ -1547,7 +1565,7 @@
 				<list name="unit_type_list_ui_appear_as_only">
 				</list>
 			</template_reference>
-			<template_reference name="exts" value="ebpextensions\construction_ext" List.ItemID="-810036467">
+			<template_reference name="exts" value="ebpextensions\construction_ext" List.ItemID="-292892177">
 				<bool name="automatic_fit_on_placement" value="False" />
 				<float name="cancel_refund_percentage" value="100" />
 				<string name="construction_state_name" value="construction_state" />
@@ -1586,21 +1604,21 @@
 					<bool name="must_be_in_explored_area" value="True" />
 					<bool name="must_be_on_movement_node" value="False" />
 					<list name="placement_requirement_options">
-						<template_reference name="placement_requirement_option" value="options\placement\requirements\placement_requirement_entity_in_footprint_option" List.ItemID="-27917099">
+						<template_reference name="placement_requirement_option" value="options\placement\requirements\placement_requirement_entity_in_footprint_option" List.ItemID="-215359265">
 							<bool name="required" value="False" overrideParent="True" />
 							<template_reference name="footprint_size_offset" value="basic_data_types\vector2">
 								<float name="x" value="3" overrideParent="True" />
 								<float name="y" value="1" overrideParent="True" />
 							</template_reference>
 							<list name="unit_types">
-								<enum name="unit_type" value="stone_wall" overrideParent="True" List.ItemID="1749352706" />
-								<enum name="unit_type" value="palisade_wall" List.ItemID="502173324" />
-								<enum name="unit_type" value="gate" List.ItemID="-2001216763" />
+								<enum name="unit_type" value="stone_wall" overrideParent="True" List.ItemID="-1167539824" />
+								<enum name="unit_type" value="palisade_wall" List.ItemID="-598389788" />
+								<enum name="unit_type" value="gate" List.ItemID="1568339326" />
 							</list>
 							<list name="ownership_types">
-								<enum name="ownership_type" value="enemy" List.ItemID="1304136533" />
-								<enum name="ownership_type" value="neutral" List.ItemID="-1375598877" />
-								<enum name="ownership_type" value="ally" List.ItemID="-453236173" />
+								<enum name="ownership_type" value="enemy" List.ItemID="1394710928" />
+								<enum name="ownership_type" value="neutral" List.ItemID="-2135288385" />
+								<enum name="ownership_type" value="ally" List.ItemID="1690634798" />
 							</list>
 						</template_reference>
 					</list>
@@ -1655,7 +1673,7 @@
 				</list>
 				<float name="aqueduct_cistern_proximity_test_square_scale" value="0" />
 			</template_reference>
-			<template_reference name="exts" value="ebpextensions\cost_ext" List.ItemID="1554363536">
+			<template_reference name="exts" value="ebpextensions\cost_ext" List.ItemID="-1827594503">
 				<group name="time_cost">
 					<enum_table name="cost">
 						<float name="action" value="0" />
@@ -1672,7 +1690,7 @@
 					<int name="time_turns" value="0" />
 				</group>
 			</template_reference>
-			<template_reference name="exts" value="ebpextensions\sight_ext" List.ItemID="25024078">
+			<template_reference name="exts" value="ebpextensions\sight_ext" List.ItemID="-1346800376">
 				<group name="detect_camouflage">
 					<float name="tp_global" value="10" />
 					<float name="tp_mine" value="0" />
@@ -1706,7 +1724,7 @@
 					<float name="throttle" value="0" />
 				</group>
 			</template_reference>
-			<template_reference name="exts" value="ebpextensions\ui_ext" List.ItemID="-569657687">
+			<template_reference name="exts" value="ebpextensions\ui_ext" List.ItemID="720547253">
 				<bool name="ap_killed_kicker" value="True" />
 				<bool name="ap_loss_kicker" value="True" />
 				<float name="decorator_height" value="12" />
@@ -1830,18 +1848,18 @@
 				<locstring name="extra_text_controller" value="0" />
 				<bool name="static_selection_bounds" value="False" />
 			</template_reference>
-			<template_reference name="exts" value="ebpextensions\supply_ext" List.ItemID="-1246046054">
+			<template_reference name="exts" value="ebpextensions\supply_ext" List.ItemID="-447804413">
 				<bool name="default_on" value="True" />
 			</template_reference>
-			<template_reference name="exts" value="ebpextensions\requirement_ext" List.ItemID="643511584">
+			<template_reference name="exts" value="ebpextensions\requirement_ext" overrideParent="True" List.ItemID="1625344458">
 				<list name="requirement_table">
-					<template_reference name="required" value="requirements\required_player_upgrade" List.ItemID="-273108537">
+					<template_reference name="required" value="requirements\required_player_upgrade" List.ItemID="-1044729940">
 						<enum name="reason" value="usage" />
 						<locstring name="ui_name" value="0" />
 						<bool name="is_present" value="True" />
 						<int name="max_completed" value="100" />
 						<int name="min_completed" value="1" />
-						<instance_reference name="upgrade_name" value="upgrade\dev\ages\castle_age" overrideParent="True" />
+						<instance_reference name="upgrade_name" value="upgrade\dev\ages\castle_age" />
 						<bool name="include_queued" value="False" />
 						<group name="include_pbg_parenting">
 							<bool name="include_child_pbgs" value="False" />
@@ -1852,14 +1870,14 @@
 				</list>
 				<state_tree_node name="requirement_statetree" value="" />
 			</template_reference>
-			<template_reference name="exts" value="ebpextensions\burn_ext" List.ItemID="1806978143">
+			<template_reference name="exts" value="ebpextensions\burn_ext" List.ItemID="-328366580">
 				<float name="on_fire_damage_per_sec" value="5" />
 				<float name="on_fire_decay_amount_per_sec" value="0" />
 				<float name="on_fire_threshold" value="59" />
 				<float name="max_fire_damage_per_second" value="10000" />
 				<float name="on_fire_health_percentage" value="0.25" />
 			</template_reference>
-			<template_reference name="exts" value="ebpextensions\territory_sector_layout_ext" List.ItemID="1088056561">
+			<template_reference name="exts" value="ebpextensions\territory_sector_layout_ext" List.ItemID="-1589872659">
 				<list name="fill_steps_on_construction_begin">
 				</list>
 				<list name="fill_steps_on_building_placed">
@@ -1881,7 +1899,7 @@
 						<bool name="rasterize_partial_cells" value="True" />
 						<float name="gap_filler_offset" value="1.6" />
 						<list name="blocked_pass_types">
-							<instance_reference name="pass_type" value="pass_types\infantry" List.ItemID="264340537" />
+							<instance_reference name="pass_type" value="pass_types\infantry" List.ItemID="1734982685" />
 						</list>
 						<group name="spacing">
 							<float name="degrees_occupied_by_wall" value="80" />
@@ -1895,30 +1913,30 @@
 							</group>
 						</group>
 						<list name="visuals">
-							<template_reference name="visual" value="options\ebpextensions\hexmapext\gap_filler_visual" List.ItemID="1159038353">
+							<template_reference name="visual" value="options\ebpextensions\hexmapext\gap_filler_visual" List.ItemID="-1864263548">
 								<file name="visual" value="civilizations\english\structures\stonewall\eng_stonewall_gapfill_1m\eng_stonewall_gapfill_1m" />
 								<float name="rotation_offset" value="90" />
 								<float name="visual_length" value="1" />
 							</template_reference>
-							<template_reference name="visual" value="options\ebpextensions\hexmapext\gap_filler_visual" List.ItemID="-1143527634">
+							<template_reference name="visual" value="options\ebpextensions\hexmapext\gap_filler_visual" List.ItemID="2113672094">
 								<file name="visual" value="civilizations\english\structures\stonewall\eng_stonewall_gapfill_2m\eng_stonewall_gapfill_2m" />
 								<float name="rotation_offset" value="90" />
 								<float name="visual_length" value="2" />
 							</template_reference>
-							<template_reference name="visual" value="options\ebpextensions\hexmapext\gap_filler_visual" List.ItemID="1313251745">
+							<template_reference name="visual" value="options\ebpextensions\hexmapext\gap_filler_visual" List.ItemID="-90924012">
 								<file name="visual" value="civilizations\english\structures\stonewall\eng_stonewall_gapfill_3m\eng_stonewall_gapfill_3m" />
 								<float name="rotation_offset" value="90" />
 								<float name="visual_length" value="3" />
 							</template_reference>
-							<template_reference name="visual" value="options\ebpextensions\hexmapext\gap_filler_visual" List.ItemID="-960964922">
+							<template_reference name="visual" value="options\ebpextensions\hexmapext\gap_filler_visual" List.ItemID="1437785718">
 								<file name="visual" value="civilizations\english\structures\stonewall\eng_stonewall_gapfill_4m\eng_stonewall_gapfill_4m" />
 								<float name="rotation_offset" value="90" />
 								<float name="visual_length" value="4" />
 							</template_reference>
 						</list>
 						<list name="additional_blocking_pass_types">
-							<instance_reference name="pass_type" value="pass_types\vehicle" List.ItemID="785390344" />
-							<instance_reference name="pass_type" value="pass_types\water_default" List.ItemID="1050716750" />
+							<instance_reference name="pass_type" value="pass_types\vehicle" List.ItemID="-544780370" />
+							<instance_reference name="pass_type" value="pass_types\water_default" List.ItemID="1964619855" />
 						</list>
 						<bool name="only_create_capless_wall_end_gap_fillers" value="True" comment="We don't want gap-fillers sticking out the front/back of the gate but we want gap-fillers if the gate is the end of the wall to make sure any gap between the wall and impasse is filled." />
 						<float name="gap_filler_length_capless_wall_end" value="5" overrideParent="True" />
@@ -1930,11 +1948,11 @@
 				<float name="cell_material_edge_fade_speed" value="0.2" />
 				<float name="cell_material_edge_fade_noise_amount" value="0.1" />
 				<list name="vertex_impacts">
-					<template_reference name="vertex_impact" value="hex_cell_fill_steps\vertex_impact" List.ItemID="663677614">
+					<template_reference name="vertex_impact" value="hex_cell_fill_steps\vertex_impact" List.ItemID="1714932419">
 						<enum name="impact_type" value="UnlockVertices" />
 						<int name="impact_value" value="0" />
 					</template_reference>
-					<template_reference name="vertex_impact" value="hex_cell_fill_steps\vertex_impact" List.ItemID="685008783">
+					<template_reference name="vertex_impact" value="hex_cell_fill_steps\vertex_impact" List.ItemID="1496099920">
 						<enum name="impact_type" value="IncrementVertices" />
 						<int name="impact_value" value="1" />
 					</template_reference>
@@ -1957,9 +1975,9 @@
 				<float name="collapse_narrow_phase_obb_distance" value="0" />
 				<bool name="should_kill_cap_slot_neighbours" value="False" />
 			</template_reference>
-			<template_reference name="exts" value="ebpextensions\action_apply_ext" List.ItemID="-1542095820">
+			<template_reference name="exts" value="ebpextensions\action_apply_ext" List.ItemID="-1320085623">
 				<list name="action_state_trees">
-					<group name="container" List.ItemID="-677595500">
+					<group name="container" List.ItemID="-230963202">
 						<string name="state_tree" value="xp3_building_action_apply\buildings\gate_action_apply" />
 					</group>
 				</list>
@@ -1975,15 +1993,15 @@
 				<list name="physical_state_trees_run_once">
 				</list>
 			</template_reference>
-			<template_reference name="exts" value="ebpextensions\ability_ext" List.ItemID="-1887699384">
+			<template_reference name="exts" value="ebpextensions\ability_ext" List.ItemID="-430059226">
 				<list name="abilities">
-					<instance_reference name="ability" value="abilities\timed_abilities\civ_core\core_building_scuttle_no_enemies" List.ItemID="-1214268604" />
-					<instance_reference name="ability" value="abilities\toggle_abilities\civ_core\core_gate_auto_toggle" List.ItemID="-549163417" />
+					<instance_reference name="ability" value="abilities\timed_abilities\civ_core\core_building_scuttle_no_enemies" List.ItemID="1134591000" />
+					<instance_reference name="ability" value="abilities\toggle_abilities\civ_core\core_gate_auto_toggle" List.ItemID="1547655416" />
 				</list>
 			</template_reference>
-			<template_reference name="exts" value="ebpextensions\interactive_object_ext" List.ItemID="-1982000194">
+			<template_reference name="exts" value="ebpextensions\interactive_object_ext" List.ItemID="1236763479">
 				<list name="type_list">
-					<group name="type" List.ItemID="-786746299">
+					<group name="type" List.ItemID="437746100">
 						<enum name="interaction_type" value="repair" />
 						<int name="prefer_number" value="-1" />
 						<int name="max_number" value="-1" />
@@ -1992,7 +2010,7 @@
 						</template_reference>
 						<bool name="block_pathing_when_interacted" value="False" />
 					</group>
-					<group name="type" List.ItemID="588038874">
+					<group name="type" List.ItemID="756961254">
 						<enum name="interaction_type" value="construct" />
 						<int name="prefer_number" value="-1" />
 						<int name="max_number" value="-1" />
@@ -2003,12 +2021,12 @@
 					</group>
 				</list>
 			</template_reference>
-			<template_reference name="exts" value="ebpextensions\marker_ext" List.ItemID="-1836839796">
+			<template_reference name="exts" value="ebpextensions\marker_ext" List.ItemID="-259150665">
 			</template_reference>
-			<template_reference name="exts" value="ebpextensions\statemodel_ext" List.ItemID="211438537">
+			<template_reference name="exts" value="ebpextensions\statemodel_ext" List.ItemID="1102868798">
 				<instance_reference name="schema" value="statemodel_schema\buildings\gate_stone" />
 			</template_reference>
-			<template_reference name="exts" value="ebpextensions\animation_action_tree_ext" List.ItemID="1374279614">
+			<template_reference name="exts" value="ebpextensions\animation_action_tree_ext" List.ItemID="-939483548">
 				<state_tree_node name="ActionTree_OpeningBranch" value="xp3_gates" />
 				<bool name="use_root_motion" value="True" />
 				<bool name="start_suspended" value="False" />
@@ -2016,7 +2034,7 @@
 				<float name="speed_scale_threshold" value="100" />
 				<string name="default_animation" value="" />
 			</template_reference>
-			<template_reference name="exts" value="ebpextensions\action_tree_ext" List.ItemID="-1223480381">
+			<template_reference name="exts" value="ebpextensions\action_tree_ext" List.ItemID="1113549992">
 				<state_tree_node name="ActionTree_OpeningBranch" value="xp3_unit_building" />
 				<bool name="start_suspended" value="False" />
 				<state_tree_node name="fallback_default_move_command_conditions" value="" />
@@ -2024,7 +2042,7 @@
 				</list>
 				<enum name="stop_on_death" value="Default" />
 			</template_reference>
-			<template_reference name="exts" value="ebpextensions\audio_ext" List.ItemID="1494692953">
+			<template_reference name="exts" value="ebpextensions\audio_ext" List.ItemID="-1220275258">
 				<list name="rtpc_events">
 				</list>
 				<list name="sound_banks">
@@ -2035,24 +2053,24 @@
 				<list name="select_audible_to_relation_list">
 				</list>
 			</template_reference>
-			<template_reference name="exts" value="ebpextensions\walkable_slottedspline_entity_ext" List.ItemID="626473700">
+			<template_reference name="exts" value="ebpextensions\walkable_slottedspline_entity_ext" List.ItemID="-324361133">
 				<float name="primary_walkable_height_meters" value="0" />
 				<int name="walkable_width_meters" value="3" />
 				<list name="boundary_blocked_pass_types">
-					<instance_reference name="pass_type" value="pass_types\vehicle" List.ItemID="-1445975577" />
-					<instance_reference name="pass_type" value="pass_types\infantry" List.ItemID="-1393048556" />
-					<instance_reference name="pass_type" value="pass_types\water_default" List.ItemID="-631220026" />
+					<instance_reference name="pass_type" value="pass_types\vehicle" List.ItemID="1966097340" />
+					<instance_reference name="pass_type" value="pass_types\infantry" List.ItemID="1773084192" />
+					<instance_reference name="pass_type" value="pass_types\water_default" List.ItemID="1748301073" />
 				</list>
 				<list name="surface_blocked_pass_types">
-					<instance_reference name="pass_type" value="pass_types\water_default" List.ItemID="1534327551" />
+					<instance_reference name="pass_type" value="pass_types\water_default" List.ItemID="-1600681701" />
 				</list>
 				<bool name="override_boundary_cells" value="False" comment="Allow gates to keep their boundary cells since those are the edges for interaction not the edge of the walkable surface" />
 				<list name="owner_blocker_override_pass_types">
-					<instance_reference name="pass_type" value="pass_types\infantry" List.ItemID="2016654302" />
-					<instance_reference name="pass_type" value="pass_types\vehicle" List.ItemID="-588709401" />
+					<instance_reference name="pass_type" value="pass_types\infantry" List.ItemID="-1511372671" />
+					<instance_reference name="pass_type" value="pass_types\vehicle" List.ItemID="592378814" />
 				</list>
 				<list name="owner_blocker_override_simbox_filters">
-					<group name="FilterSimbox" List.ItemID="1404418577">
+					<group name="FilterSimbox" List.ItemID="-457174005">
 						<string name="named_simbox" value="gate" />
 						<bool name="keep_covered_cells" value="True" />
 						<bool name="partial_rasterize" value="True" />
@@ -2064,7 +2082,7 @@
 				<bool name="owner_blocker_override_blocks_can_build" value="False" />
 				<bool name="surface_blocks_can_build" value="True" />
 			</template_reference>
-			<template_reference name="exts" value="ebpextensions\speech_ext" List.ItemID="-304678900">
+			<template_reference name="exts" value="ebpextensions\speech_ext" List.ItemID="-872408979">
 				<string name="speaker_code" value="" />
 				<group name="speech_parameters">
 					<string name="class_code" value="" />
@@ -2073,12 +2091,12 @@
 				</group>
 				<int name="importance" value="5" />
 			</template_reference>
-			<template_reference name="exts" value="ebpextensions\boundary_cells_ext" List.ItemID="206221848">
+			<template_reference name="exts" value="ebpextensions\boundary_cells_ext" List.ItemID="-2044720756">
 				<list name="additional_boundary_simboxes">
-					<group name="boundary_box" List.ItemID="857296157">
+					<group name="boundary_box" List.ItemID="-187227763">
 						<list name="boundary_path">
-							<instance_reference name="path_type" value="pass_types\infantry" List.ItemID="1837644983" />
-							<instance_reference name="path_type" value="pass_types\vehicle" List.ItemID="-1285177999" />
+							<instance_reference name="path_type" value="pass_types\infantry" List.ItemID="534268277" />
+							<instance_reference name="path_type" value="pass_types\vehicle" List.ItemID="1022204701" />
 						</list>
 						<string name="named_simbox" value="boundary_cell_generator" />
 					</group>
@@ -2090,13 +2108,13 @@
 				<list name="center_cells">
 				</list>
 			</template_reference>
-			<template_reference name="exts" value="ebpextensions\hit_react_tree_ext" List.ItemID="877651290">
+			<template_reference name="exts" value="ebpextensions\hit_react_tree_ext" List.ItemID="-1871165703">
 				<state_tree_node name="ActionTree_OpeningBranch" value="xp3_building_hit_tree" />
 			</template_reference>
-			<template_reference name="exts" value="ebpextensions\building_presentation_ext" List.ItemID="-2107681821">
+			<template_reference name="exts" value="ebpextensions\building_presentation_ext" List.ItemID="1515351319">
 				<file name="construction_stamp" value="art\stamps\scaffolding\west\west_gate" />
 			</template_reference>
-			<template_reference name="exts" value="ebpextensions\entity_targeting_ext" List.ItemID="-1036122775">
+			<template_reference name="exts" value="ebpextensions\entity_targeting_ext" List.ItemID="-769702369">
 				<bool name="allow_weapon_target_scanning" value="False" />
 				<int name="history_size" value="2" />
 				<bool name="allow_entity_scan_close_enemies" value="False" />

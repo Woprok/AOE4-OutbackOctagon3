@@ -1,25 +1,25 @@
 <instance version="4" description="" template="ebps">
 	<list name="extensions">
-		<template_reference name="exts" value="ebpextensions\entity_blueprint_ext" List.ItemID="-1623200963" List.ParentItemID="-1623200963">
+		<template_reference name="exts" value="ebpextensions\entity_blueprint_ext" List.ItemID="29024612" List.ParentItemID="29024612">
 			<enum name="subclass_type" value="Wall" overrideParent="True" />
 		</template_reference>
-		<template_reference name="exts" value="ebpextensions\type_ext" List.ItemID="1292505085" List.ParentItemID="1292505085">
+		<template_reference name="exts" value="ebpextensions\type_ext" List.ItemID="395358434" List.ParentItemID="395358434">
 			<list name="race_type_list" overrideParent="True">
-				<instance_reference name="race_type" value="racebps\hre_ha_01" overrideParent="True" List.ItemID="-1963516891" />
+				<instance_reference name="race_type" value="racebps\hre_ha_01" overrideParent="True" List.ItemID="394074083" />
 			</list>
 		</template_reference>
-		<template_reference name="exts" value="ebpextensions\cost_ext" List.ItemID="-964834515" List.ParentItemID="-964834515">
+		<template_reference name="exts" value="ebpextensions\cost_ext" List.ItemID="-1033113942" List.ParentItemID="-1033113942">
 			<group name="time_cost">
 				<float name="time_seconds" value="13" overrideParent="True" />
 			</group>
 		</template_reference>
-		<template_reference name="exts" value="ebpextensions\territory_sector_layout_ext" List.ItemID="1695299188" List.ParentItemID="1695299188">
+		<template_reference name="exts" value="ebpextensions\territory_sector_layout_ext" List.ItemID="166765763" List.ParentItemID="166765763">
 			<template_reference name="placement_style" value="options\ebpextensions\hexmapext\placement_styles\placement_primary">
 				<instance_reference name="fence_cap_entity" value="ebps\races\hre_ha_01\buildings\building_defense_wall_hre_ha_01\building_defense_wall_bastion_hre_ha_01" overrideParent="True" />
 			</template_reference>
 			<instance_reference name="segment_attachment_list" value="attachments\attachment_lists\civilizations\common\buildings\building_defense_wall_stone_segments_west" overrideParent="True" />
 		</template_reference>
-		<template_reference name="exts" value="ebpextensions\tier_ext" List.ItemID="316570975" List.ListAction="Append">
+		<template_reference name="exts" value="ebpextensions\tier_ext" List.ItemID="-702164403" List.ListAction="Append">
 			<list name="tier_group_list">
 			</list>
 		</template_reference>

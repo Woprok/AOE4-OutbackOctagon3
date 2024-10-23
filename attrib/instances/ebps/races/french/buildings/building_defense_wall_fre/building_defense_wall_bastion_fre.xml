@@ -1,59 +1,67 @@
 <instance version="6" description="" template="ebps">
 	<list name="extensions">
-		<template_reference name="exts" value="ebpextensions\entity_blueprint_ext" List.ItemID="-613808872" List.ParentItemID="-613808872">
+		<template_reference name="exts" value="ebpextensions\entity_blueprint_ext" List.ItemID="315448404" List.ParentItemID="315448404">
 			<file name="alternate_sua" value="art\civilizations\english\structures\stonewall\eng_stonewall_bastion_end\eng_stonewall_bastion_end" overrideParent="True" />
 			<bool name="browsable_in_editor" value="True" overrideParent="True" />
 			<enum name="subclass_type" value="Wall" overrideParent="True" />
 		</template_reference>
-		<template_reference name="exts" value="ebpextensions\health_ext" List.ItemID="423561372" List.ParentItemID="423561372">
+		<template_reference name="exts" value="ebpextensions\health_ext" List.ItemID="-756107812" List.ParentItemID="-756107812">
 			<bool name="can_repair" value="True" overrideParent="True" />
 			<enum_table name="armor_scaler_by_damage_type">
 				<float name="Melee" value="0" overrideParent="True" />
 			</enum_table>
 		</template_reference>
-		<template_reference name="exts" value="ebpextensions\type_ext" List.ItemID="-686185355" List.ParentItemID="-686185355">
+		<template_reference name="exts" value="ebpextensions\type_ext" List.ItemID="-1611858700" List.ParentItemID="-1611858700">
 			<list name="race_type_list" overrideParent="True">
-				<instance_reference name="race_type" value="racebps\french" List.ItemID="1223538292" />
+				<instance_reference name="race_type" value="racebps\french" List.ItemID="-228618101" />
 			</list>
 		</template_reference>
-		<template_reference name="exts" value="ebpextensions\ui_ext" List.ItemID="-6673003" List.ParentItemID="-6673003">
+		<template_reference name="exts" value="ebpextensions\ui_ext" List.ItemID="-1763157639" List.ParentItemID="-1763157639">
 			<float name="decorator_height" value="8.5" overrideParent="True" />
 		</template_reference>
-		<template_reference name="exts" value="ebpextensions\walkable_slottedspline_entity_ext" List.ItemID="45579114" List.ParentItemID="45579114">
+		<template_reference name="exts" value="ebpextensions\walkable_slottedspline_entity_ext" List.ItemID="-1052962999" List.ParentItemID="-1052962999">
 			<list name="boundary_blocked_pass_types" overrideParent="True">
-				<instance_reference name="pass_type" value="pass_types\infantry" List.ItemID="-858685113" />
-				<instance_reference name="pass_type" value="pass_types\vehicle" List.ItemID="-1399559365" />
-				<instance_reference name="pass_type" value="pass_types\water_default" List.ItemID="1411869349" />
+				<instance_reference name="pass_type" value="pass_types\infantry" List.ItemID="827484127" />
+				<instance_reference name="pass_type" value="pass_types\vehicle" List.ItemID="745417725" />
+				<instance_reference name="pass_type" value="pass_types\water_default" List.ItemID="179419140" />
 			</list>
 			<list name="surface_blocked_pass_types" overrideParent="True">
-				<instance_reference name="pass_type" value="pass_types\vehicle" List.ItemID="1423089240" />
+				<instance_reference name="pass_type" value="pass_types\vehicle" List.ItemID="23236012" />
 			</list>
 		</template_reference>
-		<template_reference name="exts" value="ebpextensions\territory_sector_layout_ext" List.ItemID="-1586157177" List.ParentItemID="-1586157177">
+		<template_reference name="exts" value="ebpextensions\territory_sector_layout_ext" List.ItemID="-928295820" List.ParentItemID="-928295820">
 			<instance_reference name="cap_attachment_list" value="attachments\attachment_lists\civilizations\common\buildings\building_defense_wall_stone_bastion_west" overrideParent="True" />
 			<file name="adjacent_to_impass_indicator_animator" value="art\civilizations\english\structures\stonewall\eng_stonewall_cliff_intersection\eng_stonewall_cliff_intersection" overrideParent="True" />
+		</template_reference>
+		<template_reference name="exts" value="ebpextensions\tier_ext" List.ItemID="-1465665891" List.ListAction="Append">
+			<list name="tier_group_list">
+			</list>
 		</template_reference>
 	</list>
 	<uniqueid name="pbgid" value="132685" />
 	<instance_reference name="parent_pbg" value="ebps\races\core\buildings\building_defense_wall_bastion" mod="d2f0913f6d4a4aa3ad8aaf127e2d8f8b" />
 	<variant name="campaign">
 		<list name="extensions">
-			<template_reference name="exts" value="ebpextensions\entity_blueprint_ext" List.ItemID="-1786608941" List.ParentItemID="-1786608941">
+			<template_reference name="exts" value="ebpextensions\entity_blueprint_ext" List.ItemID="-684900138" List.ParentItemID="-684900138">
 				<file name="alternate_sua" value="art\civilizations\english\structures\stonewall\eng_stonewall_bastion_end\eng_stonewall_bastion_end" overrideParent="True" />
 				<bool name="browsable_in_editor" value="True" overrideParent="True" />
 				<enum name="subclass_type" value="Wall" overrideParent="True" />
 			</template_reference>
-			<template_reference name="exts" value="ebpextensions\health_ext" List.ItemID="-2112847654" List.ParentItemID="-2112847654">
+			<template_reference name="exts" value="ebpextensions\health_ext" List.ItemID="-1885640779" List.ParentItemID="-1885640779">
 				<bool name="can_repair" value="True" overrideParent="True" />
 			</template_reference>
-			<template_reference name="exts" value="ebpextensions\type_ext" List.ItemID="154843035" List.ParentItemID="154843035">
+			<template_reference name="exts" value="ebpextensions\type_ext" List.ItemID="1378752339" List.ParentItemID="1378752339">
 				<list name="race_type_list" overrideParent="True">
-					<instance_reference name="race_type" value="racebps\french" List.ItemID="-1439314806" />
+					<instance_reference name="race_type" value="racebps\french" List.ItemID="1885905634" />
 				</list>
 			</template_reference>
-			<template_reference name="exts" value="ebpextensions\territory_sector_layout_ext" List.ItemID="-52283747" List.ParentItemID="-52283747">
+			<template_reference name="exts" value="ebpextensions\territory_sector_layout_ext" List.ItemID="-124839197" List.ParentItemID="-124839197">
 				<instance_reference name="cap_attachment_list" value="attachments\attachment_lists\civilizations\common\buildings\building_defense_wall_stone_bastion_west" overrideParent="True" />
 				<file name="adjacent_to_impass_indicator_animator" value="art\civilizations\english\structures\stonewall\eng_stonewall_cliff_intersection\eng_stonewall_cliff_intersection" overrideParent="True" />
+			</template_reference>
+			<template_reference name="exts" value="ebpextensions\tier_ext" List.ItemID="-1042165205" List.ListAction="Append">
+				<list name="tier_group_list">
+				</list>
 			</template_reference>
 		</list>
 		<uniqueid name="pbgid" value="132685" />
@@ -61,38 +69,42 @@
 	</variant>
 	<variant name="xp3">
 		<list name="extensions">
-			<template_reference name="exts" value="ebpextensions\entity_blueprint_ext" List.ItemID="-1263280347" List.ParentItemID="-1263280347">
+			<template_reference name="exts" value="ebpextensions\entity_blueprint_ext" List.ItemID="-786241548" List.ParentItemID="-786241548">
 				<file name="alternate_sua" value="art\civilizations\english\structures\stonewall\eng_stonewall_bastion_end\eng_stonewall_bastion_end" overrideParent="True" />
 				<bool name="browsable_in_editor" value="True" overrideParent="True" />
 				<enum name="subclass_type" value="Wall" overrideParent="True" />
 			</template_reference>
-			<template_reference name="exts" value="ebpextensions\health_ext" List.ItemID="-1650165814" List.ParentItemID="-1650165814">
+			<template_reference name="exts" value="ebpextensions\health_ext" List.ItemID="1214804192" List.ParentItemID="1214804192">
 				<bool name="can_repair" value="True" overrideParent="True" />
 				<enum_table name="armor_scaler_by_damage_type">
 					<float name="Melee" value="0" overrideParent="True" />
 				</enum_table>
 			</template_reference>
-			<template_reference name="exts" value="ebpextensions\type_ext" List.ItemID="-577123688" List.ParentItemID="-577123688">
+			<template_reference name="exts" value="ebpextensions\type_ext" List.ItemID="802551441" List.ParentItemID="802551441">
 				<list name="race_type_list" overrideParent="True">
-					<instance_reference name="race_type" value="racebps\french" List.ItemID="307754676" />
+					<instance_reference name="race_type" value="racebps\french" List.ItemID="-616819155" />
 				</list>
 			</template_reference>
-			<template_reference name="exts" value="ebpextensions\ui_ext" List.ItemID="182964004" List.ParentItemID="182964004">
+			<template_reference name="exts" value="ebpextensions\ui_ext" List.ItemID="-1119110059" List.ParentItemID="-1119110059">
 				<float name="decorator_height" value="8.5" overrideParent="True" />
 			</template_reference>
-			<template_reference name="exts" value="ebpextensions\walkable_slottedspline_entity_ext" List.ItemID="-617016027" List.ParentItemID="-617016027">
+			<template_reference name="exts" value="ebpextensions\walkable_slottedspline_entity_ext" List.ItemID="-1633473467" List.ParentItemID="-1633473467">
 				<list name="boundary_blocked_pass_types" overrideParent="True">
-					<instance_reference name="pass_type" value="pass_types\infantry" List.ItemID="559108398" />
-					<instance_reference name="pass_type" value="pass_types\vehicle" List.ItemID="-1325025233" />
-					<instance_reference name="pass_type" value="pass_types\water_default" List.ItemID="-2082181826" />
+					<instance_reference name="pass_type" value="pass_types\infantry" List.ItemID="1863529765" />
+					<instance_reference name="pass_type" value="pass_types\vehicle" List.ItemID="-427154693" />
+					<instance_reference name="pass_type" value="pass_types\water_default" List.ItemID="1445969871" />
 				</list>
 				<list name="surface_blocked_pass_types" overrideParent="True">
-					<instance_reference name="pass_type" value="pass_types\vehicle" List.ItemID="987811528" />
+					<instance_reference name="pass_type" value="pass_types\vehicle" List.ItemID="-1443913260" />
 				</list>
 			</template_reference>
-			<template_reference name="exts" value="ebpextensions\territory_sector_layout_ext" List.ItemID="1975398377" List.ParentItemID="1975398377">
+			<template_reference name="exts" value="ebpextensions\territory_sector_layout_ext" List.ItemID="1045126562" List.ParentItemID="1045126562">
 				<instance_reference name="cap_attachment_list" value="attachments\attachment_lists\civilizations\common\buildings\building_defense_wall_stone_bastion_west" overrideParent="True" />
 				<file name="adjacent_to_impass_indicator_animator" value="art\civilizations\english\structures\stonewall\eng_stonewall_cliff_intersection\eng_stonewall_cliff_intersection" overrideParent="True" />
+			</template_reference>
+			<template_reference name="exts" value="ebpextensions\tier_ext" List.ItemID="-381333661" List.ListAction="Append">
+				<list name="tier_group_list">
+				</list>
 			</template_reference>
 		</list>
 		<uniqueid name="pbgid" value="132685" />

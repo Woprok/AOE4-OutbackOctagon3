@@ -1,45 +1,53 @@
 <instance version="6" description="" template="ebps">
 	<list name="extensions">
-		<template_reference name="exts" value="ebpextensions\entity_blueprint_ext" List.ItemID="-1623200963" List.ParentItemID="-1623200963">
+		<template_reference name="exts" value="ebpextensions\entity_blueprint_ext" List.ItemID="29024612" List.ParentItemID="29024612">
 			<bool name="browsable_in_editor" value="True" overrideParent="True" />
 			<enum name="subclass_type" value="Wall" overrideParent="True" />
 		</template_reference>
-		<template_reference name="exts" value="ebpextensions\health_ext" List.ItemID="586946940" List.ParentItemID="586946940">
+		<template_reference name="exts" value="ebpextensions\health_ext" List.ItemID="947558827" List.ParentItemID="947558827">
 			<bool name="can_repair" value="True" overrideParent="True" />
 		</template_reference>
-		<template_reference name="exts" value="ebpextensions\type_ext" List.ItemID="1292505085" List.ParentItemID="1292505085">
+		<template_reference name="exts" value="ebpextensions\type_ext" List.ItemID="395358434" List.ParentItemID="395358434">
 			<list name="race_type_list" overrideParent="True">
-				<instance_reference name="race_type" value="racebps\french" List.ItemID="1059809872" />
+				<instance_reference name="race_type" value="racebps\french" List.ItemID="-1517079436" />
 			</list>
 		</template_reference>
-		<template_reference name="exts" value="ebpextensions\territory_sector_layout_ext" List.ItemID="1695299188" List.ParentItemID="1695299188">
+		<template_reference name="exts" value="ebpextensions\territory_sector_layout_ext" List.ItemID="166765763" List.ParentItemID="166765763">
 			<template_reference name="placement_style" value="options\ebpextensions\hexmapext\placement_styles\placement_primary">
 				<instance_reference name="fence_cap_entity" value="ebps\races\french\buildings\building_defense_wall_fre\building_defense_wall_bastion_fre" overrideParent="True" />
 			</template_reference>
 			<instance_reference name="segment_attachment_list" value="attachments\attachment_lists\civilizations\common\buildings\building_defense_wall_stone_segments_west" overrideParent="True" />
+		</template_reference>
+		<template_reference name="exts" value="ebpextensions\tier_ext" List.ItemID="1643393654" List.ListAction="Append">
+			<list name="tier_group_list">
+			</list>
 		</template_reference>
 	</list>
 	<uniqueid name="pbgid" value="132686" />
 	<instance_reference name="parent_pbg" value="ebps\races\core\buildings\building_defense_wall" mod="d2f0913f6d4a4aa3ad8aaf127e2d8f8b" />
 	<variant name="campaign">
 		<list name="extensions">
-			<template_reference name="exts" value="ebpextensions\entity_blueprint_ext" List.ItemID="1693344625" List.ParentItemID="1693344625">
+			<template_reference name="exts" value="ebpextensions\entity_blueprint_ext" List.ItemID="1454323807" List.ParentItemID="1454323807">
 				<bool name="browsable_in_editor" value="True" overrideParent="True" />
 				<enum name="subclass_type" value="Wall" overrideParent="True" />
 			</template_reference>
-			<template_reference name="exts" value="ebpextensions\health_ext" List.ItemID="602006298" List.ParentItemID="602006298">
+			<template_reference name="exts" value="ebpextensions\health_ext" List.ItemID="1853089906" List.ParentItemID="1853089906">
 				<bool name="can_repair" value="True" overrideParent="True" />
 			</template_reference>
-			<template_reference name="exts" value="ebpextensions\type_ext" List.ItemID="1722556186" List.ParentItemID="1722556186">
+			<template_reference name="exts" value="ebpextensions\type_ext" List.ItemID="1772047290" List.ParentItemID="1772047290">
 				<list name="race_type_list" overrideParent="True">
-					<instance_reference name="race_type" value="racebps\french" List.ItemID="-1321328617" />
+					<instance_reference name="race_type" value="racebps\french" List.ItemID="149729623" />
 				</list>
 			</template_reference>
-			<template_reference name="exts" value="ebpextensions\territory_sector_layout_ext" List.ItemID="-406705865" List.ParentItemID="-406705865">
+			<template_reference name="exts" value="ebpextensions\territory_sector_layout_ext" List.ItemID="166733460" List.ParentItemID="166733460">
 				<template_reference name="placement_style" value="options\ebpextensions\hexmapext\placement_styles\placement_primary">
 					<instance_reference name="fence_cap_entity" value="ebps\races\french\buildings\building_defense_wall_fre\building_defense_wall_bastion_fre" overrideParent="True" />
 				</template_reference>
 				<instance_reference name="segment_attachment_list" value="attachments\attachment_lists\civilizations\common\buildings\building_defense_wall_stone_segments_west" overrideParent="True" />
+			</template_reference>
+			<template_reference name="exts" value="ebpextensions\tier_ext" List.ItemID="-1076095043" List.ListAction="Append">
+				<list name="tier_group_list">
+				</list>
 			</template_reference>
 		</list>
 		<uniqueid name="pbgid" value="132686" />
@@ -47,23 +55,27 @@
 	</variant>
 	<variant name="xp3">
 		<list name="extensions">
-			<template_reference name="exts" value="ebpextensions\entity_blueprint_ext" List.ItemID="997007304" List.ParentItemID="997007304">
+			<template_reference name="exts" value="ebpextensions\entity_blueprint_ext" List.ItemID="-242805805" List.ParentItemID="-242805805">
 				<bool name="browsable_in_editor" value="True" overrideParent="True" />
 				<enum name="subclass_type" value="Wall" overrideParent="True" />
 			</template_reference>
-			<template_reference name="exts" value="ebpextensions\health_ext" List.ItemID="285012386" List.ParentItemID="285012386">
+			<template_reference name="exts" value="ebpextensions\health_ext" List.ItemID="-917406915" List.ParentItemID="-917406915">
 				<bool name="can_repair" value="True" overrideParent="True" />
 			</template_reference>
-			<template_reference name="exts" value="ebpextensions\type_ext" List.ItemID="783572885" List.ParentItemID="783572885">
+			<template_reference name="exts" value="ebpextensions\type_ext" List.ItemID="1006018675" List.ParentItemID="1006018675">
 				<list name="race_type_list" overrideParent="True">
-					<instance_reference name="race_type" value="racebps\french" List.ItemID="329434584" />
+					<instance_reference name="race_type" value="racebps\french" List.ItemID="1721443247" />
 				</list>
 			</template_reference>
-			<template_reference name="exts" value="ebpextensions\territory_sector_layout_ext" List.ItemID="-36698855" List.ParentItemID="-36698855">
+			<template_reference name="exts" value="ebpextensions\territory_sector_layout_ext" List.ItemID="-57125219" List.ParentItemID="-57125219">
 				<template_reference name="placement_style" value="options\ebpextensions\hexmapext\placement_styles\placement_primary">
 					<instance_reference name="fence_cap_entity" value="ebps\races\french\buildings\building_defense_wall_fre\building_defense_wall_bastion_fre" overrideParent="True" />
 				</template_reference>
 				<instance_reference name="segment_attachment_list" value="attachments\attachment_lists\civilizations\common\buildings\building_defense_wall_stone_segments_west" overrideParent="True" />
+			</template_reference>
+			<template_reference name="exts" value="ebpextensions\tier_ext" List.ItemID="1017317877" List.ListAction="Append">
+				<list name="tier_group_list">
+				</list>
 			</template_reference>
 		</list>
 		<uniqueid name="pbgid" value="132686" />
