@@ -1,0 +1,46 @@
+<instance version="4" description="" template="ebps">
+	<list name="extensions">
+		<template_reference name="exts" value="ebpextensions\population_ext" List.ItemID="-335026862" List.ParentItemID="-335026862">
+			<float name="personnel_pop" value="2" overrideParent="True" />
+		</template_reference>
+		<template_reference name="exts" value="ebpextensions\moving_ext" List.ItemID="1002407668" List.ParentItemID="1002407668">
+			<enum_table name="speed_scaling_table">
+				<float name="default_speed" value="3.6" overrideParent="True" />
+				<float name="max_speed" value="4.8" overrideParent="True" />
+			</enum_table>
+			<enum_table name="speed_levels">
+				<float name="speed_level_0" value="1" overrideParent="True" />
+				<float name="speed_level_1" value="1.5" overrideParent="True" />
+				<float name="speed_level_2" value="2" overrideParent="True" />
+				<float name="speed_level_3" value="2.5" overrideParent="True" />
+				<float name="speed_level_4" value="3" overrideParent="True" />
+			</enum_table>
+		</template_reference>
+		<template_reference name="exts" value="ebpextensions\statemodel_ext" List.ItemID="356385941" List.ParentItemID="356385941">
+			<instance_reference name="schema" value="statemodel_schema\units\civilizations\ottoman\transport_ship_ott" overrideParent="True" />
+		</template_reference>
+		<template_reference name="exts" value="ebpextensions\tier_ext" List.ItemID="1800188115" List.ParentItemID="1800188115">
+			<list name="tier_group_list">
+				<list name="tier_group" List.ItemID="-1852483390" List.ParentItemID="-1852483390">
+					<group name="tier" List.ItemID="-1329591915" List.ParentItemID="-1329591915">
+						<instance_reference name="attachments" value="attachments\attachment_lists\civilizations\ottoman\units\tier2_naval_transport_ship_ott" overrideParent="True" />
+					</group>
+				</list>
+			</list>
+		</template_reference>
+		<template_reference name="exts" value="ebpextensions\hold_ext" List.ItemID="-876685819" List.ParentItemID="-876685819">
+			<list name="acceptable_types" overrideParent="True">
+				<enum name="acceptable_type" value="hold_infantry" List.ItemID="392055559" />
+				<enum name="acceptable_type" value="hold_villager" List.ItemID="918669389" />
+				<enum name="acceptable_type" value="hold_infantry_ranged" List.ItemID="-1650708337" />
+				<enum name="acceptable_type" value="hold_siege" List.ItemID="-1528263220" />
+				<enum name="acceptable_type" value="hold_monk" List.ItemID="-1906796690" />
+				<enum name="acceptable_type" value="hold_khan" List.ItemID="1817994192" />
+				<enum name="acceptable_type" value="hold_cavalry" List.ItemID="738084845" />
+				<enum name="acceptable_type" value="hold_trader" List.ItemID="1765275172" />
+			</list>
+		</template_reference>
+	</list>
+	<uniqueid name="pbgid" value="2034650" />
+	<instance_reference name="parent_pbg" value="ebps\races\core\units\unit_naval_transport_ship_2" />
+</instance>

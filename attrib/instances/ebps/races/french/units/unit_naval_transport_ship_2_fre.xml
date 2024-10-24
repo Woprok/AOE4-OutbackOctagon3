@@ -1,0 +1,102 @@
+<instance version="6" description="" template="ebps">
+	<list name="extensions">
+		<template_reference name="exts" value="ebpextensions\population_ext" List.ItemID="-335026862" List.ParentItemID="-335026862">
+			<float name="personnel_pop" value="2" overrideParent="True" />
+		</template_reference>
+		<template_reference name="exts" value="ebpextensions\moving_ext" List.ItemID="1002407668" List.ParentItemID="1002407668">
+			<enum_table name="speed_levels">
+				<float name="speed_level_0" value="1" overrideParent="True" />
+				<float name="speed_level_1" value="1.5" overrideParent="True" />
+				<float name="speed_level_2" value="2" overrideParent="True" />
+				<float name="speed_level_3" value="2.5" overrideParent="True" />
+				<float name="speed_level_4" value="3" overrideParent="True" />
+			</enum_table>
+			<enum_table name="speed_scaling_table">
+				<float name="default_speed" value="3.6" overrideParent="True" />
+				<float name="max_speed" value="4.8" overrideParent="True" />
+			</enum_table>
+		</template_reference>
+		<template_reference name="exts" value="ebpextensions\entity_targeting_ext" List.ItemID="843964751" List.ParentItemID="843964751">
+			<bool name="allow_entity_scan_close_enemies" value="True" overrideParent="True" />
+		</template_reference>
+		<template_reference name="exts" value="ebpextensions\tier_ext" List.ItemID="1800188115" List.ParentItemID="1800188115">
+			<list name="tier_group_list">
+				<list name="tier_group" List.ItemID="-1852483390" List.ParentItemID="-1852483390">
+					<group name="tier" List.ItemID="-1329591915" List.ParentItemID="-1329591915">
+						<instance_reference name="attachments" value="attachments\attachment_lists\civilizations\french\units\tier2_naval_transport_ship_fre" overrideParent="True" />
+					</group>
+				</list>
+			</list>
+		</template_reference>
+	</list>
+	<uniqueid name="pbgid" value="193087" />
+	<instance_reference name="parent_pbg" value="ebps\races\core\units\unit_naval_transport_ship_2" />
+	<variant name="campaign">
+		<list name="extensions">
+			<template_reference name="exts" value="ebpextensions\population_ext" List.ItemID="-1120882264" List.ParentItemID="-1120882264">
+				<float name="personnel_pop" value="2" overrideParent="True" />
+			</template_reference>
+			<template_reference name="exts" value="ebpextensions\moving_ext" List.ItemID="-1575160145" List.ParentItemID="-1575160145">
+				<enum_table name="speed_levels">
+					<float name="speed_level_0" value="1" overrideParent="True" />
+					<float name="speed_level_1" value="1.5" overrideParent="True" />
+					<float name="speed_level_2" value="2" overrideParent="True" />
+					<float name="speed_level_3" value="2.5" overrideParent="True" />
+					<float name="speed_level_4" value="3" overrideParent="True" />
+				</enum_table>
+				<enum_table name="speed_scaling_table">
+					<float name="default_speed" value="3.6" overrideParent="True" />
+					<float name="max_speed" value="4.8" overrideParent="True" />
+				</enum_table>
+			</template_reference>
+			<template_reference name="exts" value="ebpextensions\entity_targeting_ext" List.ItemID="559724571" List.ParentItemID="559724571">
+				<bool name="allow_entity_scan_close_enemies" value="True" overrideParent="True" />
+			</template_reference>
+			<template_reference name="exts" value="ebpextensions\tier_ext" List.ItemID="-1590767681" List.ParentItemID="-1590767681">
+				<list name="tier_group_list">
+					<list name="tier_group" List.ItemID="-1065483443" List.ParentItemID="-1065483443">
+						<group name="tier" List.ItemID="774931739" List.ParentItemID="774931739">
+							<instance_reference name="attachments" value="attachments\attachment_lists\civilizations\french\units\tier2_naval_transport_ship_fre" overrideParent="True" />
+						</group>
+					</list>
+				</list>
+			</template_reference>
+		</list>
+		<uniqueid name="pbgid" value="193087" />
+		<instance_reference name="parent_pbg" value="ebps\races\core\units\unit_naval_transport_ship_2" />
+	</variant>
+	<variant name="xp3">
+		<list name="extensions">
+			<template_reference name="exts" value="ebpextensions\population_ext" List.ItemID="-335026862" List.ParentItemID="-335026862">
+				<float name="personnel_pop" value="2" overrideParent="True" />
+			</template_reference>
+			<template_reference name="exts" value="ebpextensions\moving_ext" List.ItemID="1002407668" List.ParentItemID="1002407668">
+				<enum_table name="speed_levels">
+					<float name="speed_level_0" value="1" overrideParent="True" />
+					<float name="speed_level_1" value="1.5" overrideParent="True" />
+					<float name="speed_level_2" value="2" overrideParent="True" />
+					<float name="speed_level_3" value="2.5" overrideParent="True" />
+					<float name="speed_level_4" value="3" overrideParent="True" />
+				</enum_table>
+				<enum_table name="speed_scaling_table">
+					<float name="default_speed" value="3.6" overrideParent="True" />
+					<float name="max_speed" value="4.8" overrideParent="True" />
+				</enum_table>
+			</template_reference>
+			<template_reference name="exts" value="ebpextensions\entity_targeting_ext" List.ItemID="843964751" List.ParentItemID="843964751">
+				<bool name="allow_entity_scan_close_enemies" value="True" overrideParent="True" />
+			</template_reference>
+			<template_reference name="exts" value="ebpextensions\tier_ext" List.ItemID="1800188115" List.ParentItemID="1800188115">
+				<list name="tier_group_list">
+					<list name="tier_group" List.ItemID="-1852483390" List.ParentItemID="-1852483390">
+						<group name="tier" List.ItemID="-1329591915" List.ParentItemID="-1329591915">
+							<instance_reference name="attachments" value="attachments\attachment_lists\civilizations\french\units\tier2_naval_transport_ship_fre" overrideParent="True" />
+						</group>
+					</list>
+				</list>
+			</template_reference>
+		</list>
+		<uniqueid name="pbgid" value="193087" />
+		<instance_reference name="parent_pbg" value="ebps\races\core\units\unit_naval_transport_ship_2" />
+	</variant>
+</instance>

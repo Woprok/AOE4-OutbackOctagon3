@@ -1,0 +1,168 @@
+<instance version="4" description="" template="ebps">
+	<list name="extensions">
+		<template_reference name="exts" value="ebpextensions\population_ext" List.ItemID="-335026862" List.ParentItemID="-335026862">
+			<float name="personnel_pop" value="2" overrideParent="True" />
+		</template_reference>
+		<template_reference name="exts" value="ebpextensions\ui_ext" List.ItemID="-1493783604" List.ParentItemID="-1493783604">
+			<string name="hotkey_name" value="w" overrideParent="True" />
+			<bool name="use_combat_range_on_selection" value="True" overrideParent="True" />
+			<int name="global_unit_control_row" value="1" overrideParent="True" />
+			<string name="tooltip_data_template" value="BuildingMilitaryDataTemplate" overrideParent="True" />
+			<string name="sound" value="sfx_ui_siege_engineering_click" overrideParent="True" />
+		</template_reference>
+		<template_reference name="exts" value="ebpextensions\moving_ext" List.ItemID="1002407668" List.ParentItemID="1002407668">
+			<enum_table name="speed_levels">
+				<float name="speed_level_0" value="1" overrideParent="True" />
+				<float name="speed_level_1" value="1.5" overrideParent="True" />
+				<float name="speed_level_2" value="2" overrideParent="True" />
+				<float name="speed_level_3" value="2.5" overrideParent="True" />
+				<float name="speed_level_4" value="3" overrideParent="True" />
+			</enum_table>
+			<enum_table name="speed_scaling_table">
+				<float name="default_speed" value="3.6" overrideParent="True" />
+				<float name="max_speed" value="4.8" overrideParent="True" />
+			</enum_table>
+		</template_reference>
+		<template_reference name="exts" value="ebpextensions\action_tree_ext" List.ItemID="-1793243169" List.ParentItemID="-1793243169">
+			<state_tree_node name="ActionTree_OpeningBranch" value="unit_transport" overrideParent="True" />
+		</template_reference>
+		<template_reference name="exts" value="ebpextensions\animation_action_tree_ext" List.ItemID="-965846196" List.ParentItemID="-965846196">
+			<state_tree_node name="ActionTree_OpeningBranch" value="naval_constructed" overrideParent="True" />
+		</template_reference>
+		<template_reference name="exts" value="ebpextensions\tier_ext" List.ItemID="1800188115" List.ParentItemID="1800188115">
+			<list name="tier_group_list">
+				<list name="tier_group" List.ItemID="-1852483390" List.ParentItemID="-1852483390">
+					<group name="tier" List.ItemID="-1329591915" List.ParentItemID="-1329591915">
+						<instance_reference name="attachments" value="attachments\attachment_lists\civilizations\byzantine\units\tier2_naval_transport_ship_byz" overrideParent="True" />
+					</group>
+				</list>
+			</list>
+		</template_reference>
+		<template_reference name="exts" value="ebpextensions\interactive_object_ext" List.ItemID="1597986432" List.ParentItemID="1597986432">
+			<list name="type_list" overrideParent="True">
+				<group name="type" comment="Repair" List.ItemID="580526662">
+					<enum name="interaction_type" value="repair" />
+					<int name="prefer_number" value="-1" />
+					<int name="max_number" value="-1" />
+					<enum name="interaction_target_type" value="entity" />
+					<template_reference name="node_list_option" value="options\none">
+					</template_reference>
+					<bool name="block_pathing_when_interacted" value="False" />
+				</group>
+				<group name="type" List.ItemID="532984678">
+					<enum name="interaction_type" value="seek_shelter_destination" />
+					<int name="prefer_number" value="-1" />
+					<int name="max_number" value="-1" />
+					<enum name="interaction_target_type" value="entity" />
+					<template_reference name="node_list_option" value="options\none">
+					</template_reference>
+					<bool name="block_pathing_when_interacted" value="False" />
+				</group>
+			</list>
+		</template_reference>
+		<template_reference name="exts" value="ebpextensions\construction_ext" List.ItemID="-1128051229" List.ListAction="Append">
+			<bool name="automatic_fit_on_placement" value="False" overrideParent="True" />
+			<float name="cancel_refund_percentage" value="100" />
+			<string name="construction_state_name" value="construction_state" overrideParent="True" />
+			<float name="construction_transition_time" value="0" />
+			<bool name="force_construction" value="False" />
+			<float name="max_engineers" value="0" />
+			<instance_reference name="on_construction_squad" value="sbps\races\byzantine\unit_naval_transport_ship_field_construct_2_byz" overrideParent="True" />
+			<float name="orientation" value="0" />
+			<enum name="placement_type" value="tp_structure" />
+			<bool name="prefer_spots_on_side_with_leader" value="False" />
+			<bool name="query_abilities_for_range_ui" value="False" overrideParent="True" />
+			<bool name="show_ability_range_in_construction_item_preview" value="False" />
+			<bool name="random_rotation" value="False" />
+			<float name="replace_ghost_distance" value="15" overrideParent="True" />
+			<bool name="self_construct" value="False" />
+			<group name="field_placement_info">
+				<instance_reference name="border_entity" value="" />
+				<instance_reference name="replace_entity" value="" />
+				<int name="replace_count" value="0" />
+				<float name="replace_retry_distance" value="0" />
+			</group>
+			<instance_reference name="placement_valid" value="ui_rectangle\construction_placement_valid" overrideParent="True" />
+			<instance_reference name="placement_invalid" value="ui_rectangle\construction_placement_invalid" overrideParent="True" />
+			<instance_reference name="ui_range" value="" />
+			<float name="ui_range_radius" value="0" />
+			<instance_reference name="ui_setfacing" value="" />
+			<bool name="query_weapon_for_range_ui" value="False" overrideParent="True" />
+			<bool name="squad_ignore_pathfinding" value="True" overrideParent="True" />
+			<group name="placement_requirements">
+				<bool name="must_be_in_line_of_sight" value="False" />
+				<bool name="must_not_be_in_walkable_surfaces" value="False" />
+				<bool name="must_be_on_strategic_point" value="False" />
+				<list name="requirements">
+				</list>
+				<float name="spacing_distance" value="0" />
+				<bool name="skip_impass_checks_and_ignore_immovable_entities" value="False" />
+				<string name="state_tree_conditions" value="" />
+				<bool name="must_be_in_explored_area" value="False" />
+				<bool name="must_be_on_movement_node" value="False" />
+				<list name="placement_requirement_options">
+					<template_reference name="placement_requirement_option" value="options\placement\requirements\placement_requirement_pass_types_option" List.ItemID="1964376379">
+						<list name="required_pass_types">
+							<group name="pass_type_data" List.ItemID="-2114706457">
+								<instance_reference name="pass_type" value="pass_types\water_default" overrideParent="True" />
+								<int name="minimum_contiguous_cell_count" value="1" />
+							</group>
+						</list>
+						<list name="forbidden_pass_types">
+						</list>
+						<bool name="use_simbox_scale_as_footprint" value="False" />
+					</template_reference>
+				</list>
+				<locstring name="ui_usage_txt" value="0" />
+			</group>
+			<bool name="can_be_cancelled" value="True" />
+			<state_tree_node name="can_be_cancelled_state_tree_conditions" value="" overrideParent="True" />
+			<template_reference name="construction_health_option" value="options\ebpextensions\constructionext\construction_health_option" overrideParent="True">
+				<float name="initial_health" value="90" />
+			</template_reference>
+			<float name="min_music_intensity" value="0" />
+			<string name="tooltip_data_template" value="BuildingMilitaryDataTemplate" overrideParent="True" />
+			<enum name="placement_set_facing_style" value="disabled" />
+			<group name="facing_quadrants">
+				<int name="search_radius_metres" value="0" />
+				<int name="radius_metres" value="0" />
+				<group name="quadrants">
+					<enum name="front" value="None" />
+					<enum name="rear" value="None" />
+					<enum name="left" value="None" />
+					<enum name="right" value="None" />
+				</group>
+			</group>
+			<bool name="facing_surface_normal" value="False" />
+			<group name="fixed_rotation_impass_avoidance">
+				<int name="minimum_search_radius_cells" value="5" />
+				<bool name="use_impass_avoidance" value="False" />
+			</group>
+			<group name="on_construction_complete_state_tree_refs">
+				<string name="on_construction_complete_entity_state_tree_ref" value="" />
+				<string name="on_construction_complete_physical_state_tree_ref" value="" />
+				<string name="on_construction_complete_squad_state_tree_ref" value="" />
+				<string name="on_construction_plan_complete_global_state_tree_ref" value="" />
+				<string name="while_construction_complete_entity_state_tree_ref" value="" />
+				<string name="while_construction_complete_physical_state_tree_ref" value="" />
+			</group>
+			<bool name="query_movement_node_modifier_for_range_ui" value="True" />
+			<enum name="entity_placement_class" value="" />
+			<bool name="construction_site_erase_inactive" value="False" overrideParent="True" />
+			<group name="preview_upgrade_effects">
+				<template_reference name="area_info" value="">
+				</template_reference>
+				<list name="preview_upgrade_effects_list">
+				</list>
+				<bool name="ignore_depleted_resources" value="False" />
+			</group>
+			<bool name="placement_position_ignores_walkable_surfaces" value="False" />
+			<int name="aqueduct_network_increment_amount" value="0" />
+			<list name="ignorable_entity_types">
+			</list>
+			<float name="aqueduct_cistern_proximity_test_square_scale" value="0" />
+		</template_reference>
+	</list>
+	<uniqueid name="pbgid" value="2122656" />
+	<instance_reference name="parent_pbg" value="ebps\races\byzantine\units\unit_naval_transport_ship_2_byz" />
+</instance>
